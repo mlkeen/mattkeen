@@ -3,9 +3,56 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>{% block title %}Matthew Keen{% endblock %}</title>
+
+  {% set site_name = "Matthew Keen" %}
+  {% set site_url = "https://www.mattkeen.com" %}
+  {% set default_title = "Matthew Keen | Transportation Economist" %}
+  {% set default_description = "Transportation economist focused on applied analytics, forecasting, and policy evaluation. Benefit-cost analysis, performance metrics, and decision support across rail, highway, and multimodal systems." %}
+  {% set social_image = site_url + "/static/img/og.png" %}
+
+  <title>{% block title %}{{ default_title }}{% endblock %}</title>
+  <meta name="description" content="{% block meta_description %}{{ default_description }}{% endblock %}" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="{{ site_url }}{{ request.path }}" />
+
+  <!-- Favicons (add files later) -->
+  <link rel="icon" href="/static/favicon.ico">
+  <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+
+  <!-- Open Graph -->
+  <meta property="og:site_name" content="{{ site_name }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{% block og_title %}{{ default_title }}{% endblock %}" />
+  <meta property="og:description" content="{% block og_description %}{{ default_description }}{% endblock %}" />
+  <meta property="og:url" content="{{ site_url }}{{ request.path }}" />
+  <meta property="og:image" content="{{ social_image }}" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{% block twitter_title %}{{ default_title }}{% endblock %}" />
+  <meta name="twitter:description" content="{% block twitter_description %}{{ default_description }}{% endblock %}" />
+  <meta name="twitter:image" content="{{ social_image }}" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Matthew Keen",
+    "url": "{{ site_url }}",
+    "jobTitle": "Transportation Economist",
+    "sameAs": [
+      "https://www.linkedin.com/in/matthewlkeen/",
+      "https://github.com/mlkeen"
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="{{ url_for('static', filename='css/site.css') }}">
 </head>
+
+
 <body>
   <header class="wrap header">
     <a class="brand" href="/">Matthew Keen</a>
