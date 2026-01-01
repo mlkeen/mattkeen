@@ -14,6 +14,10 @@ def resume():
 def papers():
     return render_template("papers.html")
 
+@app.get("/hobbies")
+def hobbies():
+    return render_template("hobbies.html")
+
 @app.get("/health")
 def health():
     return {"ok": True}
