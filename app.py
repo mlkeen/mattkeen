@@ -10,6 +10,10 @@ def home():
 def resume():
     return render_template("resume.html")
 
+@app.get("/papers")
+def papers():
+    return render_template("papers.html")
+
 @app.get("/health")
 def health():
     return {"ok": True}

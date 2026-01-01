@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Papers | Matthew Keen{% endblock %}
+
+{% block content %}
+<section>
+  <h1>Papers</h1>
+  <p class="sub">
+    Selected publications, reports, and public write-ups.
+  </p>
+
+  <h2>Peer-reviewed / Academic</h2>
+  <div class="item">
+    <div class="item-head">
+      <strong>Paper Title (Placeholder)</strong>
+      <span class="muted"> • Journal / Venue • Year</span>
+    </div>
+    <p class="sub">Coauthors: Name, Name (optional)</p>
+    <ul>
+      <li>One-sentence contribution / what it shows.</li>
+      <li>Methods (optional): econometrics, forecasting, simulation, etc.</li>
+    </ul>
+    <p>
+      <a href="https://example.com" target="_blank" rel="noopener">Read online</a>
+      <span class="muted"> • </span>
+      <a href="/static/papers/paper-title.pdf" target="_blank" rel="noopener">PDF</a>
+    </p>
+  </div>
+
+  <h2>Technical Reports / Public Sector</h2>
+  <div class="item">
+    <div class="item-head">
+      <strong>Report Title (Placeholder)</strong>
+      <span class="muted"> • Organization • Year</span>
+    </div>
+    <ul>
+      <li>What decision it supported and why it mattered.</li>
+    </ul>
+    <p>
+      <a href="https://example.com" target="_blank" rel="noopener">Read online</a>
+    </p>
+  </div>
+
+  <h2>Other Writing</h2>
+  <ul>
+    <li><a href="https://example.com" target="_blank" rel="noopener">Article / post title</a> <span class="muted">• Year</span></li>
+  </ul>
+
+  <p class="sub" style="margin-top: 22px;">
+    Want this page to be auto-generated from a JSON/YAML file? Say the word and I’ll wire it up.
+  </p>
+</section>
+{% endblock %}
