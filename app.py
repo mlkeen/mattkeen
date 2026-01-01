@@ -1,4 +1,4 @@
-from flask import Flask, render_template, Response
+from flask import Flask, render_template, send_from_directory
 
 app = Flask(__name__)
 
@@ -17,6 +17,14 @@ def papers():
 @app.get("/hobbies")
 def hobbies():
     return render_template("hobbies.html")
+
+@app.get("/robots.txt")
+def robots_txt():
+    return send_from_directory(app.static_folder, "robots.txt", mimetype="text/plain")
+
+@app.get("/sitemap.xml")
+def sitemap_xml():
+    return send_from_directory(app.static_folder, "sitemap.xml", mimetype="application/xml")
 
 @app.get("/health")
 def health():
