@@ -1,22 +1,88 @@
 {% extends "base.html" %}
-{% block title %}Matthew Keen{% endblock %}
+{% block title %}Matthew Keen | Transportation Economist{% endblock %}
+
+{% block meta_description %}
+Matthew Keen is a transportation economist based north of Boston, MA, specializing in applied analytics, forecasting, benefit-cost analysis, and decision support across rail, highway, and multimodal systems.
+{% endblock %}
 
 {% block content %}
 <section class="hero">
-  <h1>Economist & Data Analyst</h1>
+  <h1>Matthew Keen</h1>
   <p class="sub">
-    Applied analytics, forecasting, and policy evaluation.
+    Transportation Economist based north of Boston, MA • Applied analytics, forecasting, and policy evaluation.
   </p>
 
   <div class="cta">
     <a class="btn" href="/resume">View Resume</a>
-    <a class="btn secondary" href="mailto:placeholder@gmail.com">Email Me</a>
+    <a class="btn secondary" href="/papers">Published Papers</a>
+    <a class="btn secondary" href="mailto:mattkeen986@gmail.com">Contact</a>
   </div>
 
   <ul class="bullets">
-    <li>Econometrics & forecasting</li>
-    <li>Data analysis (Python / SQL / dashboards)</li>
-    <li>Policy + program evaluation</li>
+    <li>8+ years evaluating transportation investments and performance across rail, highway, and multimodal networks.</li>
+    <li>Builds metrics, models, and decision tools that translate technical results into actionable guidance.</li>
+    <li>Works comfortably with large datasets, dashboards, and stakeholder-driven analysis.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Highlights</h2>
+  <p class="sub">A quick snapshot of what I do best.</p>
+
+  <div class="grid">
+    <div class="card">
+      <strong>Applied Econometrics</strong>
+      <p class="muted">Forecasting, regression, simulation, and policy evaluation with clear decision framing.</p>
+    </div>
+
+    <div class="card">
+      <strong>Transportation Performance</strong>
+      <p class="muted">Delay, reliability, and system metrics across freight/passenger rail and highway performance data.</p>
+    </div>
+
+    <div class="card">
+      <strong>Decision Support</strong>
+      <p class="muted">Dashboards, technical reports, and tools that help partners act within real planning timelines.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Selected Publications</h2>
+  <p class="sub">A few public reports (full list on the Papers page).</p>
+
+  <div class="item">
+    <div class="item-head">
+      <strong>Cost of Delay from HAZMAT Rail Incidents: Final Report</strong>
+      <span class="muted"> • 2023</span>
+    </div>
+    <p><a href="/papers">View details</a></p>
+  </div>
+
+  <div class="item">
+    <div class="item-head">
+      <strong>FHWA Research and Technology Evaluation: High Friction Surface Treatments</strong>
+      <span class="muted"> • 2021</span>
+    </div>
+    <p><a href="/papers">View details</a></p>
+  </div>
+
+  <div class="item">
+    <div class="item-head">
+      <strong>Evaluation Methods and Techniques: ATCMTD Deployment Program</strong>
+      <span class="muted"> • 2019</span>
+    </div>
+    <p><a href="/papers">View details</a></p>
+  </div>
+</section>
+
+<section>
+  <h2>More</h2>
+  <p class="sub">A little extra context beyond the resume.</p>
+  <ul>
+    <li><a href="/hobbies">Hobbies & interests</a> (including HEMA and game design)</li>
+    <li><a href="/resume">Resume</a> (experience, skills, education)</li>
+    <li><a href="/papers">Papers</a> (published reports and briefs)</li>
   </ul>
 </section>
 {% endblock %}
