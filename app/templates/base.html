@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Matt Keen Data Lab — economics, data analysis, and interactive tools.">
+  <title>{% block title %}Matt Keen / Data Lab{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/site.css') }}">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" defer></script>
+  <script src="{{ url_for('static', filename='js/site.js') }}" defer></script>
+  <script src="{{ url_for('static', filename='js/service_categories.js') }}" defer></script>
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="{{ url_for('main.home') }}"><span>MATT KEEN</span><span class="brand-slash">/</span><span>DATA LAB</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      <a href="{{ url_for('main.home') }}#projects">Projects</a>
+      <a href="{{ url_for('main.about') }}">About</a>
+      <a href="{{ url_for('main.about') }}#resume">Résumé</a>
+    </nav>
+  </header>
+
+  <main>{% block content %}{% endblock %}</main>
+
+  <footer class="site-footer">
+    <div>
+      <p class="eyebrow">MATT KEEN / DATA LAB</p>
+      <p>Economics, transportation, forecasting, and data tools.</p>
+    </div>
+    <div class="footer-right">
+      <a href="{{ url_for('main.about') }}">About</a>
+    </div>
+    <p class="footer-note">Built with Python, Flask, and an unreasonable affection for well-labeled axes.</p>
+  </footer>
+</body>
+</html>

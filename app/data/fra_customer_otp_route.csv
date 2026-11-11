@@ -1,0 +1,869 @@
+﻿unnamed 0,fiscal_year,fiscal_quarter,service_line,service,sub_service,customer_otp,source_workbook,source_sheet,source_excel_row,table_family
+,2022,1,Long Distance,Auto Train,Auto Train,0.242177177177177,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,2,customer_otp_route
+,2022,1,Long Distance,California Zephyr,California Zephyr,0.471494481266247,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,3,customer_otp_route
+,2022,1,Long Distance,Capitol Ltd,Capitol Ltd,0.349743316543975,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,4,customer_otp_route
+,2022,1,Long Distance,Cardinal,Cardinal,0.58270047625177,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,5,customer_otp_route
+,2022,1,Long Distance,City Of New Orleans,City Of New Orleans,0.799358758015525,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,6,customer_otp_route
+,2022,1,Long Distance,Coast Starlight,Coast Starlight,0.539803281702441,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,7,customer_otp_route
+,2022,1,Long Distance,Crescent,Crescent,0.567674414789784,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,8,customer_otp_route
+,2022,1,Long Distance,Empire Builder,Empire Builder,0.455799795404077,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,9,customer_otp_route
+,2022,1,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.598042377927749,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,10,customer_otp_route
+,2022,1,Long Distance,Palmetto,Palmetto,0.718812189054726,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,11,customer_otp_route
+,2022,1,Long Distance,Silver Meteor,Silver Meteor,0.423458149779736,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,12,customer_otp_route
+,2022,1,Long Distance,Silver Star,Silver Star,0.415636036811525,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,13,customer_otp_route
+,2022,1,Long Distance,Southwest Chief,Southwest Chief,0.445789763346175,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,14,customer_otp_route
+,2022,1,Long Distance,Sunset Ltd,Sunset Ltd,0.400383047684526,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,15,customer_otp_route
+,2022,1,Long Distance,Texas Eagle,Texas Eagle,0.660567045147337,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,16,customer_otp_route
+,2022,1,Northeast Corridor,Acela Express,Acela Express,0.830211081242658,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,17,customer_otp_route
+,2022,1,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.848178751468749,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,18,customer_otp_route
+,2022,1,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.74113366481815,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,19,customer_otp_route
+,2022,1,Northeast Corridor,Northeast Regional,Roanoke,0.814613482535284,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,20,customer_otp_route
+,2022,1,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.876582344914454,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,21,customer_otp_route
+,2022,1,State Supported,Capitol Corridor,Capitol Corridor,0.823625215558536,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,22,customer_otp_route
+,2022,1,State Supported,Carolinian,Carolinian,0.706493449924318,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,23,customer_otp_route
+,2022,1,State Supported,Cascades,Cascades,0.544686205514231,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,24,customer_otp_route
+,2022,1,State Supported,Downeaster,Downeaster,0.81727003534244,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,25,customer_otp_route
+,2022,1,State Supported,Empire,Ethan Allen Express,0.932931503952204,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,26,customer_otp_route
+,2022,1,State Supported,Empire,Maple Leaf,0.838973117349782,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,27,customer_otp_route
+,2022,1,State Supported,Empire,New York - Albany,0.921974803260755,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,28,customer_otp_route
+,2022,1,State Supported,Empire,New York - Niagara Falls,0.787425823705798,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,29,customer_otp_route
+,2022,1,State Supported,Heartland Flyer,Heartland Flyer,0.808384879725086,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,30,customer_otp_route
+,2022,1,State Supported,Hiawatha,Hiawatha,0.951464972699047,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,31,customer_otp_route
+,2022,1,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.8930165950636,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,32,customer_otp_route
+,2022,1,State Supported,Illinois,Illini / Saluki,0.603738639219992,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,33,customer_otp_route
+,2022,1,State Supported,Illinois,Lincoln Service,0.801378462853632,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,34,customer_otp_route
+,2022,1,State Supported,Keystone,Keystone,0.931546056013582,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,35,customer_otp_route
+,2022,1,State Supported,Michigan,Blue Water,0.664938817131203,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,36,customer_otp_route
+,2022,1,State Supported,Michigan,Pere Marquette,0.730190774200061,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,37,customer_otp_route
+,2022,1,State Supported,Michigan,Wolverine,0.58759102825517,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,38,customer_otp_route
+,2022,1,State Supported,Missouri,Missouri,0.601084408799526,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,39,customer_otp_route
+,2022,1,State Supported,Pacific Surfliner,Pacific Surfliner,0.819048810665777,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,40,customer_otp_route
+,2022,1,State Supported,Pennsylvanian,Pennsylvanian,0.63797299549925,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,41,customer_otp_route
+,2022,1,State Supported,Piedmont,Piedmont,0.737977589292662,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,42,customer_otp_route
+,2022,1,State Supported,San Joaquins,San Joaquins,0.75024723545806,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,43,customer_otp_route
+,2022,1,State Supported,Vermonter,Vermonter,0.850879566982409,FY22 Q1 Customer OTP.xlsx,Route Level C OTP,44,customer_otp_route
+,2022,2,Long Distance,Auto Train,Auto Train,0.369592000458426,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,2,customer_otp_route
+,2022,2,Long Distance,California Zephyr,California Zephyr,0.410538498006079,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,3,customer_otp_route
+,2022,2,Long Distance,Capitol Ltd,Capitol Ltd,0.286302410168272,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,4,customer_otp_route
+,2022,2,Long Distance,Cardinal,Cardinal,0.533278271044119,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,5,customer_otp_route
+,2022,2,Long Distance,City Of New Orleans,City Of New Orleans,0.638639222062026,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,6,customer_otp_route
+,2022,2,Long Distance,Coast Starlight,Coast Starlight,0.607925694356602,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,7,customer_otp_route
+,2022,2,Long Distance,Crescent,Crescent,0.602890158983702,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,8,customer_otp_route
+,2022,2,Long Distance,Empire Builder,Empire Builder,0.420859772991331,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,9,customer_otp_route
+,2022,2,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.610753585190482,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,10,customer_otp_route
+,2022,2,Long Distance,Palmetto,Palmetto,0.788577170815281,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,11,customer_otp_route
+,2022,2,Long Distance,Silver Meteor,Silver Meteor,0.575451037647304,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,12,customer_otp_route
+,2022,2,Long Distance,Silver Star,Silver Star,0.302726749358874,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,13,customer_otp_route
+,2022,2,Long Distance,Southwest Chief,Southwest Chief,0.403596430289104,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,14,customer_otp_route
+,2022,2,Long Distance,Sunset Ltd,Sunset Ltd,0.293036041539401,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,15,customer_otp_route
+,2022,2,Long Distance,Texas Eagle,Texas Eagle,0.621780828586729,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,16,customer_otp_route
+,2022,2,Northeast Corridor,Acela Express,Acela Express,0.840974520163871,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,17,customer_otp_route
+,2022,2,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.856715422318036,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,18,customer_otp_route
+,2022,2,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.74729114368139,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,19,customer_otp_route
+,2022,2,Northeast Corridor,Northeast Regional,Roanoke,0.768153040154269,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,20,customer_otp_route
+,2022,2,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.888660224290146,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,21,customer_otp_route
+,2022,2,State Supported,Capitol Corridor,Capitol Corridor,0.84193233865087,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,22,customer_otp_route
+,2022,2,State Supported,Carolinian,Carolinian,0.733888502669842,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,23,customer_otp_route
+,2022,2,State Supported,Cascades,Cascades,0.613600623555635,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,24,customer_otp_route
+,2022,2,State Supported,Downeaster,Downeaster,0.823128903450394,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,25,customer_otp_route
+,2022,2,State Supported,Empire,Ethan Allen Express,0.922813144943642,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,26,customer_otp_route
+,2022,2,State Supported,Empire,Maple Leaf,0.83009583009583,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,27,customer_otp_route
+,2022,2,State Supported,Empire,New York - Albany,0.917802521554525,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,28,customer_otp_route
+,2022,2,State Supported,Empire,New York - Niagara Falls,0.824536978922984,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,29,customer_otp_route
+,2022,2,State Supported,Heartland Flyer,Heartland Flyer,0.597748041775457,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,30,customer_otp_route
+,2022,2,State Supported,Hiawatha,Hiawatha,0.933885119180772,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,31,customer_otp_route
+,2022,2,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.766227068444706,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,32,customer_otp_route
+,2022,2,State Supported,Illinois,Illini / Saluki,0.512442749813866,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,33,customer_otp_route
+,2022,2,State Supported,Illinois,Lincoln Service,0.73749060701823,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,34,customer_otp_route
+,2022,2,State Supported,Keystone,Keystone,0.944045633717404,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,35,customer_otp_route
+,2022,2,State Supported,Michigan,Blue Water,0.461365003006615,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,36,customer_otp_route
+,2022,2,State Supported,Michigan,Pere Marquette,0.645630728328552,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,37,customer_otp_route
+,2022,2,State Supported,Michigan,Wolverine,0.522217715428619,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,38,customer_otp_route
+,2022,2,State Supported,Missouri,Missouri,0.834416695176189,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,39,customer_otp_route
+,2022,2,State Supported,Pacific Surfliner,Pacific Surfliner,0.834911578723962,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,40,customer_otp_route
+,2022,2,State Supported,Pennsylvanian,Pennsylvanian,0.744537434969464,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,41,customer_otp_route
+,2022,2,State Supported,Piedmont,Piedmont,0.781922830952889,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,42,customer_otp_route
+,2022,2,State Supported,San Joaquins,San Joaquins,0.754238601930801,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,43,customer_otp_route
+,2022,2,State Supported,Vermonter,Vermonter,0.843630673825041,FY22 Q2 Customer OTP metric.xlsx,Route Level C OTP,44,customer_otp_route
+,2022,3,State Supported,Keystone,Keystone,0.959932774586157,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,2,customer_otp_route
+,2022,3,State Supported,Hiawatha,Hiawatha,0.938556722626208,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,3,customer_otp_route
+,2022,3,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.913873302601114,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,4,customer_otp_route
+,2022,3,State Supported,Empire,New York - Albany,0.909663807069015,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,5,customer_otp_route
+,2022,3,State Supported,Vermonter,Vermonter,0.88537721961075,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,6,customer_otp_route
+,2022,3,State Supported,Capitol Corridor,Capitol Corridor,0.882555018185283,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,7,customer_otp_route
+,2022,3,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.85493376740009,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,8,customer_otp_route
+,2022,3,State Supported,Downeaster,Downeaster,0.846585585822235,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,9,customer_otp_route
+,2022,3,State Supported,Empire,Ethan Allen Express,0.845443306664179,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,10,customer_otp_route
+,2022,3,Northeast Corridor,Acela Express,Acela Express,0.842947251161601,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,11,customer_otp_route
+,2022,3,State Supported,Pacific Surfliner,Pacific Surfliner,0.819478132101003,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,12,customer_otp_route
+,2022,3,State Supported,Empire,New York - Niagara Falls,0.815723771580345,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,13,customer_otp_route
+,2022,3,State Supported,Empire,Maple Leaf,0.80187845901462,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,14,customer_otp_route
+,2022,3,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.777261554252992,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,15,customer_otp_route
+,2022,3,State Supported,Piedmont,Piedmont,0.763406085134061,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,16,customer_otp_route
+,2022,3,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.749870665696178,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,17,customer_otp_route
+,2022,3,State Supported,San Joaquins,San Joaquins,0.736884547268709,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,18,customer_otp_route
+,2022,3,State Supported,Michigan,Pere Marquette,0.716009552939205,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,19,customer_otp_route
+,2022,3,State Supported,Michigan,Blue Water,0.705850251036891,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,20,customer_otp_route
+,2022,3,State Supported,Illinois,Lincoln Service,0.698312937062937,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,21,customer_otp_route
+,2022,3,State Supported,Michigan,Wolverine,0.68530253069008,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,22,customer_otp_route
+,2022,3,State Supported,Pennsylvanian,Pennsylvanian,0.676138208239932,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,23,customer_otp_route
+,2022,3,State Supported,Heartland Flyer,Heartland Flyer,0.655241264559068,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,24,customer_otp_route
+,2022,3,Northeast Corridor,Northeast Regional,Roanoke,0.647104893304295,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,25,customer_otp_route
+,2022,3,Long Distance,Coast Starlight,Coast Starlight,0.585736614375846,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,26,customer_otp_route
+,2022,3,State Supported,Cascades,Cascades,0.585398965206247,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,27,customer_otp_route
+,2022,3,Long Distance,Palmetto,Palmetto,0.583041825095057,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,28,customer_otp_route
+,2022,3,State Supported,Carolinian,Carolinian,0.575609426830209,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,29,customer_otp_route
+,2022,3,State Supported,Missouri,Missouri,0.552900007445462,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,30,customer_otp_route
+,2022,3,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.519499343023177,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,31,customer_otp_route
+,2022,3,State Supported,Illinois,Illini / Saluki,0.505619689869318,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,32,customer_otp_route
+,2022,3,Long Distance,City Of New Orleans,City Of New Orleans,0.464200849674771,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,33,customer_otp_route
+,2022,3,Long Distance,Empire Builder,Empire Builder,0.462539453271278,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,34,customer_otp_route
+,2022,3,Long Distance,Cardinal,Cardinal,0.436783250059481,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,35,customer_otp_route
+,2022,3,Long Distance,Texas Eagle,Texas Eagle,0.430019418618336,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,36,customer_otp_route
+,2022,3,Long Distance,Crescent,Crescent,0.372015449438202,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,37,customer_otp_route
+,2022,3,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.312684264655468,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,38,customer_otp_route
+,2022,3,Long Distance,Auto Train,Auto Train,0.303379546015618,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,39,customer_otp_route
+,2022,3,Long Distance,Capitol Ltd,Capitol Ltd,0.28151048951049,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,40,customer_otp_route
+,2022,3,Long Distance,Silver Star,Silver Star,0.184308999337901,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,41,customer_otp_route
+,2022,3,Long Distance,California Zephyr,California Zephyr,0.155951540644492,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,42,customer_otp_route
+,2022,3,Long Distance,Southwest Chief,Southwest Chief,0.153332003192338,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,43,customer_otp_route
+,2022,3,Long Distance,Sunset Ltd,Sunset Ltd,0.103731180449487,FY22 Q3 Customer OTP Metric.xlsx,Route Level C OTP,44,customer_otp_route
+,2022,4,Northeast Corridor,Acela Express,Acela Express,0.771270311972612,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,2,customer_otp_route
+,2022,4,Long Distance,Auto Train,Auto Train,0.549622065835671,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,3,customer_otp_route
+,2022,4,State Supported,Empire,Berkshire Flyer,0.506087282262596,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,4,customer_otp_route
+,2022,4,State Supported,Michigan,Blue Water,0.723530682800346,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,5,customer_otp_route
+,2022,4,Long Distance,California Zephyr,California Zephyr,0.120925719147126,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,6,customer_otp_route
+,2022,4,State Supported,Capitol Corridor,Capitol Corridor,0.837288838221577,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,7,customer_otp_route
+,2022,4,Long Distance,Capitol Ltd,Capitol Ltd,0.359413664387871,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,8,customer_otp_route
+,2022,4,Long Distance,Cardinal,Cardinal,0.387803716055264,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,9,customer_otp_route
+,2022,4,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.767017335901615,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,10,customer_otp_route
+,2022,4,State Supported,Carolinian,Carolinian,0.51832595541559,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,11,customer_otp_route
+,2022,4,State Supported,Cascades,Cascades,0.520031818897442,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,12,customer_otp_route
+,2022,4,Long Distance,City Of New Orleans,City Of New Orleans,0.511164194116168,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,13,customer_otp_route
+,2022,4,Long Distance,Coast Starlight,Coast Starlight,0.42650758557597,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,14,customer_otp_route
+,2022,4,Long Distance,Crescent,Crescent,0.569434166049963,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,15,customer_otp_route
+,2022,4,State Supported,Downeaster,Downeaster,0.790256580402566,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,16,customer_otp_route
+,2022,4,Long Distance,Empire Builder,Empire Builder,0.538895140342206,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,17,customer_otp_route
+,2022,4,State Supported,Empire,Ethan Allen Express,0.667260362694301,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,18,customer_otp_route
+,2022,4,State Supported,Heartland Flyer,Heartland Flyer,0.457789525854948,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,19,customer_otp_route
+,2022,4,State Supported,Hiawatha,Hiawatha,0.929477441895792,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,20,customer_otp_route
+,2022,4,State Supported,Illinois,Illini / Saluki,0.61200959529521,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,21,customer_otp_route
+,2022,4,State Supported,Keystone,Keystone,0.941621638284474,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,22,customer_otp_route
+,2022,4,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.62482664361948,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,23,customer_otp_route
+,2022,4,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.320879328238513,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,24,customer_otp_route
+,2022,4,State Supported,Illinois,Lincoln Service,0.653180982085733,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,25,customer_otp_route
+,2022,4,State Supported,Empire,Maple Leaf,0.734059070223967,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,26,customer_otp_route
+,2022,4,State Supported,Missouri,Missouri,0.329871414441147,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,27,customer_otp_route
+,2022,4,State Supported,Empire,New York - Albany,0.862209392236713,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,28,customer_otp_route
+,2022,4,State Supported,Empire,New York - Niagara Falls,0.747644861244671,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,29,customer_otp_route
+,2022,4,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.813897130694799,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,30,customer_otp_route
+,2022,4,State Supported,Pacific Surfliner,Pacific Surfliner,0.759502614622011,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,31,customer_otp_route
+,2022,4,Long Distance,Palmetto,Palmetto,0.645759510251355,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,32,customer_otp_route
+,2022,4,State Supported,Pennsylvanian,Pennsylvanian,0.67931173586545,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,33,customer_otp_route
+,2022,4,State Supported,Michigan,Pere Marquette,0.791263695085829,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,34,customer_otp_route
+,2022,4,State Supported,Piedmont,Piedmont,0.73281785571941,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,35,customer_otp_route
+,2022,4,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.689974537619967,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,36,customer_otp_route
+,2022,4,Northeast Corridor,Northeast Regional,Roanoke,0.590890898903386,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,37,customer_otp_route
+,2022,4,State Supported,San Joaquins,San Joaquins,0.73250693116874,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,38,customer_otp_route
+,2022,4,Long Distance,Silver Star,Silver Star,0.203202384959369,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,39,customer_otp_route
+,2022,4,Long Distance,Southwest Chief,Southwest Chief,0.18046176046176,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,40,customer_otp_route
+,2022,4,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.813589751392143,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,41,customer_otp_route
+,2022,4,Long Distance,Sunset Ltd,Sunset Ltd,0.0883810572687225,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,42,customer_otp_route
+,2022,4,Long Distance,Texas Eagle,Texas Eagle,0.319406870128541,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,43,customer_otp_route
+,2022,4,State Supported,Vermonter,Vermonter,0.685716283576573,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,44,customer_otp_route
+,2022,4,State Supported,Michigan,Wolverine,0.634253288625226,FY22 Q4 Customer OTP Metric.xlsx,Route Level C OTP,45,customer_otp_route
+,2023,1,Long Distance,Sunset Ltd,Sunset Ltd,0.286719122556032,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,2,customer_otp_route
+,2023,1,Long Distance,California Zephyr,California Zephyr,0.291849333452626,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,3,customer_otp_route
+,2023,1,Long Distance,Auto Train,Auto Train,0.384717111315547,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,4,customer_otp_route
+,2023,1,Long Distance,Southwest Chief,Southwest Chief,0.389120864892859,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,5,customer_otp_route
+,2023,1,Long Distance,Empire Builder,Empire Builder,0.424237999150382,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,6,customer_otp_route
+,2023,1,Long Distance,Cardinal,Cardinal,0.479270392257224,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,7,customer_otp_route
+,2023,1,Long Distance,Silver Star,Silver Star,0.486225300931183,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,8,customer_otp_route
+,2023,1,Long Distance,Texas Eagle,Texas Eagle,0.49737539984143,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,9,customer_otp_route
+,2023,1,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.508859340454022,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,10,customer_otp_route
+,2023,1,Long Distance,Coast Starlight,Coast Starlight,0.53752035268465,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,11,customer_otp_route
+,2023,1,Long Distance,Silver Meteor,Silver Meteor,0.538113482308479,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,12,customer_otp_route
+,2023,1,State Supported,Missouri,Missouri,0.554987212276215,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,13,customer_otp_route
+,2023,1,State Supported,Cascades,Cascades,0.560942287645702,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,14,customer_otp_route
+,2023,1,State Supported,Heartland Flyer,Heartland Flyer,0.564700408416481,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,15,customer_otp_route
+,2023,1,State Supported,Michigan,Wolverine,0.574852004800944,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,16,customer_otp_route
+,2023,1,State Supported,Illinois,Illini / Saluki,0.628271577117471,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,17,customer_otp_route
+,2023,1,Northeast Corridor,Northeast Regional,Roanoke,0.647900734401554,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,18,customer_otp_route
+,2023,1,State Supported,Piedmont,Piedmont,0.654082132965824,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,19,customer_otp_route
+,2023,1,Long Distance,Capitol Ltd,Capitol Ltd,0.658295663820526,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,20,customer_otp_route
+,2023,1,State Supported,Michigan,Blue Water,0.672021743878467,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,21,customer_otp_route
+,2023,1,State Supported,Illinois,Lincoln Service,0.672946212281568,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,22,customer_otp_route
+,2023,1,State Supported,Vermonter,Vermonter,0.69753531582743,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,23,customer_otp_route
+,2023,1,State Supported,Empire,New York - Niagara Falls,0.699201292744304,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,24,customer_otp_route
+,2023,1,State Supported,San Joaquins,San Joaquins,0.703042325094167,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,25,customer_otp_route
+,2023,1,Long Distance,Crescent,Crescent,0.704302540780167,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,26,customer_otp_route
+,2023,1,State Supported,Carolinian,Carolinian,0.708817656534867,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,27,customer_otp_route
+,2023,1,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.718660247696891,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,28,customer_otp_route
+,2023,1,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.719813932882933,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,29,customer_otp_route
+,2023,1,State Supported,Empire,Ethan Allen Express,0.77066953571133,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,30,customer_otp_route
+,2023,1,State Supported,Empire,Maple Leaf,0.774339560529998,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,31,customer_otp_route
+,2023,1,Long Distance,City Of New Orleans,City Of New Orleans,0.774456079431393,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,32,customer_otp_route
+,2023,1,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.777197149643706,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,33,customer_otp_route
+,2023,1,State Supported,Pennsylvanian,Pennsylvanian,0.779661997916426,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,34,customer_otp_route
+,2023,1,Long Distance,Palmetto,Palmetto,0.788378651625605,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,35,customer_otp_route
+,2023,1,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.796508437603734,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,36,customer_otp_route
+,2023,1,State Supported,Empire,Adirondack,0.802085983210379,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,37,customer_otp_route
+,2023,1,State Supported,Downeaster,Downeaster,0.820374622356496,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,38,customer_otp_route
+,2023,1,State Supported,Capitol Corridor,Capitol Corridor,0.82140294137347,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,39,customer_otp_route
+,2023,1,State Supported,Pacific Surfliner,Pacific Surfliner,0.833989865901495,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,40,customer_otp_route
+,2023,1,Northeast Corridor,Acela Express,Acela Express,0.857223251116572,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,41,customer_otp_route
+,2023,1,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.872197343685522,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,42,customer_otp_route
+,2023,1,State Supported,Empire,New York - Albany,0.874089205037009,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,43,customer_otp_route
+,2023,1,State Supported,Michigan,Pere Marquette,0.87771676433944,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,44,customer_otp_route
+,2023,1,State Supported,Hiawatha,Hiawatha,0.883190677799478,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,45,customer_otp_route
+,2023,1,State Supported,Keystone,Keystone,0.941879634916991,FY23 Q1 Customer OTP Metric.xlsx,Route Level C OTP,46,customer_otp_route
+,2023,2,Long Distance,California Zephyr,California Zephyr,0.306128819673268,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2023,2,Long Distance,Empire Builder,Empire Builder,0.378213840752067,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2023,2,State Supported,Heartland Flyer,Heartland Flyer,0.378618874545682,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2023,2,Long Distance,Sunset Ltd,Sunset Ltd,0.420299896075617,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2023,2,Long Distance,Southwest Chief,Southwest Chief,0.421323572589011,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2023,2,Long Distance,Silver Star,Silver Star,0.433292854251494,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2023,2,Long Distance,Coast Starlight,Coast Starlight,0.462683424573224,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2023,2,Long Distance,Silver Meteor,Silver Meteor,0.53011901500624,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2023,2,Long Distance,Auto Train,Auto Train,0.56549368604398,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2023,2,State Supported,Cascades,Cascades,0.565928212527157,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2023,2,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.577621091354997,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2023,2,Long Distance,Cardinal,Cardinal,0.593294130951035,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2023,2,Long Distance,Crescent,Crescent,0.597797028865351,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2023,2,Long Distance,Texas Eagle,Texas Eagle,0.635516652575388,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2023,2,State Supported,Missouri,Missouri,0.663013263442141,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2023,2,Long Distance,Capitol Ltd,Capitol Ltd,0.664638635923271,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2023,2,State Supported,San Joaquins,San Joaquins,0.678974921139175,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2023,2,State Supported,Piedmont,Piedmont,0.699230322609459,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2023,2,State Supported,Carolinian,Carolinian,0.705106941147138,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2023,2,Long Distance,City Of New Orleans,City Of New Orleans,0.721475273072968,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2023,2,State Supported,Illinois,Illini / Saluki,0.735291366570012,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2023,2,State Supported,Illinois,Lincoln Service,0.737788188565391,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2023,2,State Supported,Michigan,Blue Water,0.747437037037037,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2023,2,State Supported,Michigan,Wolverine,0.766716491113343,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2023,2,Long Distance,Palmetto,Palmetto,0.767357583660597,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2023,2,State Supported,Pacific Surfliner,Pacific Surfliner,0.791027770267661,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2023,2,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.808164354322305,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2023,2,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.809965667625499,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2023,2,State Supported,Capitol Corridor,Capitol Corridor,0.812981323495504,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2023,2,Northeast Corridor,Northeast Regional,Roanoke,0.815915439451161,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2023,2,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.831399131379226,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2023,2,State Supported,Downeaster,Downeaster,0.832928531813575,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2023,2,State Supported,Pennsylvanian,Pennsylvanian,0.855356651060314,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2023,2,State Supported,Michigan,Pere Marquette,0.870136839280923,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2023,2,State Supported,Empire,New York - Niagara Falls,0.87045372611629,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2023,2,State Supported,Hiawatha,Hiawatha,0.872358712949646,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2023,2,State Supported,Vermonter,Vermonter,0.873229297292276,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2023,2,State Supported,Empire,Maple Leaf,0.881917471061032,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2023,2,Northeast Corridor,Acela,Acela,0.89457450486102,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2023,2,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.898164596480799,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2023,2,State Supported,Empire,Ethan Allen Express,0.900113653975306,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2023,2,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.916574698548948,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2023,2,State Supported,Empire,New York - Albany,0.922225274725275,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2023,2,State Supported,Empire,Adirondack,0.925667036058307,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2023,2,State Supported,Keystone,Keystone,0.958164996535427,FY23 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2023,3,Long Distance,Auto Train,Auto Train,0.618521983161834,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2023,3,Northeast Corridor,Acela,Acela,0.790735877650652,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2023,3,State Supported,Empire,Adirondack,0.662526008509053,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2023,3,State Supported,Empire,Berkshire Flyer,0.660321627830653,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2023,3,State Supported,Michigan,Blue Water,0.608485462372522,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2023,3,Long Distance,California Zephyr,California Zephyr,0.215647077813233,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2023,3,State Supported,Capitol Corridor,Capitol Corridor,0.87433490167169,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2023,3,Long Distance,Capitol Ltd,Capitol Ltd,0.740460972302925,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2023,3,Long Distance,Cardinal,Cardinal,0.592481203007519,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2023,3,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.759468933213388,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2023,3,State Supported,Carolinian,Carolinian,0.561366925227177,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2023,3,State Supported,Cascades,Cascades,0.626696296452325,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2023,3,Long Distance,City Of New Orleans,City Of New Orleans,0.794234404536862,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2023,3,Long Distance,Coast Starlight,Coast Starlight,0.616960232431451,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2023,3,Long Distance,Crescent,Crescent,0.431930349914047,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2023,3,State Supported,Downeaster,Downeaster,0.843033322443646,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2023,3,Long Distance,Empire Builder,Empire Builder,0.488522230219811,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2023,3,State Supported,Empire,Ethan Allen Express,0.672606704190689,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2023,3,State Supported,Heartland Flyer,Heartland Flyer,0.727504388696982,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2023,3,State Supported,Hiawatha,Hiawatha,0.886441713107871,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2023,3,State Supported,Illinois,Illini / Saluki,0.740798975075705,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2023,3,State Supported,Keystone,Keystone,0.939516801527464,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2023,3,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.684263622013601,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2023,3,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.61935115098817,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2023,3,State Supported,Illinois,Lincoln Service,0.825404065443728,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2023,3,State Supported,Empire,Maple Leaf,0.699894876365465,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2023,3,State Supported,Missouri,Missouri,0.658322139455367,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2023,3,State Supported,Empire,New York - Albany,0.817195659041496,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2023,3,State Supported,Empire,New York - Niagara Falls,0.734380633066551,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2023,3,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.797386848435142,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2023,3,State Supported,Pacific Surfliner,Pacific Surfliner,0.785668952229841,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2023,3,Long Distance,Palmetto,Palmetto,0.561761871680524,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2023,3,State Supported,Pennsylvanian,Pennsylvanian,0.785473565426903,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2023,3,State Supported,Michigan,Pere Marquette,0.929613420860686,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2023,3,State Supported,Piedmont,Piedmont,0.605240824834363,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2023,3,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.70822068334001,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2023,3,Northeast Corridor,Northeast Regional,Roanoke,0.775537351866936,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2023,3,State Supported,San Joaquins,San Joaquins,0.538994537730123,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2023,3,Long Distance,Silver Meteor,Silver Meteor,0.471043288695111,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2023,3,Long Distance,Silver Star,Silver Star,0.484957004462828,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2023,3,Long Distance,Southwest Chief,Southwest Chief,0.277995200822716,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2023,3,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.883876852367358,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2023,3,Long Distance,Sunset Ltd,Sunset Ltd,0.351788594743334,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2023,3,Long Distance,Texas Eagle,Texas Eagle,0.554993568003742,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2023,3,State Supported,Vermonter,Vermonter,0.801123145570344,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2023,3,State Supported,Michigan,Wolverine,0.738535660552932,FY23 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2023,4,Northeast Corridor,Acela,Acela,0.759569285706413,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2023,4,State Supported,Empire,Adirondack,0.624033212010919,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2023,4,Long Distance,Auto Train,Auto Train,0.743959001809638,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2023,4,State Supported,Empire,Berkshire Flyer,0.4987496526813,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2023,4,State Supported,Michigan,Blue Water,0.575026569612384,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2023,4,Long Distance,California Zephyr,California Zephyr,0.238863445863045,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2023,4,State Supported,Capitol Corridor,Capitol Corridor,0.864161515027347,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2023,4,Long Distance,Capitol Ltd,Capitol Ltd,0.578660322108346,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2023,4,Long Distance,Cardinal,Cardinal,0.531646182134908,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2023,4,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.799341718584695,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2023,4,State Supported,Carolinian,Carolinian,0.521867764342681,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2023,4,State Supported,Cascades,Cascades,0.669886802444891,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2023,4,Long Distance,City Of New Orleans,City Of New Orleans,0.751651921590891,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2023,4,Long Distance,Coast Starlight,Coast Starlight,0.574085870811568,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2023,4,Long Distance,Crescent,Crescent,0.554087216303138,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2023,4,State Supported,Downeaster,Downeaster,0.731436238741814,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2023,4,Long Distance,Empire Builder,Empire Builder,0.501988414892882,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2023,4,State Supported,Empire,Ethan Allen Express,0.692457804812224,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2023,4,State Supported,Heartland Flyer,Heartland Flyer,0.711758049583376,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2023,4,State Supported,Hiawatha,Hiawatha,0.827392497610437,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2023,4,State Supported,Illinois,Illini / Saluki,0.831881806163198,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2023,4,State Supported,Keystone,Keystone,0.931908149946982,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2023,4,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.51674015164002,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2023,4,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.595891888781807,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2023,4,State Supported,Illinois,Lincoln Service,0.758190616378589,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2023,4,State Supported,Empire,Maple Leaf,0.627319752559727,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2023,4,State Supported,Missouri,Missouri,0.724011831137403,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2023,4,State Supported,Empire,New York - Albany,0.788118384298736,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2023,4,State Supported,Empire,New York - Niagara Falls,0.611280587275693,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2023,4,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.788068163440701,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2023,4,State Supported,Pacific Surfliner,Pacific Surfliner,0.762633433761003,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2023,4,Long Distance,Palmetto,Palmetto,0.566154448693729,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2023,4,State Supported,Pennsylvanian,Pennsylvanian,0.789929471976033,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2023,4,State Supported,Michigan,Pere Marquette,0.819572524347152,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2023,4,State Supported,Piedmont,Piedmont,0.729092380446602,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2023,4,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.632783374117388,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2023,4,Northeast Corridor,Northeast Regional,Roanoke,0.61554488189879,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2023,4,State Supported,San Joaquins,San Joaquins,0.684289199761923,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2023,4,Long Distance,Silver Meteor,Silver Meteor,0.445337277958155,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2023,4,Long Distance,Silver Star,Silver Star,0.45261491864318,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2023,4,Long Distance,Southwest Chief,Southwest Chief,0.253851182355616,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2023,4,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.821172260963263,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2023,4,Long Distance,Sunset Ltd,Sunset Ltd,0.313044815916316,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2023,4,Long Distance,Texas Eagle,Texas Eagle,0.504871616174039,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2023,4,State Supported,Vermonter,Vermonter,0.493625594157582,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2023,4,State Supported,Michigan,Wolverine,0.613812004221564,FY23 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2024,1,Long Distance,Auto Train,Auto Train,0.745925856814082,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2024,1,Long Distance,California Zephyr,California Zephyr,0.541128721456788,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2024,1,Long Distance,Capitol Ltd,Capitol Ltd,0.783655819808971,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2024,1,Long Distance,Cardinal,Cardinal,0.593019013256578,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2024,1,Long Distance,City Of New Orleans,City Of New Orleans,0.738271684495425,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2024,1,Long Distance,Coast Starlight,Coast Starlight,0.628388246139186,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2024,1,Long Distance,Crescent,Crescent,0.672114512200946,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2024,1,Long Distance,Empire Builder,Empire Builder,0.637417200939896,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2024,1,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.770750432091322,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2024,1,Long Distance,Palmetto,Palmetto,0.808144348633858,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2024,1,Long Distance,Silver Meteor,Silver Meteor,0.697307605715875,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2024,1,Long Distance,Silver Star,Silver Star,0.575331150249285,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2024,1,Long Distance,Southwest Chief,Southwest Chief,0.44637612365384,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2024,1,Long Distance,Sunset Ltd,Sunset Ltd,0.658475920922853,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2024,1,Long Distance,Texas Eagle,Texas Eagle,0.712666467155469,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2024,1,Northeast Corridor,Acela,Acela,0.821813078061642,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2024,1,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.826956546951563,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2024,1,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.731125327739906,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2024,1,Northeast Corridor,Northeast Regional,Roanoke,0.620748486983389,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2024,1,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.844906178489703,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2024,1,State Supported,Capitol Corridor,Capitol Corridor,0.849898580121704,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2024,1,State Supported,Carolinian,Carolinian,0.671158961153371,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2024,1,State Supported,Cascades,Cascades,0.645652358309342,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2024,1,State Supported,Downeaster,Downeaster,0.844218400640406,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2024,1,State Supported,Empire,Adirondack,0.70326314097412,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2024,1,State Supported,Empire,Berkshire Flyer,0.334398296059638,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2024,1,State Supported,Empire,Ethan Allen Express,0.70670645250037,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2024,1,State Supported,Empire,Maple Leaf,0.748058803670626,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2024,1,State Supported,Empire,New York - Albany,0.865642884730171,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2024,1,State Supported,Empire,New York - Niagara Falls,0.781371077387361,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2024,1,State Supported,Heartland Flyer,Heartland Flyer,0.710810556964403,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2024,1,State Supported,Hiawatha,Hiawatha,0.87584550591129,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2024,1,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.842798443495061,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2024,1,State Supported,Illinois,Illini / Saluki,0.863046850760161,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2024,1,State Supported,Illinois,Lincoln Service,0.779481610961033,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2024,1,State Supported,Keystone,Keystone,0.945198481312649,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2024,1,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.714289872367674,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2024,1,State Supported,Michigan,Blue Water,0.721515951067402,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2024,1,State Supported,Michigan,Pere Marquette,0.863283428424349,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2024,1,State Supported,Michigan,Wolverine,0.672534475553698,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2024,1,State Supported,Missouri,Missouri,0.873409461663948,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2024,1,State Supported,Pacific Surfliner,Pacific Surfliner,0.835407495042109,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2024,1,State Supported,Pennsylvanian,Pennsylvanian,0.743693842746965,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2024,1,State Supported,Piedmont,Piedmont,0.687020343525399,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2024,1,State Supported,San Joaquins,San Joaquins,0.744571231985277,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2024,1,State Supported,Vermonter,Vermonter,0.657088697575231,FY24 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2024,2,Northeast Corridor,Acela,Acela,0.839566995595017,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2024,2,State Supported,Empire,Adirondack,0.795861446103172,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2024,2,Long Distance,Auto Train,Auto Train,0.550731477111845,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2024,2,State Supported,Michigan,Blue Water,0.822990955542804,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2024,2,Long Distance,California Zephyr,California Zephyr,0.430183818483207,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2024,2,State Supported,Capitol Corridor,Capitol Corridor,0.896699116132773,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2024,2,Long Distance,Capitol Ltd,Capitol Ltd,0.714301666620139,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2024,2,Long Distance,Cardinal,Cardinal,0.586673889490791,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2024,2,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.799785076230774,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2024,2,State Supported,Carolinian,Carolinian,0.588401138516517,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2024,2,State Supported,Cascades,Cascades,0.549752318334053,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2024,2,Long Distance,City Of New Orleans,City Of New Orleans,0.78974656466408,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2024,2,Long Distance,Coast Starlight,Coast Starlight,0.544202491400693,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2024,2,Long Distance,Crescent,Crescent,0.648581282332654,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2024,2,State Supported,Downeaster,Downeaster,0.865628975891002,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2024,2,Long Distance,Empire Builder,Empire Builder,0.616401977282289,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2024,2,State Supported,Empire,Ethan Allen Express,0.787365597508581,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2024,2,State Supported,Heartland Flyer,Heartland Flyer,0.786666666666667,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2024,2,State Supported,Hiawatha,Hiawatha,0.830858026724718,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2024,2,State Supported,Illinois,Illini / Saluki,0.86476363692412,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2024,2,State Supported,Keystone,Keystone,0.912063522723614,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2024,2,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.788130917934226,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2024,2,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.693927455508762,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2024,2,State Supported,Illinois,Lincoln Service,0.712884813541269,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2024,2,State Supported,Empire,Maple Leaf,0.789193223633965,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2024,2,State Supported,Missouri,Missouri,0.930235842395142,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2024,2,State Supported,Empire,New York - Albany,0.920232988886723,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2024,2,State Supported,Empire,New York - Niagara Falls,0.812397782826631,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2024,2,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.86933863261207,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2024,2,State Supported,Pacific Surfliner,Pacific Surfliner,0.85130869700425,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2024,2,Long Distance,Palmetto,Palmetto,0.757662473666906,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2024,2,State Supported,Pennsylvanian,Pennsylvanian,0.747937028150056,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2024,2,State Supported,Michigan,Pere Marquette,0.886354252683733,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2024,2,State Supported,Piedmont,Piedmont,0.732798586248049,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2024,2,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.760576942823698,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2024,2,Northeast Corridor,Northeast Regional,Roanoke,0.81711467446179,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2024,2,State Supported,San Joaquins,San Joaquins,0.726835891608728,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2024,2,Long Distance,Silver Meteor,Silver Meteor,0.543554160309823,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2024,2,Long Distance,Silver Star,Silver Star,0.45245916443722,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2024,2,Long Distance,Southwest Chief,Southwest Chief,0.345326965846594,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2024,2,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.891477311969059,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2024,2,Long Distance,Sunset Ltd,Sunset Ltd,0.629840211743947,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2024,2,Long Distance,Texas Eagle,Texas Eagle,0.740492076730609,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2024,2,State Supported,Vermonter,Vermonter,0.810779967933604,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2024,2,State Supported,Michigan,Wolverine,0.780567357624136,FY24 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2024,3,Long Distance,Auto Train,Auto Train,0.407554023184211,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2024,3,Long Distance,California Zephyr,California Zephyr,0.508026406402128,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2024,3,Long Distance,Capitol Ltd,Capitol Ltd,0.691411481117757,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2024,3,Long Distance,Cardinal,Cardinal,0.559762124130999,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2024,3,Long Distance,City Of New Orleans,City Of New Orleans,0.772705158586921,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2024,3,Long Distance,Coast Starlight,Coast Starlight,0.601283826576069,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2024,3,Long Distance,Crescent,Crescent,0.457360564611829,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2024,3,Long Distance,Empire Builder,Empire Builder,0.524034608191701,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2024,3,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.747788364241131,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2024,3,Long Distance,Palmetto,Palmetto,0.522898718921573,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2024,3,Long Distance,Silver Meteor,Silver Meteor,0.270736536943326,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2024,3,Long Distance,Silver Star,Silver Star,0.255746556036365,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2024,3,Long Distance,Southwest Chief,Southwest Chief,0.290498442367601,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2024,3,Long Distance,Sunset Ltd,Sunset Ltd,0.489659990684676,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2024,3,Long Distance,Texas Eagle,Texas Eagle,0.478591736565908,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2024,3,Northeast Corridor,Acela,Acela,0.756959806588093,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2024,3,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.802854071203066,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2024,3,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.638590597791189,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2024,3,Northeast Corridor,Northeast Regional,Roanoke,0.693126729563538,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2024,3,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.876761334598817,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2024,3,State Supported,Borealis,Borealis,0.465102009510661,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2024,3,State Supported,Capitol Corridor,Capitol Corridor,0.897318333206417,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2024,3,State Supported,Carolinian,Carolinian,0.392918162012638,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2024,3,State Supported,Cascades,Cascades,0.553471309198879,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2024,3,State Supported,Downeaster,Downeaster,0.798963899019026,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2024,3,State Supported,Empire,Adirondack,0.751420085926011,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2024,3,State Supported,Empire,Berkshire Flyer,0.510924369747899,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2024,3,State Supported,Empire,Ethan Allen Express,0.599720083974808,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2024,3,State Supported,Empire,Maple Leaf,0.741782485591503,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2024,3,State Supported,Empire,New York - Albany,0.881123407009372,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2024,3,State Supported,Empire,New York - Niagara Falls,0.768953037923066,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2024,3,State Supported,Heartland Flyer,Heartland Flyer,0.712302514723754,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2024,3,State Supported,Hiawatha,Hiawatha,0.86243604758676,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2024,3,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.856428920636645,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2024,3,State Supported,Illinois,Illini / Saluki,0.77574940214671,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2024,3,State Supported,Illinois,Lincoln Service,0.693652511044992,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2024,3,State Supported,Keystone,Keystone,0.912671182338705,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2024,3,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.534984360290322,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2024,3,State Supported,Michigan,Blue Water,0.749684159378037,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2024,3,State Supported,Michigan,Pere Marquette,0.830412028576176,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2024,3,State Supported,Michigan,Wolverine,0.66162487931892,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2024,3,State Supported,Missouri,Missouri,0.804633852282854,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2024,3,State Supported,Pacific Surfliner,Pacific Surfliner,0.856457610132319,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2024,3,State Supported,Pennsylvanian,Pennsylvanian,0.618724368934512,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2024,3,State Supported,Piedmont,Piedmont,0.780376237160439,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2024,3,State Supported,San Joaquins,San Joaquins,0.691526630652173,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2024,3,State Supported,Vermonter,Vermonter,0.654841518634622,FY24 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,48,customer_otp_route
+,2024,4,Long Distance,Auto Train,Auto Train,0.646478001104547,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2024,4,Long Distance,California Zephyr,California Zephyr,0.459524980274217,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2024,4,Long Distance,Capitol Ltd,Capitol Ltd,0.676750234967542,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2024,4,Long Distance,Cardinal,Cardinal,0.559090718801021,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2024,4,Long Distance,City Of New Orleans,City Of New Orleans,0.802771500731091,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2024,4,Long Distance,Coast Starlight,Coast Starlight,0.506319990533461,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2024,4,Long Distance,Crescent,Crescent,0.580044395426433,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2024,4,Long Distance,Empire Builder,Empire Builder,0.465739830292436,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2024,4,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.746399365311852,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2024,4,Long Distance,Palmetto,Palmetto,0.539637281480789,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2024,4,Long Distance,Silver Meteor,Silver Meteor,0.375154203522402,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2024,4,Long Distance,Silver Star,Silver Star,0.347972376551223,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2024,4,Long Distance,Southwest Chief,Southwest Chief,0.277969154243078,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2024,4,Long Distance,Sunset Ltd,Sunset Ltd,0.617951788410475,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2024,4,Long Distance,Texas Eagle,Texas Eagle,0.563051956220908,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2024,4,Northeast Corridor,Acela,Acela,0.695651863036129,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2024,4,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.74178425713389,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2024,4,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.624572262066928,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2024,4,Northeast Corridor,Northeast Regional,Roanoke,0.670323378878933,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2024,4,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.856366199073763,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2024,4,State Supported,Borealis,Borealis,0.537906484510294,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2024,4,State Supported,Capitol Corridor,Capitol Corridor,0.904366008440898,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2024,4,State Supported,Carolinian,Carolinian,0.369751080252613,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2024,4,State Supported,Cascades,Cascades,0.527590861471513,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2024,4,State Supported,Downeaster,Downeaster,0.772664694160981,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2024,4,State Supported,Empire,Adirondack,0.775078435183386,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2024,4,State Supported,Empire,Berkshire Flyer,0.741022712853699,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2024,4,State Supported,Empire,Ethan Allen Express,0.630465257255437,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2024,4,State Supported,Empire,Maple Leaf,0.703195194588865,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2024,4,State Supported,Empire,New York - Albany,0.88833590950011,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2024,4,State Supported,Empire,New York - Niagara Falls,0.712679947879873,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2024,4,State Supported,Heartland Flyer,Heartland Flyer,0.58920063525675,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2024,4,State Supported,Hiawatha,Hiawatha,0.862371750115381,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2024,4,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.803046994652981,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2024,4,State Supported,Illinois,Illini / Saluki,0.81798123223487,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2024,4,State Supported,Illinois,Lincoln Service,0.673040265356678,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2024,4,State Supported,Keystone,Keystone,0.903597054157096,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2024,4,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.520726787134902,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2024,4,State Supported,Michigan,Blue Water,0.719973366233868,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2024,4,State Supported,Michigan,Pere Marquette,0.813505294397831,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2024,4,State Supported,Michigan,Wolverine,0.679751349524665,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2024,4,State Supported,Missouri,Missouri,0.786249244080569,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2024,4,State Supported,Pacific Surfliner,Pacific Surfliner,0.810655775170261,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2024,4,State Supported,Pennsylvanian,Pennsylvanian,0.621132421904077,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2024,4,State Supported,Piedmont,Piedmont,0.751389399092299,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2024,4,State Supported,San Joaquins,San Joaquins,0.749438911488287,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2024,4,State Supported,Vermonter,Vermonter,0.6135366808015,FY24 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,48,customer_otp_route
+,2025,1,Long Distance,Auto Train,Auto Train,0.349865342808008,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2025,1,Long Distance,California Zephyr,California Zephyr,0.670624420471764,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2025,1,Long Distance,Capitol Ltd,Capitol Ltd,0.756591639871383,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2025,1,Long Distance,Cardinal,Cardinal,0.536556363389278,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2025,1,Long Distance,City Of New Orleans,City Of New Orleans,0.816303924797174,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2025,1,Long Distance,Coast Starlight,Coast Starlight,0.486070767131299,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2025,1,Long Distance,Crescent,Crescent,0.807104017051579,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2025,1,Long Distance,Empire Builder,Empire Builder,0.634144310149182,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2025,1,Long Distance,Floridian,Floridian,0.360311566804056,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2025,1,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.755120814424138,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2025,1,Long Distance,Palmetto,Palmetto,0.620374695621925,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2025,1,Long Distance,Silver Meteor,Silver Meteor,0.522599005165487,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2025,1,Long Distance,Silver Star,Silver Star,0.537977657130925,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2025,1,Long Distance,Southwest Chief,Southwest Chief,0.403526660684667,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2025,1,Long Distance,Sunset Ltd,Sunset Ltd,0.699576445893774,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2025,1,Long Distance,Texas Eagle,Texas Eagle,0.504639778652762,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2025,1,Northeast Corridor,Acela,Acela,0.756075770782382,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2025,1,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.746757129509172,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2025,1,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.671700294304438,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2025,1,Northeast Corridor,Northeast Regional,Roanoke,0.768327254953566,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2025,1,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.862998202442199,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2025,1,Seasonal Trains,Winter Park Express,Winter Park Express,1.0,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2025,1,State Supported,Borealis,Borealis,0.615966372916565,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2025,1,State Supported,Capitol Corridor,Capitol Corridor,0.853471266419312,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2025,1,State Supported,Carolinian,Carolinian,0.562902690716069,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2025,1,State Supported,Cascades,Cascades,0.634356203726591,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2025,1,State Supported,Downeaster,Downeaster,0.718853266661751,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2025,1,State Supported,Empire,Adirondack,0.779011474618441,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2025,1,State Supported,Empire,Ethan Allen Express,0.796407662591103,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2025,1,State Supported,Empire,Maple Leaf,0.761851031332132,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2025,1,State Supported,Empire,New York - Albany,0.853698420989192,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2025,1,State Supported,Empire,New York - Niagara Falls,0.681479452054795,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2025,1,State Supported,Heartland Flyer,Heartland Flyer,0.664072140484101,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2025,1,State Supported,Hiawatha,Hiawatha,0.895164469631637,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2025,1,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.895921878162315,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2025,1,State Supported,Illinois,Illini / Saluki,0.939108967734528,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2025,1,State Supported,Illinois,Lincoln Service,0.614859079869302,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2025,1,State Supported,Keystone,Keystone,0.836945383786214,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2025,1,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.462780384896887,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2025,1,State Supported,Michigan,Blue Water,0.749510246307587,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2025,1,State Supported,Michigan,Pere Marquette,0.862035958048943,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2025,1,State Supported,Michigan,Wolverine,0.692684769526755,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2025,1,State Supported,Missouri,Missouri,0.750518801361335,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2025,1,State Supported,Pacific Surfliner,Pacific Surfliner,0.773737581024088,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2025,1,State Supported,Pennsylvanian,Pennsylvanian,0.635200794429536,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2025,1,State Supported,Piedmont,Piedmont,0.789948012859977,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2025,1,State Supported,San Joaquins,San Joaquins,0.775825001134802,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,48,customer_otp_route
+,2025,1,State Supported,Vermonter,Vermonter,0.660005388898868,FY25 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,49,customer_otp_route
+,2025,2,Long Distance,Auto Train,Auto Train,0.395041442489458,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2025,2,Long Distance,California Zephyr,California Zephyr,0.592099131286819,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2025,2,Long Distance,Cardinal,Cardinal,0.516352640148872,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2025,2,Long Distance,City Of New Orleans,City Of New Orleans,0.686261735964744,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2025,2,Long Distance,Coast Starlight,Coast Starlight,0.621169368827625,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2025,2,Long Distance,Crescent,Crescent,0.750224578455195,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2025,2,Long Distance,Empire Builder,Empire Builder,0.507456321169128,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2025,2,Long Distance,Floridian,Floridian,0.336349472236649,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2025,2,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.704878492212593,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2025,2,Long Distance,Palmetto,Palmetto,0.73354777128362,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2025,2,Long Distance,Silver Meteor,Silver Meteor,0.532600851106189,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2025,2,Long Distance,Southwest Chief,Southwest Chief,0.426944786868228,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2025,2,Long Distance,Sunset Ltd,Sunset Ltd,0.596840601630115,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2025,2,Long Distance,Texas Eagle,Texas Eagle,0.478447282873013,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2025,2,Northeast Corridor,Acela,Acela,0.769180637834874,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2025,2,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.807472157421213,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2025,2,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.683076594676898,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2025,2,Northeast Corridor,Northeast Regional,Roanoke,0.757595101099259,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2025,2,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.876351962769854,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2025,2,Seasonal Trains,Winter Park Express,Winter Park Express,0.910997998566875,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2025,2,State Supported,Borealis,Borealis,0.635517701924551,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2025,2,State Supported,Capitol Corridor,Capitol Corridor,0.9081006888041,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2025,2,State Supported,Carolinian,Carolinian,0.665306873600589,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2025,2,State Supported,Cascades,Cascades,0.634759192434364,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2025,2,State Supported,Downeaster,Downeaster,0.821015589903998,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2025,2,State Supported,Empire,Adirondack,0.766098328091376,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2025,2,State Supported,Empire,Ethan Allen Express,0.831508666232044,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2025,2,State Supported,Empire,Maple Leaf,0.734190530017584,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2025,2,State Supported,Empire,New York - Albany,0.854890665858188,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2025,2,State Supported,Empire,New York - Niagara Falls,0.788952125878808,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2025,2,State Supported,Heartland Flyer,Heartland Flyer,0.720643208924227,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2025,2,State Supported,Hiawatha,Hiawatha,0.852452578250795,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2025,2,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.890674713812445,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2025,2,State Supported,Illinois,Illini / Saluki,0.906070749017375,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2025,2,State Supported,Illinois,Lincoln Service,0.615164295606194,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2025,2,State Supported,Keystone,Keystone,0.859955888782095,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2025,2,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.517592608825231,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2025,2,State Supported,Michigan,Blue Water,0.644509283819629,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2025,2,State Supported,Michigan,Pere Marquette,0.869572041435597,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2025,2,State Supported,Michigan,Wolverine,0.703228754188243,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2025,2,State Supported,Missouri,Missouri,0.756921633036133,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2025,2,State Supported,Pacific Surfliner,Pacific Surfliner,0.865332940343751,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2025,2,State Supported,Pennsylvanian,Pennsylvanian,0.810269157020098,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2025,2,State Supported,Piedmont,Piedmont,0.738609418694908,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2025,2,State Supported,San Joaquins,San Joaquins,0.749998786896542,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2025,2,State Supported,Vermonter,Vermonter,0.765500009152648,FY25 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2025,3,Long Distance,Auto Train,Auto Train,0.321049145947736,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2025,3,Long Distance,California Zephyr,California Zephyr,0.507055886137906,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2025,3,Long Distance,Cardinal,Cardinal,0.453088590000409,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2025,3,Long Distance,City Of New Orleans,City Of New Orleans,0.642513265628843,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2025,3,Long Distance,Coast Starlight,Coast Starlight,0.642709095342599,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2025,3,Long Distance,Crescent,Crescent,0.699957407970794,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2025,3,Long Distance,Empire Builder,Empire Builder,0.569051470099484,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2025,3,Long Distance,Floridian,Floridian,0.161353162966066,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2025,3,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.739374577490896,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2025,3,Long Distance,Palmetto,Palmetto,0.532986968376307,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2025,3,Long Distance,Silver Meteor,Silver Meteor,0.412342264878808,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2025,3,Long Distance,Southwest Chief,Southwest Chief,0.38087929372368,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2025,3,Long Distance,Sunset Ltd,Sunset Ltd,0.569226650348046,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2025,3,Long Distance,Texas Eagle,Texas Eagle,0.461043408436068,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2025,3,Northeast Corridor,Acela,Acela,0.772407882213546,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2025,3,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.793265353088152,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2025,3,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.639267738349351,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2025,3,Northeast Corridor,Northeast Regional,Roanoke,0.696906995279259,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2025,3,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.819347951946736,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2025,3,State Supported,Borealis,Borealis,0.542758717943553,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2025,3,State Supported,Capitol Corridor,Capitol Corridor,0.911501034131666,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2025,3,State Supported,Carolinian,Carolinian,0.576304959124006,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2025,3,State Supported,Cascades,Cascades,0.687943418481418,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2025,3,State Supported,Downeaster,Downeaster,0.729386777039538,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2025,3,State Supported,Empire,Adirondack,0.592523089377047,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2025,3,State Supported,Empire,Berkshire Flyer,0.588888888888889,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2025,3,State Supported,Empire,Ethan Allen Express,0.687912261011676,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2025,3,State Supported,Empire,Maple Leaf,0.677805369910501,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2025,3,State Supported,Empire,New York - Albany,0.839992409421354,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2025,3,State Supported,Empire,New York - Niagara Falls,0.801736838658984,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2025,3,State Supported,Heartland Flyer,Heartland Flyer,0.338905352843119,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2025,3,State Supported,Hiawatha,Hiawatha,0.85372328931202,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2025,3,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.846003898635478,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2025,3,State Supported,Illinois,Illini / Saluki,0.788695040096533,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2025,3,State Supported,Illinois,Lincoln Service,0.702409223885734,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2025,3,State Supported,Keystone,Keystone,0.888383731585254,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2025,3,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.408317276814387,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2025,3,State Supported,Michigan,Blue Water,0.706336905983279,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2025,3,State Supported,Michigan,Pere Marquette,0.891108197732706,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2025,3,State Supported,Michigan,Wolverine,0.670264470691805,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2025,3,State Supported,Missouri,Missouri,0.507843725019984,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2025,3,State Supported,Pacific Surfliner,Pacific Surfliner,0.883791334026861,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2025,3,State Supported,Pennsylvanian,Pennsylvanian,0.784364547463003,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2025,3,State Supported,Piedmont,Piedmont,0.751316695701495,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2025,3,State Supported,San Joaquins,San Joaquins,0.674050577143361,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2025,3,State Supported,Vermonter,Vermonter,0.72667824258451,FY25 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2025,4,Long Distance,Auto Train,Auto Train,0.667554625313164,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2025,4,Long Distance,California Zephyr,California Zephyr,0.378429081067782,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2025,4,Long Distance,Cardinal,Cardinal,0.556643476767156,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2025,4,Long Distance,City Of New Orleans,City Of New Orleans,0.604420210583892,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2025,4,Long Distance,Coast Starlight,Coast Starlight,0.659936922781276,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2025,4,Long Distance,Crescent,Crescent,0.754025868740097,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2025,4,Long Distance,Empire Builder,Empire Builder,0.408172150009329,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2025,4,Long Distance,Floridian,Floridian,0.275556757863337,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2025,4,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.663442701861616,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2025,4,Long Distance,Palmetto,Palmetto,0.674356821658175,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2025,4,Long Distance,Silver Meteor,Silver Meteor,0.513101692633434,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2025,4,Long Distance,Southwest Chief,Southwest Chief,0.151847023033464,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2025,4,Long Distance,Sunset Ltd,Sunset Ltd,0.579194001874414,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2025,4,Long Distance,Texas Eagle,Texas Eagle,0.425219281805233,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2025,4,Northeast Corridor,Acela,Acela,0.764132551133661,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2025,4,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.805519486304574,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2025,4,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.718535387114369,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2025,4,Northeast Corridor,Northeast Regional,Roanoke,0.764892409534317,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2025,4,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.865954460386775,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2025,4,State Supported,Borealis,Borealis,0.482747264810275,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2025,4,State Supported,Capitol Corridor,Capitol Corridor,0.878577479891085,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2025,4,State Supported,Carolinian,Carolinian,0.655184901599652,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2025,4,State Supported,Cascades,Cascades,0.721699860499208,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2025,4,State Supported,Downeaster,Downeaster,0.850862797152166,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2025,4,State Supported,Empire,Adirondack,0.426050781810357,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2025,4,State Supported,Empire,Berkshire Flyer,0.480413977298019,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2025,4,State Supported,Empire,Ethan Allen Express,0.41255669186305,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2025,4,State Supported,Empire,Maple Leaf,0.444476234755552,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2025,4,State Supported,Empire,New York - Albany,0.739547840050131,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2025,4,State Supported,Empire,New York - Niagara Falls,0.711271326020075,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2025,4,State Supported,Heartland Flyer,Heartland Flyer,0.394434419223098,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2025,4,State Supported,Hiawatha,Hiawatha,0.853988416664335,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2025,4,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.732686908599355,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2025,4,State Supported,Illinois,Illini / Saluki,0.792168142709358,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2025,4,State Supported,Illinois,Lincoln Service,0.663116636664332,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2025,4,State Supported,Keystone,Keystone,0.918711634758661,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2025,4,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.474043866416841,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2025,4,State Supported,Mardi Gras Service,Mardi Gras Service,0.863957783641161,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2025,4,State Supported,Michigan,Blue Water,0.64529264179657,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2025,4,State Supported,Michigan,Pere Marquette,0.820966426773496,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2025,4,State Supported,Michigan,Wolverine,0.611357321233864,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2025,4,State Supported,Missouri,Missouri,0.703935218070749,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2025,4,State Supported,Pacific Surfliner,Pacific Surfliner,0.85303899866302,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2025,4,State Supported,Pennsylvanian,Pennsylvanian,0.750368985535767,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2025,4,State Supported,Piedmont,Piedmont,0.786936936936937,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2025,4,State Supported,San Joaquins,San Joaquins,0.476610562971561,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2025,4,State Supported,Vermonter,Vermonter,0.710592276653271,FY25 Q4 Customer OTP Metrics.xlsx,Route Level C OTP,48,customer_otp_route
+,2026,1,Long Distance,Auto Train,Auto Train,0.832338688315129,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2026,1,Long Distance,California Zephyr,California Zephyr,0.712150889482902,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2026,1,Long Distance,Cardinal,Cardinal,0.562357204758528,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2026,1,Long Distance,City Of New Orleans,City Of New Orleans,0.781098693626481,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2026,1,Long Distance,Coast Starlight,Coast Starlight,0.680711960535794,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2026,1,Long Distance,Crescent,Crescent,0.769565458682502,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2026,1,Long Distance,Empire Builder,Empire Builder,0.617557926636783,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2026,1,Long Distance,Floridian,Floridian,0.448923208599227,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2026,1,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.783833154025462,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2026,1,Long Distance,Palmetto,Palmetto,0.830067910389509,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2026,1,Long Distance,Silver Meteor,Silver Meteor,0.675428524139073,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2026,1,Long Distance,Southwest Chief,Southwest Chief,0.408581211772701,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2026,1,Long Distance,Sunset Ltd,Sunset Ltd,0.755069554986504,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2026,1,Long Distance,Texas Eagle,Texas Eagle,0.623608716099702,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2026,1,Northeast Corridor,Acela,Acela,0.760630775511493,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2026,1,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.804272249416433,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2026,1,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.768238898830062,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2026,1,Northeast Corridor,Northeast Regional,Roanoke,0.829778390061994,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2026,1,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.885159623689081,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2026,1,Seasonal Trains,Winter Park Express,Winter Park Express,0.912972620599739,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2026,1,State Supported,Borealis,Borealis,0.742561400905246,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2026,1,State Supported,Capitol Corridor,Capitol Corridor,0.892636833882142,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2026,1,State Supported,Carolinian,Carolinian,0.718439867183381,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2026,1,State Supported,Cascades,Cascades,0.763467750338648,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2026,1,State Supported,Downeaster,Downeaster,0.86904471048131,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2026,1,State Supported,Empire,Adirondack,0.63090073998469,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2026,1,State Supported,Empire,Ethan Allen Express,0.703023302715289,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2026,1,State Supported,Empire,Maple Leaf,0.594596620077191,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2026,1,State Supported,Empire,New York - Albany,0.865723234066785,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2026,1,State Supported,Empire,New York - Niagara Falls,0.834861004380996,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2026,1,State Supported,Gold Runner,Gold Runner,0.631249348537597,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2026,1,State Supported,Heartland Flyer,Heartland Flyer,0.574876521207801,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2026,1,State Supported,Hiawatha,Hiawatha,0.877101550950866,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2026,1,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.737676145902223,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2026,1,State Supported,Illinois,Illini / Saluki,0.728361556005759,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2026,1,State Supported,Illinois,Lincoln Service,0.686954821772685,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2026,1,State Supported,Keystone,Keystone,0.901966097693162,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2026,1,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.51363287250384,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2026,1,State Supported,Mardi Gras Service,Mardi Gras Service,0.882209261751658,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2026,1,State Supported,Michigan,Blue Water,0.69302846895315,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2026,1,State Supported,Michigan,Pere Marquette,0.823846908734053,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2026,1,State Supported,Michigan,Wolverine,0.666645910797203,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2026,1,State Supported,Missouri,Missouri,0.772370066083229,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2026,1,State Supported,Pacific Surfliner,Pacific Surfliner,0.855383489621781,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2026,1,State Supported,Pennsylvanian,Pennsylvanian,0.894753432333987,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2026,1,State Supported,Piedmont,Piedmont,0.768485393106021,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2026,1,State Supported,Vermonter,Vermonter,0.724171052206761,FY26 Q1 Customer OTP Metrics.xlsx,Route Level C OTP,48,customer_otp_route
+,2026,2,Long Distance,Auto Train,Auto Train,0.649018163271089,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2026,2,Long Distance,California Zephyr,California Zephyr,0.679818190337847,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2026,2,Long Distance,Cardinal,Cardinal,0.554985047678158,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2026,2,Long Distance,City Of New Orleans,City Of New Orleans,0.799366380209815,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2026,2,Long Distance,Coast Starlight,Coast Starlight,0.673901503981127,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2026,2,Long Distance,Crescent,Crescent,0.778998849252014,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2026,2,Long Distance,Empire Builder,Empire Builder,0.565821859570088,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2026,2,Long Distance,Floridian,Floridian,0.409261235526812,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2026,2,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.662048783107138,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2026,2,Long Distance,Palmetto,Palmetto,0.799125340820128,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2026,2,Long Distance,Silver Meteor,Silver Meteor,0.63811186691402,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2026,2,Long Distance,Southwest Chief,Southwest Chief,0.396574327890624,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2026,2,Long Distance,Sunset Ltd,Sunset Ltd,0.620858695208138,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2026,2,Long Distance,Texas Eagle,Texas Eagle,0.653955540818018,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2026,2,Northeast Corridor,Acela,Acela,0.673358383177966,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2026,2,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.756378953749928,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2026,2,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.725306283472312,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2026,2,Northeast Corridor,Northeast Regional,Roanoke,0.755871328844805,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2026,2,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.840954583438599,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2026,2,Seasonal Trains,Winter Park Express,Winter Park Express,0.939335340755269,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2026,2,State Supported,Borealis,Borealis,0.812640205100032,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2026,2,State Supported,Capitol Corridor,Capitol Corridor,0.85293106385615,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2026,2,State Supported,Carolinian,Carolinian,0.676943727846641,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2026,2,State Supported,Cascades,Cascades,0.756624131693376,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2026,2,State Supported,Downeaster,Downeaster,0.862826740689336,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2026,2,State Supported,Empire,Adirondack,0.641389145205939,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2026,2,State Supported,Empire,Ethan Allen Express,0.763604653729828,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2026,2,State Supported,Empire,Maple Leaf,0.596929255232841,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2026,2,State Supported,Empire,New York - Albany,0.844044402618824,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2026,2,State Supported,Empire,New York - Niagara Falls,0.776819553621561,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2026,2,State Supported,Gold Runner,Gold Runner,0.715179464491806,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2026,2,State Supported,Heartland Flyer,Heartland Flyer,0.676155670962365,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2026,2,State Supported,Hiawatha,Hiawatha,0.885122684140905,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2026,2,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.767998923428879,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2026,2,State Supported,Illinois,Illini / Saluki,0.809136916974422,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2026,2,State Supported,Illinois,Lincoln Service,0.730600893084688,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2026,2,State Supported,Keystone,Keystone,0.862029950083195,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2026,2,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.527618322883753,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2026,2,State Supported,Mardi Gras Service,Mardi Gras Service,0.821708937198068,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2026,2,State Supported,Michigan,Blue Water,0.663329431335099,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2026,2,State Supported,Michigan,Pere Marquette,0.796469720188433,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2026,2,State Supported,Michigan,Wolverine,0.715185757688823,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2026,2,State Supported,Missouri,Missouri,0.883447845096815,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2026,2,State Supported,Pacific Surfliner,Pacific Surfliner,0.848911409934614,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2026,2,State Supported,Pennsylvanian,Pennsylvanian,0.803632549409297,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2026,2,State Supported,Piedmont,Piedmont,0.784072819734832,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2026,2,State Supported,Vermonter,Vermonter,0.702013738590383,FY26 Q2 Customer OTP Metrics.xlsx,Route Level C OTP,48,customer_otp_route
+,2026,3,Long Distance,Auto Train,Auto Train,0.526324265564398,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,2,customer_otp_route
+,2026,3,Long Distance,California Zephyr,California Zephyr,0.61556617154788,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,3,customer_otp_route
+,2026,3,Long Distance,Cardinal,Cardinal,0.45443998646493,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,4,customer_otp_route
+,2026,3,Long Distance,City Of New Orleans,City Of New Orleans,0.58031307769279,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,5,customer_otp_route
+,2026,3,Long Distance,Coast Starlight,Coast Starlight,0.6264754727763,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,6,customer_otp_route
+,2026,3,Long Distance,Crescent,Crescent,0.601121745620582,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,7,customer_otp_route
+,2026,3,Long Distance,Empire Builder,Empire Builder,0.413153006981064,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,8,customer_otp_route
+,2026,3,Long Distance,Floridian,Floridian,0.154107023684676,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,9,customer_otp_route
+,2026,3,Long Distance,Lake Shore Ltd,Lake Shore Ltd,0.690629726932569,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,10,customer_otp_route
+,2026,3,Long Distance,Palmetto,Palmetto,0.567413744343891,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,11,customer_otp_route
+,2026,3,Long Distance,Silver Meteor,Silver Meteor,0.467755162901663,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,12,customer_otp_route
+,2026,3,Long Distance,Southwest Chief,Southwest Chief,0.304223164685503,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,13,customer_otp_route
+,2026,3,Long Distance,Sunset Ltd,Sunset Ltd,0.563356504468719,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,14,customer_otp_route
+,2026,3,Long Distance,Texas Eagle,Texas Eagle,0.59710435413024,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,15,customer_otp_route
+,2026,3,Northeast Corridor,Acela,Acela,0.774707557466395,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,16,customer_otp_route
+,2026,3,Northeast Corridor,Northeast Regional,On Spine Northeast Regional,0.806155186388651,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,17,customer_otp_route
+,2026,3,Northeast Corridor,Northeast Regional,Richmond / Newport News / Norfolk,0.681798963817212,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,18,customer_otp_route
+,2026,3,Northeast Corridor,Northeast Regional,Roanoke,0.800283025056777,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,19,customer_otp_route
+,2026,3,Northeast Corridor,Northeast Regional,Springfield Shuttles,0.844522480525057,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,20,customer_otp_route
+,2026,3,State Supported,Borealis,Borealis,0.845386951903546,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,21,customer_otp_route
+,2026,3,State Supported,Capitol Corridor,Capitol Corridor,0.866346517619704,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,22,customer_otp_route
+,2026,3,State Supported,Carolinian,Carolinian,0.48906252896576,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,23,customer_otp_route
+,2026,3,State Supported,Cascades,Cascades,0.673721898731792,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,24,customer_otp_route
+,2026,3,State Supported,Downeaster,Downeaster,0.921255808077263,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,25,customer_otp_route
+,2026,3,State Supported,Empire,Adirondack,0.831042310360048,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,26,customer_otp_route
+,2026,3,State Supported,Empire,Berkshire Flyer,0.728192161820481,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,27,customer_otp_route
+,2026,3,State Supported,Empire,Ethan Allen Express,0.598699318782686,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,28,customer_otp_route
+,2026,3,State Supported,Empire,Maple Leaf,0.657794272184312,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,29,customer_otp_route
+,2026,3,State Supported,Empire,New York - Albany,0.831781528952199,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,30,customer_otp_route
+,2026,3,State Supported,Empire,New York - Niagara Falls,0.80745510163805,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,31,customer_otp_route
+,2026,3,State Supported,Gold Runner,Gold Runner,0.619986777405892,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,32,customer_otp_route
+,2026,3,State Supported,Heartland Flyer,Heartland Flyer,0.654786150712831,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,33,customer_otp_route
+,2026,3,State Supported,Hiawatha,Hiawatha,0.904767581163316,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,34,customer_otp_route
+,2026,3,State Supported,Illinois,Carl Sandburg / Illinois Zephyr,0.739570288520565,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,35,customer_otp_route
+,2026,3,State Supported,Illinois,Illini / Saluki,0.772033540447608,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,36,customer_otp_route
+,2026,3,State Supported,Illinois,Lincoln Service,0.701151688158283,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,37,customer_otp_route
+,2026,3,State Supported,Keystone,Keystone,0.928059617856937,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,38,customer_otp_route
+,2026,3,State Supported,Lincoln / Missouri,Lincoln / Missouri,0.473253900335725,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,39,customer_otp_route
+,2026,3,State Supported,Mardi Gras Service,Mardi Gras Service,0.689325753987052,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,40,customer_otp_route
+,2026,3,State Supported,Michigan,Blue Water,0.520619621342513,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,41,customer_otp_route
+,2026,3,State Supported,Michigan,Pere Marquette,0.787404624501336,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,42,customer_otp_route
+,2026,3,State Supported,Michigan,Wolverine,0.667009404190362,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,43,customer_otp_route
+,2026,3,State Supported,Missouri,Missouri,0.699952426260704,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,44,customer_otp_route
+,2026,3,State Supported,Pacific Surfliner,Pacific Surfliner,0.826870181275335,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,45,customer_otp_route
+,2026,3,State Supported,Pennsylvanian,Pennsylvanian,0.782140996054493,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,46,customer_otp_route
+,2026,3,State Supported,Piedmont,Piedmont,0.699412774591283,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,47,customer_otp_route
+,2026,3,State Supported,Vermonter,Vermonter,0.731730077737064,FY26 Q3 Customer OTP Metrics.xlsx,Route Level C OTP,48,customer_otp_route

@@ -1,0 +1,55 @@
+/*
+ * Local Leaflet positioning fallback (for a blocked/unavailable CDN stylesheet).
+ * The official Leaflet 1.9.4 stylesheet remains first choice. These scoped rules
+ * preserve tile-grid placement and SVG overlay alignment if it does not load.
+ * This file MUST load after the external stylesheet.
+ */
+#station-map.leaflet-container {overflow:hidden;position:relative;outline:0;background:#dce7e9;font:12px/1.5 Arial,Helvetica,sans-serif;touch-action:pan-x pan-y}
+#station-map .leaflet-pane,
+#station-map .leaflet-tile,
+#station-map .leaflet-marker-icon,
+#station-map .leaflet-marker-shadow,
+#station-map .leaflet-tile-container,
+#station-map .leaflet-pane > svg,
+#station-map .leaflet-pane > canvas,
+#station-map .leaflet-zoom-box,
+#station-map .leaflet-image-layer,
+#station-map .leaflet-layer {position:absolute;left:0;top:0}
+#station-map .leaflet-map-pane {z-index:400}
+#station-map .leaflet-tile-pane {z-index:200}
+#station-map .leaflet-overlay-pane {z-index:400}
+#station-map .leaflet-shadow-pane {z-index:500}
+#station-map .leaflet-marker-pane {z-index:600}
+#station-map .leaflet-tooltip-pane {z-index:650}
+#station-map .leaflet-popup-pane {z-index:700}
+#station-map .leaflet-map-pane canvas {z-index:100}
+#station-map .leaflet-map-pane svg {z-index:200}
+#station-map .leaflet-tile {visibility:hidden;max-width:none !important;max-height:none !important;width:256px;height:256px;pointer-events:none}
+#station-map .leaflet-tile-loaded {visibility:inherit}
+#station-map .leaflet-zoom-animated {transform-origin:0 0}
+#station-map .leaflet-zoom-anim .leaflet-zoom-animated {transition:transform .25s cubic-bezier(0,0,.25,1)}
+#station-map .leaflet-zoom-anim .leaflet-tile {transition:visibility .2s}
+#station-map .leaflet-container img.leaflet-image-layer,
+#station-map .leaflet-container .leaflet-tile,
+#station-map img.leaflet-tile,
+#station-map img.leaflet-marker-icon,
+#station-map img.leaflet-marker-shadow {max-width:none !important;max-height:none !important}
+#station-map .leaflet-pane > svg {overflow:hidden}
+#station-map .leaflet-interactive {cursor:pointer;pointer-events:auto}
+#station-map .leaflet-container a {color:#0078a8}
+#station-map .leaflet-control {position:relative;z-index:800;pointer-events:visiblePainted;pointer-events:auto}
+#station-map .leaflet-top,#station-map .leaflet-bottom {position:absolute;z-index:1000;pointer-events:none}
+#station-map .leaflet-top {top:0}#station-map .leaflet-right {right:0}#station-map .leaflet-bottom {bottom:0}#station-map .leaflet-left {left:0}
+#station-map .leaflet-top .leaflet-control {margin-top:10px}#station-map .leaflet-bottom .leaflet-control {margin-bottom:10px}
+#station-map .leaflet-left .leaflet-control {margin-left:10px}#station-map .leaflet-right .leaflet-control {margin-right:10px}
+#station-map .leaflet-control-zoom a {display:block;width:30px;height:30px;line-height:30px;text-align:center;text-decoration:none;background:white;color:#333;font:bold 20px/30px Arial;box-shadow:0 1px 5px #0005}
+#station-map .leaflet-control-zoom a:first-child {border-radius:4px 4px 0 0}#station-map .leaflet-control-zoom a:last-child {border-radius:0 0 4px 4px}
+#station-map .leaflet-control-attribution {font-size:11px;line-height:1.4;background:#ffffffc9;padding:0 5px}
+#station-map .leaflet-control-attribution a {color:#0078a8}
+#station-map .leaflet-popup {position:absolute;text-align:center;margin-bottom:20px}
+#station-map .leaflet-popup-content-wrapper {background:white;color:#333;box-shadow:0 3px 14px #0005;border-radius:12px;padding:1px}
+#station-map .leaflet-popup-content {margin:13px 20px;line-height:1.4;min-width:150px}
+#station-map .leaflet-popup-tip-container {width:40px;height:20px;position:absolute;left:50%;margin-left:-20px;overflow:hidden;pointer-events:none}
+#station-map .leaflet-popup-tip {width:17px;height:17px;padding:1px;margin:-10px auto 0;transform:rotate(45deg);background:white;box-shadow:0 3px 14px #0005}
+#station-map .leaflet-popup-close-button {position:absolute;top:0;right:0;border:0;text-align:center;width:24px;height:24px;color:#757575;font-size:20px;text-decoration:none}
+#station-map .leaflet-fade-anim .leaflet-popup {opacity:0;transition:opacity .2s}

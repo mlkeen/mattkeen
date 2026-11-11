@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}Why Is My Train Late? / Matt Keen{% endblock %}
+{% block content %}
+<section class="project-hero shell compact-hero">
+  <a class="back-link" href="{{ url_for('main.intercity_rail') }}">← Back to Intercity Rail Explorer</a>
+  <p class="eyebrow">PROJECT 01 / FRA OPERATIONS</p>
+  <h1>Why is my train <em>late?</em></h1>
+  <p class="lede">Explore five years of reported delay minutes. Start with an individual service, inspect its trend, then investigate responsible parties, delay codes, and host railroads.</p>
+  <div class="tags"><span>FRA quarterly metrics</span><span>Delay causes</span><span>Host railroads</span><span>Original reporting units</span></div>
+</section>
+<section class="shell delay-shell" id="delay-explorer" data-overview='{{ overview|tojson }}'>
+  {% if not overview.available %}
+  <div class="notice"><strong>Delay data not published yet.</strong> Run <code>.\.venv\Scripts\python.exe scripts\publish_delays.py</code> in your project terminal, then restart Flask. The analysis will load from your local <code>data/processed/delay_by_code.csv</code>.</div>
+  {% else %}
+  <div class="delay-controls panel">
+    <div><p class="eyebrow">01 / SERVICE</p><label for="delay-search">Filter reported service names</label><input id="delay-search" type="search" placeholder="Search services…" autocomplete="off"></div>
+    <div><div class="service-category-control"><label for="delay-category">Service group</label><select id="delay-category" class="service-category-filter" data-target="delay-service" data-search="delay-search" data-mode="options"><option value="all">All groups</option><option value="acela">Acela</option><option value="state_supported">State Supported Service</option><option value="long_distance">Long Distance</option><option value="nec_other">Other Northeast Corridor</option><option value="special">Special / Unclassified</option></select></div><label for="delay-service">Service / subservice</label><select id="delay-service" aria-label="Choose reported service"><option value="">All reporting units in selected group</option>{% for item in overview.services %}<option data-category="{{ item.category }}" value="{{ item.id }}">{{ item.label }}</option>{% endfor %}</select></div>
+    <div><label for="delay-quarter">Period for breakdowns</label><select id="delay-quarter"><option value="all">All available quarters</option>{% for p in overview.periods %}<option value="{{ p }}">{{ p }}</option>{% endfor %}</select></div>
+    <div class="delay-highlights"><div><small>Total reported delay minutes</small><strong id="delay-total">—</strong></div><div><small>Selected reporting unit</small><strong id="delay-name">—</strong></div></div>
+  </div>
+  <div class="delay-content">
+    <div class="panel chart-panel"><p class="eyebrow">02 / TREND</p><h2>How have delays changed?</h2><div class="chart" id="delay-trend">Select a service to load the chart.</div><p class="chart-caption">Quarterly sum of reported delay minutes for the selected service/subservice. Larger service volumes may produce more delay minutes; this is not a standardized rate.</p></div>
+    <div class="delay-chart-grid">
+      <div class="panel chart-panel"><p class="eyebrow">03 / RESPONSIBILITY</p><h2>Who was responsible?</h2><div class="chart" id="delay-responsibility"></div></div>
+      <div class="panel chart-panel"><p class="eyebrow">04 / CAUSE</p><h2>Which delay codes dominate?</h2><div class="chart" id="delay-causes"></div><p class="chart-caption">Cause names and explanations are drawn from FRA’s official code dictionary. Unknown codes remain labeled as unverified.</p></div>
+    </div>
+      <div class="panel delay-dictionary">
+        <div class="delay-dictionary-head"><div><p class="eyebrow">DELAY CODE REFERENCE</p><h2>What do the codes mean?</h2><p class="chart-caption">Includes every code reported for the selected service and quarter, not just the top 12.</p></div><div><label for="delay-cause-search">Find a cause</label><input type="search" id="delay-cause-search" placeholder="Code, equipment, weather…"></div></div>
+        <div class="delay-dictionary-scroll"><table class="delay-dictionary-table"><thead><tr><th>Code</th><th>Cause and explanation</th><th>Official category</th><th>Delay minutes</th></tr></thead><tbody id="delay-cause-key"><tr><td colspan="4">Select a service to view causes.</td></tr></tbody></table></div>
+        <p class="chart-caption">Source: <a id="delay-code-source" href="https://railroads.fra.dot.gov/sites/fra.dot.gov/files/2024-12/FY24%20Q4%20Performance%20and%20Service%20Quality%20Report_PDFa.pdf" target="_blank" rel="noopener noreferrer">FRA FY2024 Q4, Appendix D, pp. 70–71</a>. Definitions are concise paraphrases of FRA explanations. Some historical definitions may have changed.</p>
+      </div>
+    <div class="panel chart-panel"><p class="eyebrow">05 / INFRASTRUCTURE</p><h2>Which host railroads appear?</h2><div class="chart" id="delay-hosts"></div><p class="chart-caption">Host railroad codes identify the railroad associated with recorded delay minutes, which is different from assigning that railroad responsibility for every delay.</p></div>
+    <p class="microcopy" id="delay-message" aria-live="polite"></p>
+  </div>
+  {% endif %}
+</section>
+<section class="shell section-block"><div class="methodology-card"><div><p class="eyebrow">INTERPRETATION</p><h2>Minutes are not a rate.</h2></div><div><p>This dashboard sums FRA delay minutes by train, host railroad, responsibility and cause code. The underlying train-mile column repeats for each cause code and is deliberately excluded from these totals.</p><p>Do not interpret total delay minutes as the number of late passengers, the share of trains arriving late, or delay per 10,000 train-miles. These answer different questions. Subservices remain separate to avoid accidentally mixing reporting units.</p><p class="microcopy">Source: FRA quarterly Delay Metrics, DelayandMileage sheets.</p></div></div></section>
+{% if overview.available %}<script src="{{ url_for('static', filename='js/delay_explorer.js') }}" defer></script>{% endif %}
+{% endblock %}

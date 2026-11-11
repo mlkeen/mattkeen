@@ -1,0 +1,36 @@
+/* Station map layout — scoped to this page, avoiding changes to other rail tools. */
+#station-map-explorer.station-shell{display:flex;flex-direction:column;gap:24px;margin-top:22px;margin-bottom:56px;min-width:0}
+#station-map-explorer .station-dashboard-section{display:block;min-width:0;background:var(--white);border:1px solid var(--line);padding:26px 28px}
+#station-map-explorer .station-section-heading{display:flex;align-items:end;justify-content:space-between;gap:22px;margin:0 0 22px}
+#station-map-explorer .station-section-heading>div{min-width:0}
+#station-map-explorer .station-section-heading .eyebrow{margin-bottom:8px}
+#station-map-explorer .station-section-heading h2{margin:0;font-size:clamp(1.4rem,2.5vw,2.2rem);line-height:1.14;letter-spacing:-.035em}
+#station-map-explorer .station-section-heading>p{max-width:325px;margin:0;color:var(--muted);font-size:.84rem;line-height:1.55}
+#station-map-explorer .station-controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px;padding:0;background:transparent;border:0}
+#station-map-explorer .station-field{min-width:0}
+#station-map-explorer .station-field label{display:block;min-height:2.6em;margin:0 0 8px;font-family:var(--mono);font-weight:500;font-size:.72rem;line-height:1.3;color:var(--muted)}
+#station-map-explorer .station-field select{display:block;width:100%;max-width:100%;min-width:0;height:44px;padding:8px 32px 8px 11px;background:#fff;border:1px solid #bcb9af;border-radius:3px;font-family:var(--sans);font-size:.86rem;color:var(--ink)}
+#station-map-explorer .station-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;padding:0;background:var(--line);border:1px solid var(--line)}
+#station-map-explorer .station-stat{display:flex;flex-direction:column;justify-content:center;gap:5px;min-width:0;min-height:110px;padding:19px 23px;background:var(--white)}
+#station-map-explorer .station-stat span{font-family:var(--mono);font-size:.68rem;line-height:1.4;color:var(--muted)}
+#station-map-explorer .station-stat strong{font-size:clamp(1.4rem,2.5vw,2.15rem);line-height:1.18;letter-spacing:-.035em;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+#station-map-explorer .station-map-section{padding-bottom:0}
+#station-map-explorer .station-map-frame{width:100%;min-width:0;overflow:hidden;border:1px solid var(--line);background:#e6eae7}
+#station-map-explorer #station-map{display:block;position:relative;width:100%;height:clamp(400px,60vh,630px);min-height:400px;z-index:0;border-radius:0;isolation:isolate}
+#station-map-explorer .station-map-footer{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 24px;padding:17px 0 19px}
+#station-map-explorer .station-legend{display:flex;flex-wrap:wrap;align-items:center;gap:9px 16px;margin:0;font-size:.78rem}
+#station-map-explorer .station-legend-title{font-weight:600;margin-right:4px}
+#station-map-explorer .station-legend-item{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+#station-map-explorer .station-legend-item i{display:inline-block;flex:none;width:12px;height:12px;border:1px solid #0002;border-radius:50%;background:var(--legend-color)}
+#station-map-explorer #station-status{margin:0;flex:1 1 240px;text-align:right}
+#station-map-explorer .station-table-wrap{overflow:auto;max-width:100%;max-height:520px;border:1px solid var(--line)}
+#station-map-explorer .station-table{width:100%;min-width:700px;border-collapse:collapse;font-size:.86rem}
+#station-map-explorer .station-table th{position:sticky;top:0;background:#eeeae1;z-index:1;font-size:.71rem;font-family:var(--mono);font-weight:500;color:#4d4b46;white-space:nowrap}
+#station-map-explorer .station-table td,#station-map-explorer .station-table th{padding:12px 14px;border-bottom:1px solid #e7e3d9;text-align:right;font-variant-numeric:tabular-nums}
+#station-map-explorer .station-table td:first-child,#station-map-explorer .station-table th:first-child{text-align:left}
+#station-map-explorer .station-table tbody tr:hover{background:#edf3f1}
+#station-map-explorer .station-row-button{font:inherit;color:var(--accent);font-weight:600;text-align:left;text-decoration:none;border:0;background:none;padding:0;cursor:pointer}
+#station-map-explorer .station-row-button:hover{text-decoration:underline}
+#station-map-explorer .station-table-note{margin:15px 0 0}
+@media(max-width:1000px){#station-map-explorer .station-controls{grid-template-columns:repeat(2,minmax(0,1fr))}#station-map-explorer .station-field label{min-height:0}}
+@media(max-width:640px){#station-map-explorer.station-shell{gap:16px}#station-map-explorer .station-dashboard-section{padding:19px 17px}#station-map-explorer .station-section-heading{display:block;margin-bottom:18px}#station-map-explorer .station-section-heading>p{margin:8px 0 0;max-width:none}#station-map-explorer .station-controls{grid-template-columns:1fr;gap:13px}#station-map-explorer .station-stats{grid-template-columns:1fr 1fr}#station-map-explorer .station-stat{padding:14px 16px;min-height:98px}#station-map-explorer .station-stat:last-child{grid-column:1/-1}#station-map-explorer .station-map-section{padding-bottom:0}#station-map-explorer #station-map{height:410px;min-height:410px}#station-map-explorer .station-map-footer{align-items:start}#station-map-explorer #station-status{text-align:left}#station-map-explorer .station-legend-title{width:100%}}

@@ -1,0 +1,1077 @@
+﻿fiscal_year,fiscal_quarter,apt_code,route,passenger_miles,train_miles,average_ridership,ridership,reporting_level,source_workbook,source_sheet,source_excel_row,table_family
+2021,4,APT_All_APT,System-wide (Total Amtrak),1193276024.0,8168323.72,146.08579004750806,5164708.0,aggregate,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,3,ridership
+2021,4,APT_RT_NTS,National Train Service,1193276024.0,8168323.72,146.08579004750806,5164708.0,aggregate,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,4,ridership
+2021,4,APT_RT_01,Acela Express,89739594.0,494479.7,181.48286774967707,442026.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,5,ridership
+2021,4,APT_RT_03,Ethan Allen,2215804.0,16113.1,137.5156859946255,12456.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,6,ridership
+2021,4,APT_RT_04,Vermonter,4665362.0,34559.15,134.99643365071188,18468.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,7,ridership
+2021,4,APT_RT_05,Northeast Regional,252383792.0,1107910.3,227.80164784098494,1542912.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,8,ridership
+2021,4,APT_RT_07,Empire West/Maple Leaf,28807190.0,164008.7,175.6442798461301,95201.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,9,ridership
+2021,4,APT_RT_09,Downeaster,9224309.0,127895.2,72.12396555930168,108476.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,10,ridership
+2021,4,APT_RT_12,New Haven - Springfield,6218572.0,103934.2,59.831816668623034,73481.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,11,ridership
+2021,4,APT_RT_14,Keystone,15134167.0,136830.3,110.60537761007615,155509.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,12,ridership
+2021,4,APT_RT_15,Empire South,28550813.0,217070.8,131.52765365032977,244113.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,13,ridership
+2021,4,APT_RT_16,Silver Star,29771860.0,274998.4,108.26193897855404,63352.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,14,ridership
+2021,4,APT_RT_18,Cardinal,8499289.0,89715.5,94.73601551571356,22053.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,15,ridership
+2021,4,APT_RT_19,Silver Meteor,31708300.0,253780.0,124.94404602411538,58027.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,16,ridership
+2021,4,APT_RT_20,Lincoln Service,19917895.0,187598.4,106.17305371474384,105529.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,17,ridership
+2021,4,APT_RT_21,Hiawatha,9793956.0,107124.6,91.42583496227756,121619.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,18,ridership
+2021,4,APT_RT_22,Wolverine,16712954.0,115585.44,144.59393847529586,73397.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,19,ridership
+2021,4,APT_RT_23,Illini / Saluki,9326565.0,102255.1,91.20880034345474,57192.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,20,ridership
+2021,4,APT_RT_24,Illinois Zephyr/Carl Sandburg,5248554.0,85755.6,61.2036298504121,32282.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,21,ridership
+2021,4,APT_RT_25,Empire Builder,80776429.0,458336.5,176.23826380835914,96757.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,22,ridership
+2021,4,APT_RT_26,Capitol Limited,21212864.0,143340.14,147.98969779156067,47057.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,23,ridership
+2021,4,APT_RT_27,California Zephyr,66196223.0,435367.3,152.0468418275787,78283.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,24,ridership
+2021,4,APT_RT_28,Southwest Chief,54731687.0,416296.15,131.4729598147857,57262.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,25,ridership
+2021,4,APT_RT_29,Heartland Flyer,2803633.0,37674.0,74.41824600520253,15584.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,26,ridership
+2021,4,APT_RT_30,City of New Orleans,15916399.0,154237.49,103.19410021519413,40742.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,27,ridership
+2021,4,APT_RT_32,Texas Eagle,32674755.0,239788.46,136.26491867039806,62796.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,28,ridership
+2021,4,APT_RT_33,Sunset Limited,14539860.0,144940.7,100.31592230477705,18329.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,29,ridership
+2021,4,APT_RT_34,Coast Starlight,23696624.0,182282.2,129.99965986805074,70348.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,30,ridership
+2021,4,APT_RT_35,Pacific Surfliner,32262215.0,274424.1,117.56334447302552,359761.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,31,ridership
+2021,4,APT_RT_36,Cascades,15690848.0,145180.2,108.07842942770432,97394.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,32,ridership
+2021,4,APT_RT_37,Capitol Corridor,9959396.0,236915.2,42.03780930898482,140922.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,33,ridership
+2021,4,APT_RT_39,San Joaquin,21817029.0,290014.2,75.227450931713,148328.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,34,ridership
+2021,4,APT_RT_40,Adirondack,0.0,0.0,,0.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,35,ridership
+2021,4,APT_RT_41,Blue Water,7596927.0,58604.0,129.6315439219166,40801.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,36,ridership
+2021,4,APT_RT_45,Lake Shore Ltd,40793705.0,210980.1,193.35333047998364,89368.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,37,ridership
+2021,4,APT_RT_46,Washington-Lynchburg/Roanoke,10977569.0,41344.8,265.5126884154718,44209.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,38,ridership
+2021,4,APT_RT_47,Washington-Newport News,17160080.0,65570.6,261.703873382278,74979.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,39,ridership
+2021,4,APT_RT_48,Palmetto,20171895.0,149488.3,134.9396240374665,76319.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,40,ridership
+2021,4,APT_RT_50,Washington-Norfolk,13783360.0,66924.0,205.95541210925828,57484.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,41,ridership
+2021,4,APT_RT_51,Washington-Richmond,73487.0,1971.1,37.2822281974532,376.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,42,ridership
+2021,4,APT_RT_52,Crescent,22461705.0,241594.5,92.97274979355905,47034.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,43,ridership
+2021,4,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,44,ridership
+2021,4,APT_RT_56,Missouri River Runner,6225261.0,90117.0,69.07976297479942,32092.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,45,ridership
+2021,4,APT_RT_57,Pennsylvanian,11522291.0,63463.4,181.55804763060283,48028.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,46,ridership
+2021,4,APT_RT_63,Auto Train,51973740.0,156436.8,332.23474272038294,60788.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,47,ridership
+2021,4,APT_RT_64,Gulf Coast Limited,0.0,0.0,,0.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,48,ridership
+2021,4,APT_RT_65,Pere Marquette,3441509.0,32420.8,106.15126708779549,22894.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,49,ridership
+2021,4,APT_RT_66,Carolinian,22039501.0,85861.9,256.68545652961325,69508.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,50,ridership
+2021,4,APT_RT_67,Piedmont,4626253.0,93942.2,49.24573833697742,39939.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,51,ridership
+2021,4,APT_RT_96,Non-NEC Special Trains,43.0,21123.79,0.0020356195550135653,43.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,52,ridership
+2021,4,APT_RT_99,NEC Special Trains,231760.0,10069.3,23.01649568490362,1190.0,route,FY21 Q4 Financial REVISED.xlsx,Average & Total Ridership,53,ridership
+2022,1,APT_All_APT,System-wide (Total Amtrak),1193906443.0,8790595.49,135.81633284777615,5530225.0,aggregate,FY22 Q1 Financial.xlsx,Average & Total Ridership,3,ridership
+2022,1,APT_RT_NTS,National Train Service,1193906443.0,8790595.49,135.81633284777615,5530225.0,aggregate,FY22 Q1 Financial.xlsx,Average & Total Ridership,4,ridership
+2022,1,APT_RT_01,Acela Express,95502460.0,515818.4,185.14744724112205,478441.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,5,ridership
+2022,1,APT_RT_03,Ethan Allen,703110.0,18633.0,37.73466430526485,12603.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,6,ridership
+2022,1,APT_RT_04,Vermonter,2652126.0,44463.6,59.64712708822498,23457.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,7,ridership
+2022,1,APT_RT_05,Northeast Regional,307310269.0,1237532.9,248.32492857361612,1706419.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,8,ridership
+2022,1,APT_RT_07,Empire West/Maple Leaf,18025837.0,177136.8,101.76223687003491,94976.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,9,ridership
+2022,1,APT_RT_09,Downeaster,8394217.0,124378.6,67.48923850244334,99115.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,10,ridership
+2022,1,APT_RT_12,New Haven - Springfield,5038026.0,118538.4,42.50121479621794,86190.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,11,ridership
+2022,1,APT_RT_14,Keystone,13667265.0,155811.7,87.7165514528113,199215.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,12,ridership
+2022,1,APT_RT_15,Empire South,42313624.0,231034.0,183.14890449024819,264794.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,13,ridership
+2022,1,APT_RT_16,Silver Star,33616104.0,275815.6,121.87890750196871,79034.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,14,ridership
+2022,1,APT_RT_18,Cardinal,7801467.0,90518.2,86.18672267013706,23435.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,15,ridership
+2022,1,APT_RT_19,Silver Meteor,35982939.0,251142.5,143.2769802004838,69194.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,16,ridership
+2022,1,APT_RT_20,Lincoln Service,20844111.0,208113.12,100.15760178887328,112492.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,17,ridership
+2022,1,APT_RT_21,Hiawatha,9330537.0,108412.8,86.06490193039936,116205.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,18,ridership
+2022,1,APT_RT_22,Wolverine,18770501.0,167854.66,111.82591534843299,85952.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,19,ridership
+2022,1,APT_RT_23,Illini / Saluki,12182168.0,114011.92,106.84995042623613,75643.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,20,ridership
+2022,1,APT_RT_24,Illinois Zephyr/Carl Sandburg,5889486.0,94364.2,62.41229194970126,35644.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,21,ridership
+2022,1,APT_RT_25,Empire Builder,51317700.0,467379.8,109.79871188271295,82335.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,22,ridership
+2022,1,APT_RT_26,Capitol Limited,17918296.0,143432.04,124.92533746295457,41371.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,23,ridership
+2022,1,APT_RT_27,California Zephyr,52308603.0,441882.8,118.37664421425772,73865.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,24,ridership
+2022,1,APT_RT_28,Southwest Chief,48239020.0,415866.9,115.99629593026037,56433.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,25,ridership
+2022,1,APT_RT_29,Heartland Flyer,2658894.0,37901.8,70.15218274593818,14587.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,26,ridership
+2022,1,APT_RT_30,City of New Orleans,15952905.0,167249.39,95.3839353315429,41640.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,27,ridership
+2022,1,APT_RT_32,Texas Eagle,29801135.0,240357.36,123.9867795186301,63329.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,28,ridership
+2022,1,APT_RT_33,Sunset Limited,13032033.0,152470.4,85.47254417906689,17958.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,29,ridership
+2022,1,APT_RT_34,Coast Starlight,38444858.0,251516.6,152.85216959834858,87138.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,30,ridership
+2022,1,APT_RT_35,Pacific Surfliner,34733629.0,382588.3,90.78591530373511,349304.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,31,ridership
+2022,1,APT_RT_36,Cascades,14036051.0,148432.8,94.56165348898627,89920.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,32,ridership
+2022,1,APT_RT_37,Capitol Corridor,12183387.0,237019.1,51.40255363386326,162478.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,33,ridership
+2022,1,APT_RT_39,San Joaquin,24817715.0,330885.8,75.00386840414427,168335.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,34,ridership
+2022,1,APT_RT_40,Adirondack,0.0,0.0,,0.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,35,ridership
+2022,1,APT_RT_41,Blue Water,6794393.0,58604.0,115.9373592246263,35350.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,36,ridership
+2022,1,APT_RT_45,Lake Shore Ltd,33588922.0,210652.9,159.45150529615307,83909.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,37,ridership
+2022,1,APT_RT_46,Washington-Lynchburg/Roanoke,7046060.0,40896.5,172.29004927071998,48158.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,38,ridership
+2022,1,APT_RT_47,Washington-Newport News,9029257.0,66276.1,136.23699946134428,71304.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,39,ridership
+2022,1,APT_RT_48,Palmetto,14669377.0,150900.3,97.21237797406633,64391.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,40,ridership
+2022,1,APT_RT_50,Washington-Norfolk,7567362.0,74136.8,102.07295162456431,56427.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,41,ridership
+2022,1,APT_RT_51,Washington-Richmond,1264940.0,28171.0,44.90220439459018,15037.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,42,ridership
+2022,1,APT_RT_52,Crescent,24537823.0,250725.6,97.86724211648112,60993.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,43,ridership
+2022,1,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,44,ridership
+2022,1,APT_RT_56,Missouri River Runner,6487659.0,100476.3,64.56904762615662,35623.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,45,ridership
+2022,1,APT_RT_57,Pennsylvanian,9471953.0,64160.8,147.6283493971397,45014.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,46,ridership
+2022,1,APT_RT_63,Auto Train,57047310.0,151335.6,376.9589574429282,66724.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,47,ridership
+2022,1,APT_RT_64,Gulf Coast Limited,0.0,0.0,,0.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,48,ridership
+2022,1,APT_RT_65,Pere Marquette,3043175.0,32420.8,93.86489537580813,19838.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,49,ridership
+2022,1,APT_RT_66,Carolinian,13740570.0,86535.2,158.78590446431048,64451.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,50,ridership
+2022,1,APT_RT_67,Piedmont,6149169.0,94384.0,65.15054458382777,51504.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,51,ridership
+2022,1,APT_RT_96,Non-NEC Special Trains,0.0,22831.6,0.0,0.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,52,ridership
+2022,1,APT_RT_99,NEC Special Trains,0.0,7524.5,0.0,0.0,route,FY22 Q1 Financial.xlsx,Average & Total Ridership,53,ridership
+2022,2,APT_All_APT,System-wide (Total Amtrak),846966314.0,7371572.61,114.89628588220607,4152551.0,aggregate,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2022,2,APT_RT_NTS,National Train Service,846966314.0,7371572.61,114.89628588220607,4152551.0,aggregate,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2022,2,APT_RT_01,Acela Express,76914566.0,513101.0,149.90141512099956,387203.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2022,2,APT_RT_03,Ethan Allen,521405.0,18033.6,28.912973560464913,9442.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2022,2,APT_RT_04,Vermonter,1786612.0,41080.5,43.49051253027592,15400.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2022,2,APT_RT_05,Northeast Regional,217175644.0,987357.3,219.9564878894398,1218418.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2022,2,APT_RT_07,Empire West/Maple Leaf,14479248.0,171526.7,84.41396004237241,78065.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2022,2,APT_RT_09,Downeaster,7183587.0,127464.1,56.35772739147728,79515.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2022,2,APT_RT_12,New Haven - Springfield,3440621.0,103290.0,33.310301094007166,61268.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2022,2,APT_RT_14,Keystone,10075994.0,149766.0,67.27824739927621,148444.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2022,2,APT_RT_15,Empire South,31632025.0,209075.5,151.29474759118116,190180.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2022,2,APT_RT_16,Silver Star,47014364.0,260635.3,180.38371625025468,95699.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2022,2,APT_RT_18,Cardinal,5194694.0,77663.2,66.88745763759412,14599.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2022,2,APT_RT_19,Silver Meteor,5864773.0,42796.6,137.03829276157452,10002.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2022,2,APT_RT_20,Lincoln Service,18264280.0,201828.0,90.4942822601423,97268.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2022,2,APT_RT_21,Hiawatha,6697688.0,85073.4,78.7283451701707,82843.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2022,2,APT_RT_22,Wolverine,15721627.0,160014.74,98.25111736581268,71612.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2022,2,APT_RT_23,Illini / Saluki,7183713.0,64272.77,111.76915200636289,44342.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2022,2,APT_RT_24,Illinois Zephyr/Carl Sandburg,4513226.0,92213.1,48.943436453172055,27313.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2022,2,APT_RT_25,Empire Builder,29475799.0,321289.05,91.74230805562779,46128.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2022,2,APT_RT_26,Capitol Limited,10687355.0,107656.56,99.27267785632385,24994.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2022,2,APT_RT_27,California Zephyr,37075182.0,353641.3,104.83838284725229,71679.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2022,2,APT_RT_28,Southwest Chief,32652572.0,308019.6,106.0080981859596,37460.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2022,2,APT_RT_29,Heartland Flyer,2227700.0,36018.0,61.84963074018546,12250.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2022,2,APT_RT_30,City of New Orleans,12616700.0,127994.31,98.57235059902273,32422.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2022,2,APT_RT_32,Texas Eagle,22438245.0,184924.08,121.33760514044467,44545.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2022,2,APT_RT_33,Sunset Limited,11170154.0,150475.5,74.23237669919688,15188.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2022,2,APT_RT_34,Coast Starlight,24439708.0,191992.7,127.2949856947686,56010.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2022,2,APT_RT_35,Pacific Surfliner,30160651.0,395566.1,76.2468042635605,307964.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2022,2,APT_RT_36,Cascades,11413232.0,140153.0,81.43408988748011,73889.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2022,2,APT_RT_37,Capitol Corridor,9518422.0,227667.5,41.808435547454074,126123.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2022,2,APT_RT_39,San Joaquin,20549072.0,333860.0,61.549967052057745,142575.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2022,2,APT_RT_40,Adirondack,0.0,0.0,,0.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2022,2,APT_RT_41,Blue Water,5173218.0,56693.0,91.24967809076958,26627.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2022,2,APT_RT_45,Lake Shore Ltd,20065645.0,160322.7,125.15785350421368,51489.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2022,2,APT_RT_46,Washington-Lynchburg/Roanoke,4908734.0,38724.3,126.76107766957698,35303.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2022,2,APT_RT_47,Washington-Newport News,4166066.0,31743.3,131.24237240614556,33352.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2022,2,APT_RT_48,Palmetto,14013891.0,137662.8,101.79867763840342,60969.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2022,2,APT_RT_50,Washington-Norfolk,5968561.0,66687.9,89.49990927889468,43358.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2022,2,APT_RT_51,Washington-Richmond,1138552.0,19089.6,59.64252786857766,13428.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2022,2,APT_RT_52,Crescent,15520269.0,174813.3,88.78196910646959,40359.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2022,2,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2022,2,APT_RT_56,Missouri River Runner,3651670.0,49097.8,74.3754302636778,17540.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2022,2,APT_RT_57,Pennsylvanian,6985752.0,62068.6,112.54888945457124,33263.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2022,2,APT_RT_63,Auto Train,20190382.0,151335.6,133.41462286467956,70052.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2022,2,APT_RT_64,Gulf Coast Limited,0.0,0.0,,0.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2022,2,APT_RT_65,Pere Marquette,2204474.0,30835.0,71.4925895897519,14334.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2022,2,APT_RT_66,Carolinian,9966149.0,81754.6,121.90322012461684,47320.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2022,2,APT_RT_67,Piedmont,4924092.0,89307.1,55.13662407580136,42317.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2022,2,APT_RT_96,Non-NEC Special Trains,0.0,27948.6,0.0,0.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2022,2,APT_RT_99,NEC Special Trains,0.0,9038.9,0.0,0.0,route,FY22 Q2 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2022,3,APT_All_APT,System-wide (Total Amtrak),1340147253.0,7999744.07,167.52376591967646,6303889.0,aggregate,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2022,3,APT_RT_NTS,National Train Service,1340147253.0,7999744.07,167.52376591967646,6303889.0,aggregate,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2022,3,APT_RT_01,Acela Express,122931161.0,588866.1,208.75910669675162,614610.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2022,3,APT_RT_03,Ethan Allen,707362.0,18618.6,37.99222283093251,13672.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2022,3,APT_RT_04,Vermonter,2283781.0,43980.3,51.92736293294952,21419.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2022,3,APT_RT_05,Northeast Regional,350729754.0,1128741.01,310.72650935222066,1981425.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2022,3,APT_RT_07,Empire West/Maple Leaf,19717182.0,175177.6,112.5553837933617,101978.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2022,3,APT_RT_09,Downeaster,10280017.0,130105.4,79.01299254296902,116713.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2022,3,APT_RT_11,Berkshire Flyer,0.0,0.0,,0.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2022,3,APT_RT_12,New Haven - Springfield,5134189.0,112365.9,45.6917000620295,92771.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2022,3,APT_RT_14,Keystone,14496218.0,192870.0,75.16056411054078,219864.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2022,3,APT_RT_15,Empire South,44760141.0,228374.3,195.99465001096885,276666.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2022,3,APT_RT_16,Silver Star,71681965.0,273782.6,261.820747556638,134482.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2022,3,APT_RT_17,Great River Hiawatha,0.0,0.0,,0.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2022,3,APT_RT_18,Cardinal,7821539.0,89372.4,87.51626900474868,21059.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2022,3,APT_RT_19,Silver Meteor,0.0,0.0,,0.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2022,3,APT_RT_20,Lincoln Service,25829354.0,223891.7666,115.36535886174923,129735.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2022,3,APT_RT_21,Hiawatha,11186739.0,106781.4,104.76299243126613,138557.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2022,3,APT_RT_22,Wolverine,22438656.0,165961.58,135.20391888291255,100700.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2022,3,APT_RT_23,Illini / Saluki,8871448.0,56336.78,157.47169078530936,52507.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2022,3,APT_RT_24,Illinois Zephyr/Carl Sandburg,6023483.0,93511.6,64.41428656979454,37145.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2022,3,APT_RT_25,Empire Builder,60311370.0,371607.45,162.2986030016352,76466.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2022,3,APT_RT_26,Capitol Limited,23025087.0,141978.84,162.17266601135776,53546.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2022,3,APT_RT_27,California Zephyr,59498598.0,369702.8,160.93629261125423,69457.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2022,3,APT_RT_28,Southwest Chief,54664911.0,333739.25,163.79527130836425,60435.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2022,3,APT_RT_29,Heartland Flyer,3272623.0,37674.0,86.86688432340607,18036.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2022,3,APT_RT_30,City of New Orleans,18220977.0,120574.35,151.11818558424739,41619.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2022,3,APT_RT_32,Texas Eagle,35926122.0,234854.58,152.9717751299549,72787.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2022,3,APT_RT_33,Sunset Limited,16651608.0,146195.7,113.89943753475649,20994.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2022,3,APT_RT_34,Coast Starlight,48152358.0,253142.35,190.2184995912379,104576.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2022,3,APT_RT_35,Pacific Surfliner,45123013.0,387152.4,116.55103519957515,452878.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2022,3,APT_RT_36,Cascades,16462851.0,147888.3,111.31949586275589,105522.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2022,3,APT_RT_37,Capitol Corridor,13860071.0,228719.6,60.5985276294642,186258.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2022,3,APT_RT_39,San Joaquin,28806626.0,335790.0,85.7876232168915,197440.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2022,3,APT_RT_40,Adirondack,0.0,0.0,,0.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2022,3,APT_RT_41,Blue Water,7201942.0,56121.0,128.32882521694196,36681.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2022,3,APT_RT_45,Lake Shore Ltd,32739717.0,174011.7,188.14664186373673,77556.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2022,3,APT_RT_46,Washington-Lynchburg/Roanoke,8489189.0,40895.4,207.58297999285983,62228.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2022,3,APT_RT_47,Washington-Newport News,6503715.0,32821.7,198.15289884436214,53436.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2022,3,APT_RT_48,Palmetto,19599498.0,134594.8,145.6185380118697,82531.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2022,3,APT_RT_50,Washington-Norfolk,11760056.0,76029.2,154.67814997395737,87341.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2022,3,APT_RT_51,Washington-Richmond,2484084.0,26181.5,94.8793613811279,29238.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2022,3,APT_RT_52,Crescent,23650549.0,179088.0,132.06104819976773,51129.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2022,3,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2022,3,APT_RT_56,Missouri River Runner,5690964.0,66319.5534,85.81125336709519,27469.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2022,3,APT_RT_57,Pennsylvanian,10386442.0,63463.4,163.66034596318508,48074.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2022,3,APT_RT_63,Auto Train,35777591.0,151335.6,236.41225858291108,76974.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2022,3,APT_RT_64,Gulf Coast Limited,0.0,0.0,,0.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2022,3,APT_RT_65,Pere Marquette,3651032.0,32065.4,113.86204444666213,23896.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2022,3,APT_RT_66,Carolinian,16864973.0,85594.6,197.03314227766703,78452.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2022,3,APT_RT_67,Piedmont,6478297.0,93343.0,69.40313681797242,55567.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2022,3,APT_RT_96,Non-NEC Special Trains,0.0,28263.15,0.0,0.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2022,3,APT_RT_99,NEC Special Trains,0.0,21859.11,0.0,0.0,route,FY22 Q3 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2022,4,APT_All_APT,System-wide (Total Amtrak),1505200185.0,8585746.97,175.31383003242638,6943826.0,aggregate,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2022,4,APT_RT_NTS,National Train Service,1505200185.0,8585746.97,175.31383003242638,6943826.0,aggregate,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2022,4,APT_RT_05,Northeast Regional,397718044.0,1351154.58,294.35421371254205,2185089.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2022,4,APT_RT_01,Acela Express,131411699.0,658207.4,199.65089878965202,664115.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2022,4,APT_RT_35,Pacific Surfliner,51698602.0,364259.7,141.92786629978556,523941.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2022,4,APT_RT_15,Empire South,47173326.0,243360.0,193.8417406311637,287547.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2022,4,APT_RT_14,Keystone,15621537.0,207652.2,75.2293353983247,238907.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2022,4,APT_RT_39,San Joaquin,29461171.0,340431.85,86.54058367335489,201701.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2022,4,APT_RT_37,Capitol Corridor,14773464.0,218590.5,67.58511463215464,199180.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2022,4,APT_RT_21,Hiawatha,13248055.0,107467.2,123.27533424151741,164320.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2022,4,APT_RT_09,Downeaster,13004840.0,130891.1,99.35618235311644,149469.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2022,4,APT_RT_20,Lincoln Service,28175370.0,195071.58,144.4360577794059,136685.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2022,4,APT_RT_16,Silver Star,68538589.0,259273.0,264.34911849671965,125564.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2022,4,APT_RT_50,Washington-Norfolk,16642015.0,115926.2,143.55697849148856,124116.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2022,4,APT_RT_36,Cascades,19148095.0,149888.3,127.74909716101925,120917.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2022,4,APT_RT_07,Empire West/Maple Leaf,22038379.0,186059.9,118.44776332783152,109952.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2022,4,APT_RT_22,Wolverine,24364454.0,145309.6,167.67270710262775,108990.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2022,4,APT_RT_45,Lake Shore Ltd,44242876.0,198275.9,223.13794061708964,106301.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2022,4,APT_RT_34,Coast Starlight,49645639.0,247250.05,200.79121925354517,105003.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2022,4,APT_RT_25,Empire Builder,79761704.0,449291.95,177.5275608654907,98639.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2022,4,APT_RT_47,Washington-Newport News,11113827.0,63048.1,176.27536753684885,91157.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2022,4,APT_RT_46,Washington-Lynchburg/Roanoke,11401470.0,84936.6,134.23506474240787,84377.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2022,4,APT_RT_12,New Haven - Springfield,5039863.0,85720.02,58.79446831673627,84113.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2022,4,APT_RT_66,Carolinian,18663341.0,86535.2,215.6734022686722,79827.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2022,4,APT_RT_27,California Zephyr,64758004.0,425382.8,152.23465546796908,75423.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2022,4,APT_RT_32,Texas Eagle,35862365.0,233021.8,153.90133026180385,72830.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2022,4,APT_RT_28,Southwest Chief,63979660.0,398613.6,160.50546193105305,69326.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2022,4,APT_RT_48,Palmetto,19882452.0,145738.4,136.42562289691668,69163.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2022,4,APT_RT_63,Auto Train,55765665.0,147934.8,376.9611004307303,65271.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2022,4,APT_RT_67,Piedmont,7269947.0,92506.9,78.5881593697335,63166.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2022,4,APT_RT_23,Illini / Saluki,8867186.0,56472.78,157.01699119469592,51779.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2022,4,APT_RT_52,Crescent,24091566.0,179088.0,134.5236196730099,50205.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2022,4,APT_RT_57,Pennsylvanian,10984378.0,64160.8,171.20076432962182,49779.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2022,4,APT_RT_26,Capitol Limited,21045166.0,143401.1,146.7573540230863,47802.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2022,4,APT_RT_41,Blue Water,9021318.0,58273.8,154.80915951937234,46414.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2022,4,APT_RT_30,City of New Orleans,17031752.0,118719.36,143.46229629270238,39937.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2022,4,APT_RT_56,Missouri River Runner,7660315.0,92596.8,82.72764285590863,39555.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2022,4,APT_RT_51,Washington-Richmond,2974396.0,23858.5,124.6681895341283,35595.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2022,4,APT_RT_24,Illinois Zephyr/Carl Sandburg,5533557.0,89888.4,61.56030144045283,34133.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2022,4,APT_RT_65,Pere Marquette,4210671.0,32411.6,129.91246960964594,28080.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2022,4,APT_RT_03,Ethan Allen,2665362.0,40080.2,66.5007160642911,27639.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2022,4,APT_RT_04,Vermonter,2991155.0,43013.7,69.53958854969464,27006.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2022,4,APT_RT_18,Cardinal,8819349.0,90518.2,97.43177615109448,21229.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2022,4,APT_RT_33,Sunset Limited,15412484.0,143762.4,107.20803214192307,19764.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2022,4,APT_RT_29,Heartland Flyer,3316520.0,37991.2,87.2970582661248,18179.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2022,4,APT_RT_11,Berkshire Flyer,170557.0,2258.6,75.51447799521829,1641.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2022,4,APT_RT_17,Great River Hiawatha,0.0,0.0,,0.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2022,4,APT_RT_19,Silver Meteor,0.0,0.0,,0.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2022,4,APT_RT_40,Adirondack,0.0,0.0,,0.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2022,4,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2022,4,APT_RT_64,Gulf Coast Limited,0.0,0.0,,0.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2022,4,APT_RT_96,Non-NEC Special Trains,0.0,30683.85,0.0,0.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2022,4,APT_RT_99,NEC Special Trains,0.0,6768.45,0.0,0.0,route,FY22 Q4 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2023,1,APT_All_APT,System-wide (Total Amtrak),1413575949.0,8859242.47,159.55946050543076,6951382.0,aggregate,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2023,1,APT_RT_NTS,National Train Service,1413575949.0,8859242.47,159.55946050543076,6951382.0,aggregate,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2023,1,APT_RT_05,Northeast Regional,399275153.0,1318305.82,302.86990085502316,2183349.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2023,1,APT_RT_01,Acela Express,141803408.0,688691.0,205.90280401515338,727877.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2023,1,APT_RT_35,Pacific Surfliner,23063519.0,230671.6,99.98421565550332,348185.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2023,1,APT_RT_15,Empire South,49647077.0,247598.8,200.51420685399123,311396.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2023,1,APT_RT_14,Keystone,18234819.0,212701.7,85.72954047851991,282273.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2023,1,APT_RT_39,San Joaquin,33813261.0,341394.6,99.04451037011131,225674.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2023,1,APT_RT_37,Capitol Corridor,16741461.0,250808.4,66.75000119613219,219676.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2023,1,APT_RT_21,Hiawatha,12736282.0,105838.2,120.33728842705186,158294.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2023,1,APT_RT_09,Downeaster,11388572.0,127666.9,89.20536176565736,131107.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2023,1,APT_RT_36,Cascades,19211412.0,176882.9,108.61090585918707,126839.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2023,1,APT_RT_20,Lincoln Service,24457641.0,189039.7,129.37833164144885,122989.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2023,1,APT_RT_50,Washington-Norfolk,15372977.0,120389.09,127.6941041750544,120280.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2023,1,APT_RT_12,New Haven - Springfield,6394343.0,115108.19,55.5507214560493,114033.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2023,1,APT_RT_07,Empire West/Maple Leaf,20085643.0,180459.4,111.30283598416042,106248.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2023,1,APT_RT_34,Coast Starlight,44905822.0,254886.95,176.1793689319912,105736.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2023,1,APT_RT_22,Wolverine,21756662.0,145685.56,149.3398659414152,98791.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2023,1,APT_RT_45,Lake Shore Ltd,36662102.0,191036.4,191.91160428065018,92495.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2023,1,APT_RT_47,Washington-Newport News,10397847.0,67697.7,153.59232292973027,88072.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2023,1,APT_RT_16,Silver Star,38705288.0,258485.9,149.73848863709782,87971.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2023,1,APT_RT_46,Washington-Lynchburg/Roanoke,11736669.0,87413.8,134.26563082716916,86864.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2023,1,APT_RT_66,Carolinian,17620547.0,85954.3,204.99901691945604,80113.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2023,1,APT_RT_27,California Zephyr,51988069.0,442223.6,117.56059378106461,78208.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2023,1,APT_RT_32,Texas Eagle,35721765.0,239219.56,149.32627164768633,78043.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2023,1,APT_RT_25,Empire Builder,50903998.0,409941.7,124.17374958439211,77283.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2023,1,APT_RT_67,Piedmont,8945844.0,93582.6,95.59302690884843,75740.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2023,1,APT_RT_48,Palmetto,19222839.0,149816.1,128.3095675297915,75227.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2023,1,APT_RT_52,Crescent,30649398.0,253478.4,120.9152259127405,69843.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2023,1,APT_RT_63,Auto Train,37822666.0,147934.8,255.67118757723,69566.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2023,1,APT_RT_23,Illini / Saluki,10373918.0,71320.15,145.45563911461207,62293.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2023,1,APT_RT_28,Southwest Chief,52828478.0,412202.7,128.1614069970915,61863.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2023,1,APT_RT_19,Silver Meteor,31131451.0,207647.2,149.92473291236288,57657.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2023,1,APT_RT_30,City of New Orleans,21658326.0,165094.11,131.18775709200045,55485.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2023,1,APT_RT_57,Pennsylvanian,11807058.0,64160.8,184.0229236543185,53297.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2023,1,APT_RT_26,Capitol Limited,17599133.0,134797.34,130.55994280005822,41944.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2023,1,APT_RT_41,Blue Water,8014354.0,55091.8,145.47272007812415,41540.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2023,1,APT_RT_56,Missouri River Runner,6377284.0,85377.2,74.69539877156899,34716.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2023,1,APT_RT_51,Washington-Richmond,2740541.0,23515.0,116.54437593025729,33298.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2023,1,APT_RT_04,Vermonter,3322068.0,42053.5,78.99623099147514,30292.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2023,1,APT_RT_24,Illinois Zephyr/Carl Sandburg,4395795.0,66641.4,65.9619245694118,26156.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2023,1,APT_RT_03,Ethan Allen,2241320.0,41421.2,54.11045551553311,23645.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2023,1,APT_RT_33,Sunset Limited,17162373.0,155413.2,110.4306004895337,22931.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2023,1,APT_RT_65,Pere Marquette,3314224.0,31002.4,106.90217531545944,21730.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2023,1,APT_RT_18,Cardinal,7812305.0,85935.0,90.90946645720602,21447.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2023,1,APT_RT_29,Heartland Flyer,3532237.0,38212.0,92.43789908929132,19330.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2023,1,APT_RT_40,Adirondack,0.0,0.0,,1586.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2023,1,APT_RT_11,Berkshire Flyer,0.0,0.0,,0.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2023,1,APT_RT_17,Great River Hiawatha,0.0,0.0,,0.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2023,1,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2023,1,APT_RT_64,Gulf Coast Limited,0.0,0.0,,0.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2023,1,APT_RT_96,Non-NEC Special Trains,0.0,28872.9,0.0,0.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2023,1,APT_RT_99,NEC Special Trains,0.0,17570.9,0.0,0.0,route,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2023,1,LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY23 Q1 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2023,2,APT_All_APT,System-wide (Total Amtrak),1208201408.0,8686101.67,139.09593208802494,5922560.0,aggregate,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2023,2,APT_RT_NTS,National Train Service,1208201408.0,8686101.67,139.09593208802494,5922560.0,aggregate,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2023,2,APT_RT_01,Acela Express,122372644.0,669712.4,182.72417234621906,634159.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2023,2,APT_RT_03,Ethan Allen,1808384.0,30546.0,59.201990440646895,19278.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2023,2,APT_RT_04,Vermonter,2282461.0,41567.0,54.910409700002404,21058.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2023,2,APT_RT_05,Northeast Regional,325370531.0,1256221.65,259.00726277086534,1848757.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2023,2,APT_RT_07,Empire West/Maple Leaf,17335380.0,187601.7,92.40523939815044,93241.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2023,2,APT_RT_09,Downeaster,9238564.0,119329.7,77.42049129428801,107095.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2023,2,APT_RT_11,Berkshire Flyer,0.0,0.0,,0.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2023,2,APT_RT_12,New Haven - Springfield,5004251.0,105582.35,47.39666241564049,90340.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2023,2,APT_RT_14,Keystone,14735928.0,206007.2,71.53113095076289,232834.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2023,2,APT_RT_15,Empire South,42984718.0,264985.4,162.2154201703188,270718.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2023,2,APT_RT_16,Silver Star,36014090.0,271907.6,132.44973660169853,83813.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2023,2,APT_RT_17,Great River Hiawatha,0.0,0.0,,0.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2023,2,APT_RT_18,Cardinal,6983997.0,83328.9,83.81242282089407,17823.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2023,2,APT_RT_19,Silver Meteor,35911171.0,249616.8,143.86520057944819,65944.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2023,2,APT_RT_20,Lincoln Service,21441289.0,199033.5,107.72703590099154,109830.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2023,2,APT_RT_21,Hiawatha,9856975.0,101631.6,96.98730512950696,122268.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2023,2,APT_RT_22,Wolverine,18930354.0,155103.84,122.04955080415805,86443.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2023,2,APT_RT_23,Illini / Saluki,10270501.0,108503.65,94.65581111787485,64571.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2023,2,APT_RT_24,Illinois Zephyr/Carl Sandburg,3624172.0,82914.3,43.70985463303676,21743.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2023,2,APT_RT_25,Empire Builder,44852777.0,411395.4,109.02595653719025,73132.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2023,2,APT_RT_26,Capitol Limited,10844507.0,130617.46,83.02494168850014,25892.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2023,2,APT_RT_27,California Zephyr,42836621.0,403332.4,106.20674411477977,86905.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2023,2,APT_RT_28,Southwest Chief,45000869.0,388158.55,115.93424645676362,51259.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2023,2,APT_RT_29,Heartland Flyer,2899914.0,36846.0,78.70363133040222,15982.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2023,2,APT_RT_30,City of New Orleans,21220424.0,165094.11,128.53531843140863,51765.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2023,2,APT_RT_32,Texas Eagle,30309243.0,222642.1,136.13437440627806,64697.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2023,2,APT_RT_33,Sunset Limited,13634329.0,148269.7,91.95627292697024,18134.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2023,2,APT_RT_34,Coast Starlight,25296198.0,201971.95,125.24609481663171,61711.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2023,2,APT_RT_35,Pacific Surfliner,21015361.0,211016.2,99.59122095839086,299464.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2023,2,APT_RT_36,Cascades,18244619.0,174648.1,104.46502996597157,120973.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2023,2,APT_RT_37,Capitol Corridor,14138781.0,247116.8,57.2149728387548,182001.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2023,2,APT_RT_39,San Joaquin,25993586.0,323823.8,80.27077070925608,180442.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2023,2,APT_RT_40,Adirondack,0.0,0.0,,0.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2023,2,APT_RT_41,Blue Water,6593756.0,54773.4,120.38244841474146,33803.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2023,2,APT_RT_45,Lake Shore Ltd,28708737.0,206544.0,138.99574424819892,69073.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2023,2,APT_RT_46,Washington-Lynchburg/Roanoke,9595235.0,80892.0,118.61784848934381,70692.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2023,2,APT_RT_47,Washington-Newport News,8782673.0,67065.9,130.95586579767067,75023.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2023,2,APT_RT_48,Palmetto,16649421.0,146479.3,113.66398528665826,65980.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2023,2,APT_RT_50,Washington-Norfolk,12662813.0,111854.4,113.20800075812843,97352.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2023,2,APT_RT_51,Washington-Richmond,2334756.0,20720.3,112.67964266926637,27711.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2023,2,APT_RT_52,Crescent,23107868.0,218042.7,105.97863629463403,61378.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2023,2,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2023,2,APT_RT_56,Missouri River Runner,5961117.0,99603.0,59.84876961537303,30774.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2023,2,APT_RT_57,Pennsylvanian,8612732.0,62766.0,137.21970493579326,40921.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2023,2,APT_RT_63,Auto Train,59459170.0,148938.0,399.22095099974484,73491.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2023,2,APT_RT_64,Gulf Coast Limited,0.0,0.0,,0.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2023,2,APT_RT_65,Pere Marquette,2851775.0,31354.7,90.9520741706985,18719.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2023,2,APT_RT_66,Carolinian,14732239.0,84938.1,173.44676888228014,67984.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2023,2,APT_RT_67,Piedmont,7696477.0,92996.0,82.76137683341219,67387.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2023,2,APT_RT_96,Non-NEC Special Trains,0.0,50301.11,0.0,0.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2023,2,APT_RT_99,NEC Special Trains,0.0,10306.6,0.0,0.0,route,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2023,2,LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY23 Q2 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2023,3,APT_All_APT,System-wide (Total Amtrak),1519830621.0,9267803.57,163.99037911417452,7492595.0,aggregate,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2023,3,APT_RT_NTS,National Train Service,1519830621.0,9267803.57,163.99037911417452,7492595.0,aggregate,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2023,3,APT_RT_05,Northeast Regional,421372676.0,1306836.5,322.4371801675267,2390046.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2023,3,APT_RT_01,Acela Express,154503350.0,787752.0,196.13196792899288,779022.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2023,3,APT_RT_35,Pacific Surfliner,28813603.0,254522.7,113.20641734509339,371260.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2023,3,APT_RT_15,Empire South,53532779.0,275693.4,194.17504735332798,321954.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2023,3,APT_RT_14,Keystone,18843717.0,208232.5,90.49364052201265,311450.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2023,3,APT_RT_37,Capitol Corridor,19282335.0,250022.3,77.12246067650766,281222.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2023,3,APT_RT_39,San Joaquin,31469817.0,336882.4,93.41484446798052,220102.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2023,3,APT_RT_36,Cascades,29720858.0,221486.3,134.18824550322074,194509.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2023,3,APT_RT_21,Hiawatha,13470363.0,105579.0,127.58562782371494,169593.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2023,3,APT_RT_20,Lincoln Service,27504525.0,204237.96,134.66901549545443,135511.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2023,3,APT_RT_09,Downeaster,10683218.0,122672.7,87.08716772354403,131798.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2023,3,APT_RT_50,Washington-Norfolk,15867703.0,115132.1,137.82171088688557,118435.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2023,3,APT_RT_07,Empire West/Maple Leaf,22683852.0,189579.2,119.65369618607947,115428.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2023,3,APT_RT_22,Wolverine,25381543.0,165263.32,153.58243438410895,115228.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2023,3,APT_RT_12,New Haven - Springfield,6182125.0,112643.9,54.882022018058684,107018.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2023,3,APT_RT_25,Empire Builder,71502871.0,445828.3,160.3820820706088,93127.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2023,3,APT_RT_16,Silver Star,39120816.0,275538.9,141.97928495758674,92010.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2023,3,APT_RT_48,Palmetto,23116776.0,149914.5,154.19973384829353,90162.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2023,3,APT_RT_45,Lake Shore Ltd,37788997.0,205001.2,184.33549169468276,89110.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2023,3,APT_RT_47,Washington-Newport News,10345359.0,67929.8,152.29485439380065,87708.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2023,3,APT_RT_34,Coast Starlight,38034768.0,245435.85,154.96826563845502,83545.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2023,3,APT_RT_66,Carolinian,18957337.0,87096.1,217.6599985533221,83487.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2023,3,APT_RT_46,Washington-Lynchburg/Roanoke,10663942.0,81790.8,130.38070296414756,81230.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2023,3,APT_RT_27,California Zephyr,62310140.0,434123.15,143.5310233973931,80632.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2023,3,APT_RT_19,Silver Meteor,42623174.0,253007.3,168.46618259631245,80521.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2023,3,APT_RT_63,Auto Train,24892140.0,156338.0,159.22002328288707,74830.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2023,3,APT_RT_32,Texas Eagle,36480104.0,232871.46,156.6533915319636,73498.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2023,3,APT_RT_52,Crescent,31354814.0,249425.1,125.70833488690593,72849.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2023,3,APT_RT_28,Southwest Chief,62542116.0,401689.35,155.6977201411987,70010.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2023,3,APT_RT_23,Illini / Saluki,11410353.0,109815.8,103.90447458380305,69568.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2023,3,APT_RT_67,Piedmont,7560774.0,90091.5,83.92327800069928,67435.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2023,3,APT_RT_30,City of New Orleans,26786790.0,168804.09,158.6856692868046,63249.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2023,3,APT_RT_57,Pennsylvanian,10313524.0,63463.4,162.51136875742554,49182.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2023,3,APT_RT_41,Blue Water,8365712.0,56684.1,147.58480773267988,43538.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2023,3,APT_RT_56,Missouri River Runner,7387618.0,100200.8,73.72813390711451,40381.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2023,3,APT_RT_51,Washington-Richmond,2912099.0,20944.6,139.03817690478692,34463.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2023,3,APT_RT_24,Illinois Zephyr/Carl Sandburg,5282429.0,92988.0,56.807641846259735,32421.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2023,3,APT_RT_26,Capitol Limited,13354338.0,141972.74,94.06269118987208,31005.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2023,3,APT_RT_04,Vermonter,2748838.0,43013.7,63.906104334200506,26716.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2023,3,APT_RT_18,Cardinal,9005775.0,89481.6,100.64387538890676,22742.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2023,3,APT_RT_65,Pere Marquette,3333824.0,32059.3,103.98929483800333,22028.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2023,3,APT_RT_03,Ethan Allen,1706832.0,30843.4,55.338646193350925,19792.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2023,3,APT_RT_33,Sunset Limited,14604554.0,152485.1,95.77692508973007,18766.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2023,3,APT_RT_40,Adirondack,2868471.0,39552.15,72.5237692514819,18106.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2023,3,APT_RT_29,Heartland Flyer,3128678.0,37028.0,84.49492276115372,17606.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2023,3,APT_RT_11,Berkshire Flyer,14194.0,1080.2,13.140159229772264,302.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2023,3,APT_RT_17,Great River Hiawatha,0.0,0.0,,0.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2023,3,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2023,3,APT_RT_64,Gulf Coast Limited,0.0,13266.4,0.0,0.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2023,3,APT_RT_96,Non-NEC Special Trains,0.0,25152.3,0.0,0.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2023,3,APT_RT_99,NEC Special Trains,0.0,16350.3,0.0,0.0,route,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2023,3,LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY23 Q3 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2023,4,APT_All_APT,System-wide (Total Amtrak),1681581461.0,9373831.45,179.39104943048662,8212680.0,aggregate,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2023,4,APT_RT_NTS,National Train Service,1681581461.0,9373831.45,179.39104943048662,8212680.0,aggregate,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2023,4,APT_RT_01,Acela Express,162404804.0,766781.6,211.80060137071627,818326.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2023,4,APT_RT_03,Ethan Allen,1972502.0,29322.3,67.26968893981714,23923.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2023,4,APT_RT_04,Vermonter,2229113.0,32632.35,68.30991332220941,21900.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2023,4,APT_RT_05,Northeast Regional,480897669.0,1370296.3,350.944295040423,2740687.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2023,4,APT_RT_07,Empire West/Maple Leaf,28425644.0,185911.0,152.89920445804714,137794.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2023,4,APT_RT_09,Downeaster,15037489.0,131118.9,114.68589959189713,172639.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2023,4,APT_RT_11,Berkshire Flyer,42676.0,2418.1,17.648567056780117,908.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2023,4,APT_RT_12,New Haven - Springfield,7335866.0,114717.4,63.94728262669831,130888.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2023,4,APT_RT_14,Keystone,18309663.0,208117.1,87.97769621045074,289222.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2023,4,APT_RT_15,Empire South,56410322.0,270194.8,208.7764901471087,338622.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2023,4,APT_RT_16,Silver Star,37938262.0,264718.8,143.31532932304015,87938.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2023,4,APT_RT_17,Great River Hiawatha,0.0,0.0,,0.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2023,4,APT_RT_18,Cardinal,8393661.0,85815.8,97.81020511374362,20693.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2023,4,APT_RT_19,Silver Meteor,42705045.0,242390.9,176.1825423314159,79810.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2023,4,APT_RT_20,Lincoln Service,31466610.0,208614.12,150.83643427395998,154974.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2023,4,APT_RT_21,Hiawatha,15017273.0,106773.2,140.6464637193603,186699.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2023,4,APT_RT_22,Wolverine,25565095.0,138727.3,184.2830863139411,120107.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2023,4,APT_RT_23,Illini / Saluki,11946135.0,113789.03,104.9849445065135,73585.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2023,4,APT_RT_24,Illinois Zephyr/Carl Sandburg,5571645.0,94537.8,58.9356320963678,34201.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2023,4,APT_RT_25,Empire Builder,87445112.0,462081.8,189.24162778105523,105451.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2023,4,APT_RT_26,Capitol Limited,12176826.0,138956.76,87.63032471396137,27468.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2023,4,APT_RT_27,California Zephyr,67965813.0,445517.8,152.55465213735567,82713.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2023,4,APT_RT_28,Southwest Chief,62031993.0,414140.05,149.78506184079515,70706.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2023,4,APT_RT_29,Heartland Flyer,3472839.0,36893.4,94.1317146156223,19461.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2023,4,APT_RT_30,City of New Orleans,26506131.0,170360.28,155.58867947387736,63377.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2023,4,APT_RT_32,Texas Eagle,35988161.0,238080.96,151.1593409233565,78201.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2023,4,APT_RT_33,Sunset Limited,13063442.0,147440.9,88.60120902680329,17457.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2023,4,APT_RT_34,Coast Starlight,40537356.0,245578.95,165.06852887839125,87026.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2023,4,APT_RT_35,Pacific Surfliner,46475933.0,322733.3,144.00724375203922,498516.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2023,4,APT_RT_36,Cascades,35275779.0,230807.9,152.8360987643837,227499.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2023,4,APT_RT_37,Capitol Corridor,17871889.0,252690.8,70.72631453143526,238213.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2023,4,APT_RT_39,San Joaquin,32137817.0,341898.8,93.99803977083278,221146.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2023,4,APT_RT_40,Adirondack,875675.0,14410.65,60.765822499332096,8786.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2023,4,APT_RT_41,Blue Water,9404614.0,57643.0,163.1527505508041,49967.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2023,4,APT_RT_45,Lake Shore Ltd,43829985.0,208766.2,209.94770705219523,100371.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2023,4,APT_RT_46,Washington-Lynchburg/Roanoke,12416514.0,81671.4,152.0301353962342,90377.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2023,4,APT_RT_47,Washington-Newport News,12679705.0,68494.3,185.12058667655555,105506.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2023,4,APT_RT_48,Palmetto,23179716.0,147506.3,157.14390503998814,86955.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2023,4,APT_RT_50,Washington-Norfolk,19747758.0,113582.6,173.86252823936059,143980.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2023,4,APT_RT_51,Washington-Richmond,3328315.0,21178.2,157.15759601854737,39785.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2023,4,APT_RT_52,Crescent,30561394.0,233773.8,130.73062079668466,67448.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2023,4,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2023,4,APT_RT_56,Missouri River Runner,8818766.0,101609.8,86.79050642752962,47310.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2023,4,APT_RT_57,Pennsylvanian,10539576.0,63965.8,164.76892339343837,49328.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2023,4,APT_RT_63,Auto Train,41396856.0,154620.0,267.73286767559176,65759.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2023,4,APT_RT_64,Gulf Coast Limited,0.0,7642.6,0.0,0.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2023,4,APT_RT_65,Pere Marquette,3467572.0,32059.3,108.16118879701054,23368.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2023,4,APT_RT_66,Carolinian,19565314.0,87456.9,223.71378358940234,84197.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2023,4,APT_RT_67,Piedmont,9151136.0,122695.9,74.58387770088487,79393.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2023,4,APT_RT_96,Non-NEC Special Trains,0.0,32967.9,0.0,0.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2023,4,APT_RT_99,NEC Special Trains,0.0,9728.3,0.0,0.0,route,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2023,4,LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY23 Q4 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2024,1,APT_All_APT,System-wide (Total Amtrak),1646082853.0,9603293.87,171.4081517532484,8355960.0,aggregate,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2024,1,APT_RT_NTS,National Train Service,1646082853.0,9603293.87,171.4081517532484,8355960.0,aggregate,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2024,1,APT_RT_01,Acela Express,157213276.0,734796.3,213.95490968041074,810587.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2024,1,APT_RT_03,Ethan Allen,2111026.0,30574.8,69.04463806795138,22607.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2024,1,APT_RT_04,Vermonter,3110825.0,42576.6,73.064194886393,29436.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2024,1,APT_RT_05,Northeast Regional,476004221.0,1439188.9,330.7447833984823,2715289.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2024,1,APT_RT_07,Empire West/Maple Leaf,25353921.0,189646.3,133.6905650149779,130521.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2024,1,APT_RT_09,Downeaster,12989598.0,130894.7,99.23700501242602,149726.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2024,1,APT_RT_11,Berkshire Flyer,2867.0,294.6,9.731839782756278,61.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2024,1,APT_RT_12,New Haven - Springfield,9091794.0,120298.4,75.5770151556463,160789.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2024,1,APT_RT_14,Keystone,21709399.0,209636.3,103.55744210329986,342215.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2024,1,APT_RT_15,Empire South,57326436.0,266183.8,215.36410555413215,338789.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2024,1,APT_RT_16,Silver Star,40594874.0,281217.5,144.35401068567924,101737.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2024,1,APT_RT_17,Borealis,0.0,0.0,,0.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2024,1,APT_RT_18,Cardinal,8371609.0,90628.8,92.37250189785145,24752.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2024,1,APT_RT_19,Silver Meteor,37223741.0,258438.3,144.0333766318692,75722.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2024,1,APT_RT_20,Lincoln Service,30518991.0,208684.74,146.24447863317653,153833.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2024,1,APT_RT_21,Hiawatha,14485681.0,105732.8,137.0027181726011,180212.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2024,1,APT_RT_22,Wolverine,25330494.0,160260.58,158.0581700128628,115605.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2024,1,APT_RT_23,Illini / Saluki,12745344.0,112239.48,113.5549095558889,80916.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2024,1,APT_RT_24,Illinois Zephyr/Carl Sandburg,6114567.0,95054.4,64.32702747058526,36928.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2024,1,APT_RT_25,Empire Builder,58819853.0,468496.4,125.55027744076581,96082.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2024,1,APT_RT_26,Capitol Limited,15559930.0,143532.88,108.40672882756898,36536.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2024,1,APT_RT_27,California Zephyr,56582232.0,440152.4,128.55145626832888,83533.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2024,1,APT_RT_28,Southwest Chief,53566211.0,416150.0,128.71851736152828,67461.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2024,1,APT_RT_29,Heartland Flyer,3818562.0,37986.0,100.52550939819933,21291.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2024,1,APT_RT_30,City of New Orleans,25416120.0,168596.68,150.75101122987712,62546.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2024,1,APT_RT_32,Texas Eagle,35238356.0,240356.76,146.60854972416834,85969.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2024,1,APT_RT_33,Sunset Limited,13835598.0,156212.1,88.56931057197234,21070.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2024,1,APT_RT_34,Coast Starlight,41150316.0,255099.6,161.31078214156352,98393.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2024,1,APT_RT_35,Pacific Surfliner,51291574.0,335571.55,152.84839850100522,507612.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2024,1,APT_RT_36,Cascades,30787522.0,239315.3,128.64836473054586,203125.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2024,1,APT_RT_37,Capitol Corridor,19892069.0,252631.5,78.73946439774929,263179.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2024,1,APT_RT_39,San Joaquin,35217629.0,340687.25,103.3723128763991,242676.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2024,1,APT_RT_40,Adirondack,4276985.0,44608.8,95.87760710891123,24451.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2024,1,APT_RT_41,Blue Water,8645439.0,57321.0,150.82498560736903,45934.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2024,1,APT_RT_45,Lake Shore Ltd,40017529.0,207900.2,192.48432180440423,102487.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2024,1,APT_RT_46,Washington-Lynchburg/Roanoke,12267376.0,81730.4,150.09563149085287,89543.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2024,1,APT_RT_47,Washington-Newport News,11296777.0,69629.6,162.24101531532565,95874.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2024,1,APT_RT_48,Palmetto,23793939.0,152579.8,155.94422721749538,99199.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2024,1,APT_RT_50,Washington-Norfolk,17262364.0,115096.7,149.98139825034082,131335.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2024,1,APT_RT_51,Washington-Richmond,3190098.0,21301.2,149.7614218917244,37772.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2024,1,APT_RT_52,Crescent,32691272.0,253736.0,128.83970741242865,83455.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2024,1,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2024,1,APT_RT_56,Missouri River Runner,8844908.0,102114.0,86.61797598762168,50164.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2024,1,APT_RT_57,Pennsylvanian,12265055.0,64160.8,191.16119188040048,57652.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2024,1,APT_RT_63,Auto Train,54983340.0,157959.9,348.08416566483015,64308.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2024,1,APT_RT_64,Mardi Gras Service,0.0,1562.7,0.0,0.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2024,1,APT_RT_65,Pere Marquette,3540180.0,32411.6,109.22570931394934,23408.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2024,1,APT_RT_66,Carolinian,19951634.0,87957.1,226.83369506270668,92158.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2024,1,APT_RT_67,Piedmont,11581321.0,126557.0,91.5107105889046,99022.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2024,1,APT_RT_96,Non-NEC Special Trains,0.0,39045.25,0.0,0.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2024,1,APT_RT_99,NEC Special Trains,0.0,16486.1,0.0,0.0,route,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2024,1,LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY24 Q1 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2024,2,APT_All_APT,System-wide (Total Amtrak),1441356252.0,9335221.78,154.39978673972115,7361846.0,aggregate,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2024,2,APT_RT_NTS,National Train Service,1441356252.0,9335221.78,154.39978673972115,7361846.0,aggregate,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2024,2,APT_RT_01,Acela Express,148920890.0,761947.4,195.44773038138854,756070.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2024,2,APT_RT_03,Ethan Allen,2033902.0,30560.4,66.5535136974647,20878.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2024,2,APT_RT_04,Vermonter,2591898.0,41815.05,61.9848116886145,25126.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2024,2,APT_RT_05,Northeast Regional,422212031.0,1466644.2,287.87624905890607,2466051.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2024,2,APT_RT_07,Empire West/Maple Leaf,20176544.0,186220.5,108.34759868005939,106913.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2024,2,APT_RT_09,Downeaster,11430031.0,130552.0,87.55155799987745,129820.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2024,2,APT_RT_11,Berkshire Flyer,0.0,0.0,,0.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2024,2,APT_RT_12,New Haven - Springfield,7640518.0,116474.2,65.59837285853862,137546.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2024,2,APT_RT_14,Keystone,18459937.0,203802.3,90.57766767107142,300403.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2024,2,APT_RT_15,Empire South,52051399.0,283006.0,183.9233055129573,313466.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2024,2,APT_RT_16,Silver Star,36776389.0,281208.2,130.7799310261934,88699.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2024,2,APT_RT_17,Borealis,0.0,0.0,,0.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2024,2,APT_RT_18,Cardinal,7311648.0,89481.6,81.7111897865036,20325.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2024,2,APT_RT_19,Silver Meteor,34746463.0,256600.2,135.41089601644893,68456.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2024,2,APT_RT_20,Lincoln Service,25071544.0,187274.0,133.87626686032232,124290.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2024,2,APT_RT_21,Hiawatha,11826436.0,99302.0,119.09564762039032,146934.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2024,2,APT_RT_22,Wolverine,20662738.0,152525.06,135.47110225690128,93988.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2024,2,APT_RT_23,Illini / Saluki,10195104.0,106792.3,95.46665817666629,65814.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2024,2,APT_RT_24,Illinois Zephyr/Carl Sandburg,4993735.0,86013.9,58.05730236624546,30094.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2024,2,APT_RT_25,Empire Builder,45914191.0,412109.2,111.41268139609598,77844.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2024,2,APT_RT_26,Capitol Limited,14469160.0,138852.46,104.20528379547615,35787.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2024,2,APT_RT_27,California Zephyr,48475521.0,403951.0,120.00346824243535,95119.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2024,2,APT_RT_28,Southwest Chief,49311352.0,399553.15,123.41625137982268,58032.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2024,2,APT_RT_29,Heartland Flyer,3066015.0,37260.0,82.28703703703704,16879.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2024,2,APT_RT_30,City of New Orleans,22534868.0,166441.29,135.39229358292044,55220.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2024,2,APT_RT_32,Texas Eagle,31817807.0,231381.82,137.5121303825858,76680.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2024,2,APT_RT_33,Sunset Limited,12117985.0,153186.1,79.10629619789263,18402.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2024,2,APT_RT_34,Coast Starlight,32909537.0,231855.25,141.94001214119587,74443.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2024,2,APT_RT_35,Pacific Surfliner,30222275.0,271163.2,111.45419068664184,370586.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2024,2,APT_RT_36,Cascades,28297869.0,262236.9,107.90956192663961,185968.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2024,2,APT_RT_37,Capitol Corridor,18114102.0,249973.2,72.46417615968431,244554.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2024,2,APT_RT_39,San Joaquin,30066507.0,336914.3,89.24081583951765,209395.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2024,2,APT_RT_40,Adirondack,3603274.0,43880.2,82.11617084698794,20365.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2024,2,APT_RT_41,Blue Water,7067530.0,56047.2,126.0996089010691,36670.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2024,2,APT_RT_45,Lake Shore Ltd,33751948.0,205502.3,164.24121773819564,90722.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2024,2,APT_RT_46,Washington-Lynchburg/Roanoke,10207829.0,80893.1,126.18911872582457,75176.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2024,2,APT_RT_47,Washington-Newport News,9635091.0,68343.5,140.98035658109404,82971.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2024,2,APT_RT_48,Palmetto,20524862.0,149635.5,137.16572604762908,82239.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2024,2,APT_RT_50,Washington-Norfolk,14578881.0,113593.4,128.3426765991686,112238.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2024,2,APT_RT_51,Washington-Richmond,2841004.0,20720.3,137.11210745018172,33045.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2024,2,APT_RT_52,Crescent,24214093.0,215757.4,112.22833145004529,67648.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2024,2,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2024,2,APT_RT_56,Missouri River Runner,7108716.0,94582.6,75.15881356613161,37122.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2024,2,APT_RT_57,Pennsylvanian,10594160.0,63463.4,166.9333820753379,50409.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2024,2,APT_RT_63,Auto Train,61599330.0,154341.0,399.1119015686046,72046.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2024,2,APT_RT_64,Mardi Gras Service,0.0,248.1,0.0,0.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2024,2,APT_RT_65,Pere Marquette,2965167.0,31002.4,95.64314375661239,19462.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2024,2,APT_RT_66,Carolinian,18007384.0,86814.0,207.42488538714954,80438.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2024,2,APT_RT_67,Piedmont,10212632.0,124951.1,81.73302996132087,87513.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2024,2,APT_RT_96,Non-NEC Special Trains,25955.0,34622.6,0.7496548497224357,0.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2024,2,APT_RT_99,NEC Special Trains,0.0,15726.5,0.0,0.0,route,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2024,2,LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY24 Q2 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2024,3,APT_All_APT,System-wide (Total Amtrak),1697506255.0,9716759.82,174.6987973816152,8399644.0,aggregate,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2024,3,APT_RT_NTS,National Train Service,1697506255.0,9716759.82,174.6987973816152,8399644.0,aggregate,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2024,3,APT_RT_01,Acela Express,167702600.0,782850.99,214.22033329740057,829671.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2024,3,APT_RT_03,Ethan Allen,2012501.0,30560.4,65.85322836088532,20921.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2024,3,APT_RT_04,Vermonter,2814715.0,41590.5,67.67687332443707,27713.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2024,3,APT_RT_05,Northeast Regional,485207969.0,1542061.9,314.64882765082257,2791753.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2024,3,APT_RT_07,Empire West/Maple Leaf,24736829.0,190324.1,129.9721317478974,124213.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2024,3,APT_RT_09,Downeaster,12874963.0,130352.8,98.77012998570034,146241.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2024,3,APT_RT_11,Berkshire Flyer,4802.0,343.7,13.971486761710795,98.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2024,3,APT_RT_12,New Haven - Springfield,8229321.0,113662.03,72.40167186878503,144191.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2024,3,APT_RT_14,Keystone,20289201.0,195810.5,103.61651188266207,316058.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2024,3,APT_RT_15,Empire South,56810442.0,301040.0,188.7139317034281,347387.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2024,3,APT_RT_16,Silver Star,41426348.0,276600.2,149.76976878541663,100763.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2024,3,APT_RT_17,Borealis,5599410.0,33562.6,166.83481017561215,26043.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2024,3,APT_RT_18,Cardinal,8568854.0,89486.9,95.75540106987728,23882.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2024,3,APT_RT_19,Silver Meteor,37924291.0,252926.0,149.94224002277346,77708.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2024,3,APT_RT_20,Lincoln Service,30615983.0,205545.46,148.9499354546678,149468.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2024,3,APT_RT_21,Hiawatha,13604876.0,99459.8,136.7876870856366,168658.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2024,3,APT_RT_22,Wolverine,22589528.0,145901.6,154.8271437736118,103178.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2024,3,APT_RT_23,Illini / Saluki,11640510.0,108929.95,106.862345938835,72658.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2024,3,APT_RT_24,Illinois Zephyr/Carl Sandburg,5977221.0,92729.7,64.4585391735334,37134.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2024,3,APT_RT_25,Empire Builder,73828579.0,469832.1,157.13821809961473,100116.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2024,3,APT_RT_26,Capitol Limited,18321624.0,140296.76,130.59192528751197,44903.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2024,3,APT_RT_27,California Zephyr,66600683.0,437364.0,152.27746911039776,84475.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2024,3,APT_RT_28,Southwest Chief,55941542.0,399200.0,140.13412324649298,65701.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2024,3,APT_RT_29,Heartland Flyer,3920776.0,37260.0,105.22748255501878,21382.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2024,3,APT_RT_30,City of New Orleans,25783881.0,168804.09,152.74440921425543,63658.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2024,3,APT_RT_32,Texas Eagle,33194326.0,217594.3,152.55145010691916,78452.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2024,3,APT_RT_33,Sunset Limited,13718574.0,151626.0,90.4763958687824,19788.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2024,3,APT_RT_34,Coast Starlight,43624019.0,251851.05,173.2135680990808,93340.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2024,3,APT_RT_35,Pacific Surfliner,50726315.0,348022.25,145.75595382191798,521934.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2024,3,APT_RT_36,Cascades,37930310.0,295473.5,128.3712752581873,250694.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2024,3,APT_RT_37,Capitol Corridor,19490214.0,250699.3,77.74339218338464,264776.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2024,3,APT_RT_39,San Joaquin,32924075.0,335225.4,98.2147385013188,228912.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2024,3,APT_RT_40,Adirondack,2038237.0,26713.9,76.29874335083981,14202.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2024,3,APT_RT_41,Blue Water,7907154.0,56684.1,139.49509650854472,41225.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2024,3,APT_RT_45,Lake Shore Ltd,40216097.0,212021.4,189.67942386947732,102472.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2024,3,APT_RT_46,Washington-Lynchburg/Roanoke,11158073.0,81790.8,136.42210370848554,83025.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2024,3,APT_RT_47,Washington-Newport News,11151721.0,68801.3,162.08590535353255,94738.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2024,3,APT_RT_48,Palmetto,24204565.0,150853.8,160.45048252016193,89666.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2024,3,APT_RT_50,Washington-Norfolk,17187761.0,114149.4,150.57250410427037,131227.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2024,3,APT_RT_51,Washington-Richmond,3307918.0,20937.7,157.98860428795905,38583.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2024,3,APT_RT_52,Crescent,31566760.0,248232.2,127.16625804387988,80130.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2024,3,APT_RT_54,Hoosier State,0.0,0.0,,0.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2024,3,APT_RT_56,Missouri River Runner,8724417.0,95984.0,90.8944928321387,47656.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2024,3,APT_RT_57,Pennsylvanian,11808420.0,63514.4,185.9172093257592,61846.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2024,3,APT_RT_63,Auto Train,60259545.0,152482.1,395.1909437238863,70479.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2024,3,APT_RT_64,Mardi Gras Service,0.0,281.9,0.0,0.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2024,3,APT_RT_65,Pere Marquette,3665011.0,31707.0,115.58996436118207,24211.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2024,3,APT_RT_66,Carolinian,19618474.0,86705.5,226.26562328802672,85960.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2024,3,APT_RT_67,Piedmont,10056820.0,126014.2,79.80703761956985,88355.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2024,3,APT_RT_96,Non-NEC Special Trains,0.0,26827.44,0.0,0.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2024,3,APT_RT_99,NEC Special Trains,0.0,16070.8,0.0,0.0,route,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2024,3,LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY24 Q3 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2024,4,APT_All_APT,System-wide (Total Amtrak),1759146582.0,9877356.05,178.09893387411097,8694265.0,aggregate,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2024,4,APT_RT_NTS,National Train Service,1759146582.0,9877356.05,178.09893387411097,8694265.0,aggregate,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2024,4,APT_RT_01,Acela Express,169087336.0,775797.4,217.95295524321168,841802.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2024,4,APT_RT_03,Ethan Allen,2213913.0,30925.2,71.5892864072019,24575.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2024,4,APT_RT_04,Vermonter,2771798.0,36750.0,75.42307482993198,26861.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2024,4,APT_RT_05,Northeast Regional,492250196.0,1559963.1,315.5524614652744,2841314.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2024,4,APT_RT_07,Empire West/Maple Leaf,29710636.0,192740.0,154.14878074089447,144961.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2024,4,APT_RT_09,Downeaster,14418862.0,126686.4,113.81538981295546,166161.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2024,4,APT_RT_11,Berkshire Flyer,32683.0,1767.6,18.490042996152976,667.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2024,4,APT_RT_12,New Haven - Springfield,7731381.0,106242.0,72.77141808324392,134607.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2024,4,APT_RT_14,Keystone,18673217.0,197881.8,94.3655101176561,310329.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2024,4,APT_RT_15,Empire South,59306820.0,303212.2,195.59509808642264,357069.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2024,4,APT_RT_16,Silver Star,39555274.0,263295.5,150.2314851564117,96923.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2024,4,APT_RT_17,Borealis,14862199.0,75863.2,195.90788419154478,62401.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2024,4,APT_RT_18,Cardinal,8870742.0,89489.4,99.12617583758524,24003.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2024,4,APT_RT_19,Silver Meteor,39951556.0,246162.2,162.29768827220425,76442.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2024,4,APT_RT_20,Lincoln Service,32361318.0,207241.96,156.15234482437825,158579.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2024,4,APT_RT_21,Hiawatha,13663346.0,91829.1,148.7910259384008,169475.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2024,4,APT_RT_22,Wolverine,25032119.0,135901.94,184.192506744201,113061.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2024,4,APT_RT_23,Illini / Saluki,12622989.0,110947.41,113.77452614711781,77228.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2024,4,APT_RT_24,Illinois Zephyr/Carl Sandburg,6009163.0,88596.9,67.82588329839983,37566.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2024,4,APT_RT_25,Empire Builder,89860385.0,473221.3,189.89082908989937,113911.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2024,4,APT_RT_26,Capitol Limited,18787657.0,143514.48,130.9112293059209,45910.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2024,4,APT_RT_27,California Zephyr,69227233.0,503612.25,137.46137628701447,88028.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2024,4,APT_RT_28,Southwest Chief,60159176.0,409363.25,146.95793039555946,70291.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2024,4,APT_RT_29,Heartland Flyer,3806084.0,37515.2,101.45445046274577,20819.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2024,4,APT_RT_30,City of New Orleans,24449286.0,161431.89,151.45264049129324,60344.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2024,4,APT_RT_32,Texas Eagle,35359597.0,235062.32,150.42647839092203,84608.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2024,4,APT_RT_33,Sunset Limited,11791296.0,146838.6,80.30106525123503,17677.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2024,4,APT_RT_34,Coast Starlight,44997809.0,252553.3,178.17153448400794,93256.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2024,4,APT_RT_35,Pacific Surfliner,56314936.0,384863.55,146.32442069403558,583937.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2024,4,APT_RT_36,Cascades,45162480.0,298783.0,151.15478457609703,301940.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2024,4,APT_RT_37,Capitol Corridor,19198401.0,300648.3,63.85667572376096,260123.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2024,4,APT_RT_39,San Joaquin,33055672.0,341100.8,96.90880818807813,228568.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2024,4,APT_RT_40,Adirondack,1017473.0,15345.9,66.30259548152927,11994.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2024,4,APT_RT_41,Blue Water,9716396.0,58276.3,166.72980268136445,51033.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2024,4,APT_RT_45,Lake Shore Ltd,40982922.0,204815.9,200.09638900104923,102739.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2024,4,APT_RT_46,Washington-Lynchburg/Roanoke,11760361.0,82689.6,142.22297604535515,86725.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2024,4,APT_RT_47,Washington-Newport News,11924992.0,69071.7,172.6465687104849,99495.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2024,4,APT_RT_48,Palmetto,24033911.0,141476.6,169.87905420401677,86092.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2024,4,APT_RT_50,Washington-Norfolk,17894684.0,115476.2,154.96426103387537,133012.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2024,4,APT_RT_51,Washington-Richmond,3341391.0,21401.4,156.12955227228124,39409.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2024,4,APT_RT_52,Crescent,29804210.0,242973.0,122.66469936988884,71865.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2024,4,APT_RT_54,Hoosier State,,,,0.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2024,4,APT_RT_56,Missouri River Runner,9686307.0,100164.2,96.70428156966261,52808.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2024,4,APT_RT_57,Pennsylvanian,12336523.0,63525.1,194.19919055617387,64035.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2024,4,APT_RT_63,Auto Train,51095655.0,147137.4,347.26490341680636,59753.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2024,4,APT_RT_64,Mardi Gras Service,0.0,0.0,,0.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2024,4,APT_RT_65,Pere Marquette,4076348.0,32235.4,126.45563572966365,27300.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2024,4,APT_RT_66,Carolinian,20432853.0,87291.0,234.07743066295495,88804.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2024,4,APT_RT_67,Piedmont,9746996.0,117645.5,82.85056376996995,85765.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2024,4,APT_RT_96,Non-NEC Special Trains,0.0,29244.1,0.0,0.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2024,4,APT_RT_99,NEC Special Trains,0.0,18785.2,0.0,0.0,route,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2024,4,LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY24 Q4 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2025,1,APT_All_APT,System-wide (Total Amtrak),1762854343.0,9843746.82,179.08367364937976,8934572.0,aggregate,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2025,1,APT_RT_NTS,National Train Service,1762854343.0,9843746.82,179.08367364937976,8934572.0,aggregate,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2025,1,APT_RT_01,Acela Express,163715995.0,764279.2,214.20966971232502,821747.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2025,1,APT_RT_03,Ethan Allen,2309624.0,31224.8,73.96761548512721,22214.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2025,1,APT_RT_04,Vermonter,3999272.0,44463.6,89.94485376802598,32015.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2025,1,APT_RT_05,Northeast Regional,528892009.0,1581771.5,334.3668848503087,3043202.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2025,1,APT_RT_07,Empire West/Maple Leaf,24178772.0,191257.1,126.4202583851789,125893.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2025,1,APT_RT_09,Downeaster,12748772.0,130351.7,97.80288250939574,145814.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2025,1,APT_RT_11,Berkshire Flyer,0.0,0.0,,0.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2025,1,APT_RT_12,New Haven - Springfield,8288103.0,112301.1,73.8025095034688,138920.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2025,1,APT_RT_14,Keystone,21273479.0,204932.1,103.80745134607999,346435.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2025,1,APT_RT_15,Empire South,59657997.0,286066.8,208.5456858328195,378632.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2025,1,APT_RT_16,Silver Star,14319814.0,110403.2,129.70470058838873,38138.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2025,1,APT_RT_17,Borealis,13654922.0,75863.2,179.99401554376826,61034.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2025,1,APT_RT_18,Cardinal,9615293.0,90636.7,106.08608874771478,29101.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2025,1,APT_RT_19,Silver Meteor,41112400.0,246908.4,166.50871335280615,82881.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2025,1,APT_RT_20,Lincoln Service,30555389.0,206184.2,148.19461918032516,160978.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2025,1,APT_RT_21,Hiawatha,12983765.0,91142.7,142.45534749354584,160849.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2025,1,APT_RT_22,Wolverine,24633145.0,159431.96,154.50569007619302,113463.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2025,1,APT_RT_23,Illini / Saluki,13710148.0,113653.42,120.63119613998417,86463.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2025,1,APT_RT_24,Illinois Zephyr/Carl Sandburg,6303371.0,92811.6,67.91576699464291,39329.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2025,1,APT_RT_25,Empire Builder,61655875.0,473246.75,130.2827224909627,97487.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2025,1,APT_RT_26,Capitol Limited,7384339.0,63177.64,116.88215957417846,18503.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2025,1,APT_RT_27,California Zephyr,62022931.0,455444.0,136.18124511465734,90731.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2025,1,APT_RT_28,Southwest Chief,58020841.0,406019.7,142.90154147692834,73069.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2025,1,APT_RT_29,Heartland Flyer,3751454.0,38115.2,98.42409327512384,20999.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2025,1,APT_RT_30,City of New Orleans,25707633.0,170659.08,150.6373584106981,66435.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2025,1,APT_RT_31,Floridian,37968535.0,215089.68,176.52420608929262,86953.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2025,1,APT_RT_32,Texas Eagle,39381367.0,235654.2,167.11506520995593,98440.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2025,1,APT_RT_33,Sunset Limited,15686272.0,149872.7,104.66397149047157,24747.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2025,1,APT_RT_34,Coast Starlight,44837134.0,246680.85,181.7617135663348,101939.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2025,1,APT_RT_35,Pacific Surfliner,52964221.0,370332.9,143.01786581748473,531223.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2025,1,APT_RT_36,Cascades,38343130.0,300715.2,127.50645793761007,257292.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2025,1,APT_RT_37,Capitol Corridor,20509913.0,252666.4,81.1738838246795,274567.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2025,1,APT_RT_39,San Joaquin,34855627.0,340870.6,102.25471777266799,240386.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2025,1,APT_RT_40,Adirondack,4197403.0,44012.2,95.36907948250713,13857.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2025,1,APT_RT_41,Blue Water,8614737.0,58594.8,147.02221016199388,45110.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2025,1,APT_RT_45,Lake Shore Ltd,39085124.0,206491.3,189.2821828328845,101033.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2025,1,APT_RT_46,Washington-Lynchburg/Roanoke,13466710.0,78206.6,172.19403477455865,98535.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2025,1,APT_RT_47,Washington-Newport News,12336093.0,67367.8,183.1155685653977,104738.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2025,1,APT_RT_48,Palmetto,26291171.0,152517.6,172.38122682234706,100219.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2025,1,APT_RT_50,Washington-Norfolk,18129694.0,110620.1,163.89149892289012,139043.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2025,1,APT_RT_51,Washington-Richmond,3251294.0,20483.1,158.73056324482135,38103.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2025,1,APT_RT_52,Crescent,30616773.0,249977.5,122.47811503035273,82102.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2025,1,APT_RT_54,Hoosier State,,,,0.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2025,1,APT_RT_56,Missouri River Runner,9838597.0,101556.0,96.8785399188625,47896.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2025,1,APT_RT_57,Pennsylvanian,13108386.0,64915.2,201.93091910677316,64733.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2025,1,APT_RT_63,Auto Train,52700490.0,147992.5,356.1024376235282,61638.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2025,1,APT_RT_64,Mardi Gras Service,0.0,213.8,0.0,0.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2025,1,APT_RT_65,Pere Marquette,3629761.0,32411.6,111.98956546421653,23823.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2025,1,APT_RT_66,Carolinian,18886881.0,83013.6,227.5155034837665,87848.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2025,1,APT_RT_67,Piedmont,13659687.0,127073.3,107.49454842205246,116015.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2025,1,APT_RT_96,Non-NEC Special Trains,0.0,33177.84,0.0,0.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2025,1,APT_RT_99,NEC Special Trains,0.0,12893.8,0.0,0.0,route,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2025,1,LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY25 Q1 Financial Metrics.xlsx,Average & Total Ridership,57,ridership
+2025,2,APT_All_APT,System-wide (Total Amtrak),1538758126.0,9419760.65,163.35427015335043,7733796.0,aggregate,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2025,2,APT_RT_NTS,National Train Service,1538758126.0,9419760.65,163.35427015335043,7733796.0,aggregate,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2025,2,APT_RT_01,Acela Express,145025168.0,710511.9,204.11363694260433,717168.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2025,2,APT_RT_03,Ethan Allen,2027732.0,30376.3,66.75375210279067,19380.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2025,2,APT_RT_04,Vermonter,2688214.0,43016.9,62.49204382463636,25453.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2025,2,APT_RT_05,Northeast Regional,459960325.0,1541350.4,298.4138616371722,2703732.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2025,2,APT_RT_07,Empire West/Maple Leaf,17968942.0,188229.1,95.46314570913849,98052.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2025,2,APT_RT_09,Downeaster,10898038.0,128550.7,84.77618558280896,122073.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2025,2,APT_RT_11,Berkshire Flyer,0.0,0.0,,0.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2025,2,APT_RT_12,New Haven - Springfield,5967840.0,111937.4,53.31408447936079,107027.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2025,2,APT_RT_14,Keystone,17649999.0,207362.2,85.11676187849086,293296.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2025,2,APT_RT_15,Empire South,51053156.0,279896.6,182.40005773560665,313209.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2025,2,APT_RT_16,Silver Star,0.0,0.0,,0.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2025,2,APT_RT_17,Borealis,11664771.0,66912.4,174.3289883489458,47425.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2025,2,APT_RT_18,Cardinal,7995931.0,85216.3,93.83100416234922,21924.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2025,2,APT_RT_19,Silver Meteor,44687093.0,250139.2,178.64890029231722,80904.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2025,2,APT_RT_20,Lincoln Service,26156997.0,196717.14,132.9675543269895,122239.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2025,2,APT_RT_21,Hiawatha,10473024.0,84705.3,123.64071669659396,129448.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2025,2,APT_RT_22,Wolverine,22021475.0,153851.6,143.13452053797295,99381.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2025,2,APT_RT_23,Illini / Saluki,11491587.0,107278.64,107.1190593020195,72880.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2025,2,APT_RT_24,Illinois Zephyr/Carl Sandburg,4912015.0,90489.7,54.28258685795179,30592.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2025,2,APT_RT_25,Empire Builder,45742664.0,413759.05,110.55386945614845,72559.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2025,2,APT_RT_26,Capitol Limited,0.0,0.0,,1.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2025,2,APT_RT_27,California Zephyr,56608390.0,449352.9,125.97757797935652,124194.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2025,2,APT_RT_28,Southwest Chief,52720248.0,400754.55,131.55246272313065,61991.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2025,2,APT_RT_29,Heartland Flyer,3052130.0,36749.2,83.05296441827306,16865.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2025,2,APT_RT_30,City of New Orleans,21417766.0,156569.94,136.79360163259946,52250.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2025,2,APT_RT_31,Floridian,62113155.0,368134.26,168.72419046246878,136744.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2025,2,APT_RT_32,Texas Eagle,34644295.0,224876.52,154.0591921290849,83453.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2025,2,APT_RT_33,Sunset Limited,14936730.0,140595.3,106.23918438240824,21997.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2025,2,APT_RT_34,Coast Starlight,38737084.0,241001.3,160.73392135229147,86542.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2025,2,APT_RT_35,Pacific Surfliner,42472789.0,338917.15,125.31909052109047,434953.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2025,2,APT_RT_36,Cascades,30910220.0,274711.3,112.51892441264702,209702.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2025,2,APT_RT_37,Capitol Corridor,18363660.0,247001.3,74.34641032253677,249256.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2025,2,APT_RT_39,San Joaquin,29053131.0,333046.0,87.23458921590411,206591.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2025,2,APT_RT_40,Adirondack,3024580.0,42303.0,71.49800250573246,17794.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2025,2,APT_RT_41,Blue Water,7382710.0,57002.5,129.51554756370334,37859.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2025,2,APT_RT_45,Lake Shore Ltd,33270200.0,208815.4,159.32828708993685,85387.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2025,2,APT_RT_46,Washington-Lynchburg/Roanoke,11132986.0,75285.5,147.8768952852807,82891.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2025,2,APT_RT_47,Washington-Newport News,10182517.0,62826.8,162.07282560945328,87763.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2025,2,APT_RT_48,Palmetto,19164075.0,131110.5,146.1673550173327,76517.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2025,2,APT_RT_50,Washington-Norfolk,16128417.0,110605.1,145.81983109277962,124702.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2025,2,APT_RT_51,Washington-Richmond,2957151.0,20014.2,147.75264562160865,34029.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2025,2,APT_RT_52,Crescent,24969721.0,217161.0,114.98252909131935,70470.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2025,2,APT_RT_54,Hoosier State,,,,0.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2025,2,APT_RT_56,Missouri River Runner,7212143.0,92965.6,77.57862047897287,45681.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2025,2,APT_RT_57,Pennsylvanian,10609012.0,63504.0,167.06053162005543,51502.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2025,2,APT_RT_63,Auto Train,58798350.0,153981.0,381.85457946110233,68770.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2025,2,APT_RT_64,Mardi Gras Service,0.0,0.0,,0.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2025,2,APT_RT_65,Pere Marquette,2929581.0,31707.0,92.39540164632416,19106.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2025,2,APT_RT_66,Carolinian,16639963.0,80511.3,206.67860287934735,75956.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2025,2,APT_RT_67,Piedmont,10942151.0,124581.5,87.83126708219118,94088.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2025,2,APT_RT_96,Non-NEC Special Trains,0.0,26718.4,0.0,0.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2025,2,APT_RT_99,NEC Special Trains,0.0,18657.3,0.0,0.0,route,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2025,2,APT_RT_LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY25 Q2 Financial Metrics.xlsx,Average & Total Ridership,57,ridership
+2025,3,APT_All_APT,System-wide (Total Amtrak),1808299115.0,9617654.28,188.01872705700958,8853539.0,aggregate,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2025,3,APT_RT_NTS,National Train Service,1808299115.0,9617654.28,188.01872705700958,8853539.0,aggregate,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2025,3,APT_RT_01,Acela Express,168617811.0,736818.1,228.84591325864554,825663.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2025,3,APT_RT_03,Ethan Allen,1926151.0,30535.1,63.079898215496264,19887.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2025,3,APT_RT_04,Vermonter,2659301.0,43258.55,61.47457554633708,26969.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2025,3,APT_RT_05,Northeast Regional,541897881.0,1569914.5,345.1766838257752,3166346.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2025,3,APT_RT_07,Empire West/Maple Leaf,21512111.0,190170.4,113.12018589643814,113994.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2025,3,APT_RT_09,Downeaster,9798563.0,105599.3,92.79003743396026,118119.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2025,3,APT_RT_11,Berkshire Flyer,151636.0,308.4,491.686121919585,1275.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2025,3,APT_RT_12,New Haven - Springfield,6751409.0,107903.7,62.56883684248084,127660.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2025,3,APT_RT_14,Keystone,20100655.0,210432.8,95.52054147452299,337400.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2025,3,APT_RT_15,Empire South,56552251.0,248671.2,227.41777495745384,341829.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2025,3,APT_RT_16,Silver Star,0.0,0.0,,34.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2025,3,APT_RT_17,Borealis,12304852.0,74626.3,164.88626663790112,49831.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2025,3,APT_RT_18,Cardinal,9308257.0,89097.8,104.47235509743226,24504.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2025,3,APT_RT_19,Silver Meteor,48792471.0,250539.1,194.74992526116682,86318.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2025,3,APT_RT_20,Lincoln Service,32611959.0,204241.92,159.6731904987967,155856.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2025,3,APT_RT_21,Hiawatha,13246845.0,89940.6,147.28437435374013,163899.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2025,3,APT_RT_22,Wolverine,24498812.0,142567.08,171.84059601978242,110652.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2025,3,APT_RT_23,Illini / Saluki,12710895.0,110519.16,115.01078184090433,79728.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2025,3,APT_RT_24,Illinois Zephyr/Carl Sandburg,5843779.0,93762.9,62.325066737483596,36932.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2025,3,APT_RT_25,Empire Builder,73204462.0,470802.9,155.48855370262163,93818.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2025,3,APT_RT_26,Capitol Limited,0.0,0.0,,0.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2025,3,APT_RT_27,California Zephyr,73723470.0,444089.1,166.01053707465462,90954.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2025,3,APT_RT_28,Southwest Chief,70072691.0,404930.3,173.04877160340928,78874.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2025,3,APT_RT_29,Heartland Flyer,3906286.0,37001.6,105.57073207645075,21584.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2025,3,APT_RT_30,City of New Orleans,23304768.0,150726.23,154.61653887316095,57259.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2025,3,APT_RT_31,Floridian,68872944.0,364907.56,188.74079780643623,143743.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2025,3,APT_RT_32,Texas Eagle,35926421.0,220637.68,162.82994364335232,92015.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2025,3,APT_RT_33,Sunset Limited,16738983.0,150575.1,111.16700570014564,24113.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2025,3,APT_RT_34,Coast Starlight,46732688.0,249258.7,187.48668752585164,98708.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2025,3,APT_RT_35,Pacific Surfliner,41283461.0,339440.25,121.62217356368315,481650.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2025,3,APT_RT_36,Cascades,33677006.0,290772.9,115.8189294807047,229626.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2025,3,APT_RT_37,Capitol Corridor,21880000.0,260452.4,84.00767280316865,307737.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2025,3,APT_RT_39,San Joaquin,32450519.0,331570.5,97.86913793597441,228640.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2025,3,APT_RT_40,Adirondack,2820949.0,43492.6,64.8604360281979,18252.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2025,3,APT_RT_41,Blue Water,8784149.0,57639.5,152.39807770712792,45850.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2025,3,APT_RT_45,Lake Shore Ltd,40290342.0,192572.8,209.22135420994036,99049.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2025,3,APT_RT_46,Washington-Lynchburg/Roanoke,12612420.0,79099.9,159.44925341245693,93801.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2025,3,APT_RT_47,Washington-Newport News,12090658.0,68121.4,177.4869277495765,103788.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2025,3,APT_RT_48,Palmetto,25824955.0,147419.1,175.1805227409474,93360.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2025,3,APT_RT_50,Washington-Norfolk,19145436.0,114581.6,167.08996907007756,146776.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2025,3,APT_RT_51,Washington-Richmond,3587799.0,21184.8,169.35722782372267,41803.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2025,3,APT_RT_52,Crescent,33626782.0,250996.2,133.97327130848993,82183.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2025,3,APT_RT_54,Hoosier State,,,,0.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2025,3,APT_RT_56,Missouri River Runner,9391125.0,98212.8,95.62017374517374,49866.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2025,3,APT_RT_57,Pennsylvanian,12240212.0,64209.6,190.62900251675762,59459.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2025,3,APT_RT_63,Auto Train,61968690.0,152270.1,406.9655828688626,72478.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2025,3,APT_RT_64,Mardi Gras Service,0.0,0.0,,0.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2025,3,APT_RT_65,Pere Marquette,3958545.0,31883.2,124.15770688011241,25945.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2025,3,APT_RT_66,Carolinian,19450490.0,86538.3,224.7616373328341,85589.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2025,3,APT_RT_67,Piedmont,11447225.0,121969.8,93.85294556521369,99723.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2025,3,APT_RT_96,Non-NEC Special Trains,0.0,30811.25,0.0,0.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2025,3,APT_RT_99,NEC Special Trains,0.0,42579.2,0.0,0.0,route,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2025,3,APT_RT_LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY25 Q3 Financial Metrics.xlsx,Average & Total Ridership,57,ridership
+2025,4,APT_All_APT,System-wide (Total Amtrak),1822668753.0,9659183.83,188.69800855627778,8948630.0,aggregate,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2025,4,APT_RT_NTS,National Train Service,1822668753.0,9659183.83,188.69800855627778,8948630.0,aggregate,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2025,4,APT_RT_01,Acela Express,161742303.0,700898.1,230.76436218046533,789040.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2025,4,APT_RT_03,Ethan Allen,2266432.0,31236.8,72.556471853711,23822.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2025,4,APT_RT_04,Vermonter,2883943.0,41563.8,69.38593198889417,28368.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2025,4,APT_RT_05,Northeast Regional,530498689.0,1550530.7,342.1400743629262,3104050.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2025,4,APT_RT_07,Empire West/Maple Leaf,23605334.0,192573.2,122.57850001973274,124519.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2025,4,APT_RT_09,Downeaster,14114921.0,130143.5,108.45659598827449,163195.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2025,4,APT_RT_11,Berkshire Flyer,295004.0,1420.0,207.7492957746479,-1112.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2025,4,APT_RT_12,New Haven - Springfield,6290946.0,100245.9,62.75514509820352,103645.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2025,4,APT_RT_14,Keystone,20888494.0,214040.4,97.59136125703372,353558.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2025,4,APT_RT_15,Empire South,57074854.0,235579.5,242.27428108133347,332303.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2025,4,APT_RT_16,Silver Star,0.0,0.0,,0.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2025,4,APT_RT_17,Borealis,13640285.0,75622.8,180.37265216310425,54619.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2025,4,APT_RT_18,Cardinal,9305392.0,89970.7,103.42691565142874,23054.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2025,4,APT_RT_19,Silver Meteor,47879175.0,245241.5,195.23276036070567,81814.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2025,4,APT_RT_20,Lincoln Service,32406962.0,194911.1,166.26534866408326,153605.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2025,4,APT_RT_21,Hiawatha,14368545.0,91915.2,156.32392683691054,177796.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2025,4,APT_RT_22,Wolverine,25127795.0,138117.64,181.93038195555613,114931.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2025,4,APT_RT_23,Illini / Saluki,12988293.0,110786.36,117.23729347186783,80043.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2025,4,APT_RT_24,Illinois Zephyr/Carl Sandburg,6043190.0,86615.2,69.77054835640858,39196.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2025,4,APT_RT_25,Empire Builder,82789756.0,459532.6,180.16078946303267,100844.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2025,4,APT_RT_26,Capitol Limited,0.0,0.0,,0.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2025,4,APT_RT_27,California Zephyr,81445660.0,443851.9,183.49737829217358,97263.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2025,4,APT_RT_28,Southwest Chief,70863171.0,414142.9,171.10801851245066,80425.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2025,4,APT_RT_29,Heartland Flyer,3897750.0,36716.8,106.15712698274359,21319.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2025,4,APT_RT_30,City of New Orleans,23367399.0,162617.88,143.69513979643565,58745.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2025,4,APT_RT_31,Floridian,59876644.0,357072.34,167.68771280351763,136858.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2025,4,APT_RT_32,Texas Eagle,42008551.0,240200.96,174.88918861939604,98227.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2025,4,APT_RT_33,Sunset Limited,14056789.0,150575.1,93.3540074022863,20636.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2025,4,APT_RT_34,Coast Starlight,41951301.0,234644.4,178.7867130006086,88382.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2025,4,APT_RT_35,Pacific Surfliner,59856135.0,414025.1,144.5712711620624,595410.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2025,4,APT_RT_36,Cascades,38086330.0,297802.5,127.89123664173404,254777.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2025,4,APT_RT_37,Capitol Corridor,22153887.0,274145.8,80.81060151204214,307193.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2025,4,APT_RT_39,San Joaquin,32358661.0,311668.65,103.82392005099004,224148.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2025,4,APT_RT_40,Adirondack,4077558.0,44362.4,91.91472959082466,24983.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2025,4,APT_RT_41,Blue Water,9149470.0,55410.3,165.12218847398407,48920.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2025,4,APT_RT_45,Lake Shore Ltd,38817704.0,176684.5,219.70067549785068,97199.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2025,4,APT_RT_46,Washington-Lynchburg/Roanoke,11403529.0,80448.1,141.7501345588025,86716.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2025,4,APT_RT_47,Washington-Newport News,11726532.0,69632.0,168.4072265625,99691.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2025,4,APT_RT_48,Palmetto,24847355.0,148899.3,166.87355145390208,87013.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2025,4,APT_RT_50,Washington-Norfolk,19330959.0,115466.4,167.41631331712082,146658.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2025,4,APT_RT_51,Washington-Richmond,3498623.0,21417.6,163.3527099208128,41401.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2025,4,APT_RT_52,Crescent,33128173.0,251678.8,131.6287784271063,81458.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2025,4,APT_RT_54,Hoosier State,,,,0.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2025,4,APT_RT_56,Missouri River Runner,9869696.0,101556.0,97.1847650557328,53603.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2025,4,APT_RT_57,Pennsylvanian,12481745.0,64915.2,192.27769459232968,60309.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2025,4,APT_RT_63,Auto Train,53921430.0,154975.1,347.93608779733,63066.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2025,4,APT_RT_64,Mardi Gras Service,2480503.0,25379.2,97.73763554406759,18906.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2025,4,APT_RT_65,Pere Marquette,4208091.0,31707.0,132.71804333427949,28303.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2025,4,APT_RT_66,Carolinian,18177029.0,85691.2,212.12246998524938,80414.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2025,4,APT_RT_67,Piedmont,11261823.0,125886.3,89.46027486708243,98246.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2025,4,APT_RT_96,Non-NEC Special Trains,0.0,28372.8,0.0,0.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2025,4,APT_RT_99,NEC Special Trains,155942.0,48292.3,3.229127624900864,1071.0,route,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2025,4,APT_RT_LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY25 Q4 Financial Metrics.xlsx,Average & Total Ridership,57,ridership
+2026,1,APT_All_APT,System-wide (Total Amtrak),1858372278.0,9964754.35,186.49453992812175,9425533.0,aggregate,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2026,1,APT_RT_NTS,National Train Service,1858372278.0,9964754.35,186.49453992812175,9425533.0,aggregate,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2026,1,APT_RT_01,Acela Express,182857059.0,763123.9,239.61647512284702,888910.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2026,1,APT_RT_03,Ethan Allen,2518738.0,30998.0,81.25485515194529,23901.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2026,1,APT_RT_04,Vermonter,3371786.0,43497.0,77.5176678851415,32339.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2026,1,APT_RT_05,Northeast Regional,558899247.0,1601306.4,349.02704878966324,3270355.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2026,1,APT_RT_07,Empire West/Maple Leaf,22326178.0,192013.4,116.2740621227477,119038.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2026,1,APT_RT_09,Downeaster,11939711.0,124936.2,95.56646512379919,138951.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2026,1,APT_RT_11,Berkshire Flyer,0.0,0.0,,0.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2026,1,APT_RT_12,New Haven - Springfield,7658194.0,108697.8,70.45399262910564,145522.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2026,1,APT_RT_14,Keystone,23730749.0,213397.2,111.20459406215264,396519.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2026,1,APT_RT_15,Empire South,57039436.0,245253.6,232.57328740536326,341329.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2026,1,APT_RT_16,Silver Star,0.0,0.0,,0.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2026,1,APT_RT_17,Borealis,12542164.0,75863.2,165.32606059327844,53984.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2026,1,APT_RT_18,Cardinal,8664749.0,90636.7,95.59868132886568,25505.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2026,1,APT_RT_19,Silver Meteor,51766723.0,255704.8,202.44720865623174,96605.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2026,1,APT_RT_20,Lincoln Service,30809834.0,204730.74,150.4895356701197,146956.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2026,1,APT_RT_21,Hiawatha,12983344.0,91829.1,141.38594410704232,160484.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2026,1,APT_RT_22,Wolverine,24922168.0,155791.7,159.9710896023344,113008.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2026,1,APT_RT_23,Illini / Saluki,12551072.0,99824.24,125.7317060465474,80907.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2026,1,APT_RT_24,Illinois Zephyr/Carl Sandburg,6236710.0,94796.1,65.79078675177566,39352.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2026,1,APT_RT_25,Empire Builder,63578181.0,476397.0,133.45630010264549,97432.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2026,1,APT_RT_26,Capitol Limited,0.0,0.0,,0.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2026,1,APT_RT_27,California Zephyr,62908418.0,445815.5,141.10863799037944,89771.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2026,1,APT_RT_28,Southwest Chief,63748631.0,412512.95,154.53728422344074,76584.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2026,1,APT_RT_29,Heartland Flyer,3544372.0,38150.0,92.9062123197903,19640.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2026,1,APT_RT_30,City of New Orleans,24972799.0,169032.69,147.7394638871333,65704.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2026,1,APT_RT_31,Floridian,68428761.0,380543.28,179.81860302460208,159147.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2026,1,APT_RT_32,Texas Eagle,41469060.0,240193.22,172.64875336614415,100041.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2026,1,APT_RT_33,Sunset Limited,17787825.0,154297.1,115.28295087853239,26628.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2026,1,APT_RT_34,Coast Starlight,49753508.0,249443.9,199.4577057206049,109767.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2026,1,APT_RT_35,Pacific Surfliner,61942729.0,412364.8,150.2134251032096,623608.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2026,1,APT_RT_36,Cascades,32453416.0,297845.2,108.96068158895963,221514.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2026,1,APT_RT_37,Capitol Corridor,24296420.0,279359.2,86.97197013737153,332419.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2026,1,APT_RT_39,Gold Runner,35383422.0,343052.95,103.14274225013952,241193.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2026,1,APT_RT_40,Adirondack,3680613.0,44362.4,82.96694948875624,21301.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2026,1,APT_RT_41,Blue Water,8546037.0,57957.9,147.45249569083765,44774.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2026,1,APT_RT_45,Lake Shore Ltd,36676936.0,189297.0,193.75339281657924,94768.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2026,1,APT_RT_46,Washington-Lynchburg/Roanoke,13248688.0,82273.8,161.03167715603266,99107.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2026,1,APT_RT_47,Washington-Newport News,11764445.0,64569.4,182.198456234687,102763.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2026,1,APT_RT_48,Palmetto,24237013.0,152517.6,158.9128926759928,89720.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2026,1,APT_RT_50,Washington-Norfolk,20279693.0,114149.1,177.6596836943962,157523.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2026,1,APT_RT_51,Washington-Richmond,2848409.0,19790.2,143.93027862275267,33229.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2026,1,APT_RT_52,Crescent,35558999.0,252716.6,140.70701726756374,90166.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2026,1,APT_RT_54,Hoosier State,,,,0.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2026,1,APT_RT_56,Missouri River Runner,10289551.0,100999.6,101.87714604810316,56586.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2026,1,APT_RT_57,Pennsylvanian,13188037.0,64915.2,203.1579198708469,63833.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2026,1,APT_RT_63,Auto Train,54871335.0,157402.8,348.6045673901608,64177.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2026,1,APT_RT_64,Mardi Gras Service,5296247.0,53065.6,99.80565564131943,40126.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2026,1,APT_RT_65,Pere Marquette,3736944.0,32411.6,115.29649878438585,24573.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2026,1,APT_RT_66,Carolinian,19145964.0,87775.0,218.12547992025065,87479.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2026,1,APT_RT_67,Piedmont,13917963.0,127118.0,109.48853034188707,118295.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2026,1,APT_RT_96,Non-NEC Special Trains,0.0,35448.28,0.0,0.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2026,1,APT_RT_99,NEC Special Trains,0.0,36576.4,0.0,0.0,route,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2026,1,APT_RT_LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY26 Q1 Financial Metrics.xlsx,Average & Total Ridership,57,ridership
+2026,2,APT_All_APT,System-wide (Total Amtrak),1564061820.0,9115100.33,171.5901924691157,8056350.0,aggregate,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2026,2,APT_RT_NTS,National Train Service,1564061820.0,9115100.33,171.5901924691157,8056350.0,aggregate,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2026,2,APT_RT_01,Acela Express,123634642.0,513677.1,240.68552403835017,615966.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2026,2,APT_RT_03,Ethan Allen,2068336.0,26962.8,76.71072737252808,19474.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2026,2,APT_RT_04,Vermonter,2603885.0,39640.2,65.6879884561632,24030.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2026,2,APT_RT_05,Northeast Regional,491913842.0,1455929.6,337.8692499967031,2906250.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2026,2,APT_RT_07,Empire West/Maple Leaf,19229253.0,186668.6,103.01278843897688,104188.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2026,2,APT_RT_09,Downeaster,10616872.0,125603.4,84.5269475189366,121356.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2026,2,APT_RT_11,Berkshire Flyer,0.0,0.0,,0.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2026,2,APT_RT_12,New Haven - Springfield,6226325.0,105053.3,59.268247641911294,120305.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2026,2,APT_RT_14,Keystone,18236888.0,200901.8,90.77513491666078,317237.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2026,2,APT_RT_15,Empire South,50046910.0,251364.9,199.10063019936356,300892.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2026,2,APT_RT_16,Silver Star,0.0,0.0,,0.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2026,2,APT_RT_17,Borealis,10834677.0,70147.7,154.45519952899383,43733.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2026,2,APT_RT_18,Cardinal,6639705.0,83752.9,79.27731457656989,17731.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2026,2,APT_RT_19,Silver Meteor,45339291.0,244787.8,185.21875273195806,82459.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2026,2,APT_RT_20,Lincoln Service,26524929.0,187438.8,141.51247767271238,125714.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2026,2,APT_RT_21,Hiawatha,10588544.0,89941.2,117.72740412625137,130927.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2026,2,APT_RT_22,Wolverine,21169549.0,139051.08,152.24296711683218,95521.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2026,2,APT_RT_23,Illini / Saluki,11639092.0,110688.98,105.15131677968304,73401.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2026,2,APT_RT_24,Illinois Zephyr/Carl Sandburg,4725291.0,87305.4,54.12369681600451,29777.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2026,2,APT_RT_25,Empire Builder,44724648.0,400573.7,111.65148385927483,69202.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2026,2,APT_RT_26,Capitol Limited,0.0,0.0,,0.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2026,2,APT_RT_27,California Zephyr,58564528.0,451608.9,129.67974723261653,121864.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2026,2,APT_RT_28,Southwest Chief,51202316.0,407547.0,125.63536475547606,58744.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2026,2,APT_RT_29,Heartland Flyer,2844847.0,35604.0,79.90245478036175,15610.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2026,2,APT_RT_30,City of New Orleans,21192459.0,152109.18,139.32399740765155,52945.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2026,2,APT_RT_31,Floridian,57424455.0,339249.34,169.26917234385775,124797.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2026,2,APT_RT_32,Texas Eagle,33874265.0,216297.9,156.60931058507734,83656.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2026,2,APT_RT_33,Sunset Limited,15784603.0,141732.2,111.36920897297861,23512.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2026,2,APT_RT_34,Coast Starlight,38946074.0,234466.0,166.10542253461057,85628.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2026,2,APT_RT_35,Pacific Surfliner,59375224.0,404075.55,146.94089756234942,600751.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2026,2,APT_RT_36,Cascades,29947697.0,286233.2,104.62691609498827,206260.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2026,2,APT_RT_37,Capitol Corridor,23090543.0,265892.1,86.84177905248032,323334.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2026,2,APT_RT_39,Gold Runner,30627330.0,323728.1,94.60819125679853,209859.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2026,2,APT_RT_40,Adirondack,2720312.0,35030.4,77.65575043390884,15700.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2026,2,APT_RT_41,Blue Water,6405039.0,51093.8,125.35843879296509,33257.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2026,2,APT_RT_45,Lake Shore Ltd,31871259.0,201237.5,158.37634138766384,76240.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2026,2,APT_RT_46,Washington-Lynchburg/Roanoke,10599276.0,76848.5,137.92430561429305,80872.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2026,2,APT_RT_47,Washington-Newport News,12074037.0,65114.2,185.4286315427357,110598.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2026,2,APT_RT_48,Palmetto,19324386.0,142721.9,135.39888412359983,74063.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2026,2,APT_RT_50,Washington-Norfolk,12768623.0,80198.4,159.21293941026255,100443.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2026,2,APT_RT_51,Washington-Richmond,414138.0,2454.9,168.69852132469754,4651.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2026,2,APT_RT_52,Crescent,25375245.0,205717.9,123.34971823064498,73249.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2026,2,APT_RT_54,Hoosier State,,,,0.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2026,2,APT_RT_56,Missouri River Runner,8320412.0,98772.3,84.23831377825564,42792.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2026,2,APT_RT_57,Pennsylvanian,10579977.0,61598.6,171.75677693973566,52960.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2026,2,APT_RT_63,Auto Train,60327090.0,148946.9,405.024139475209,70582.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2026,2,APT_RT_64,Mardi Gras Service,4416680.0,51623.6,85.5554436343068,33150.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2026,2,APT_RT_65,Pere Marquette,2719310.0,28888.6,94.13090284749002,17705.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2026,2,APT_RT_66,Carolinian,15557838.0,81922.1,189.9101463463461,71050.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2026,2,APT_RT_67,Piedmont,10951178.0,118967.5,92.05184609242019,93915.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2026,2,APT_RT_96,Non-NEC Special Trains,0.0,38893.7,0.0,0.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2026,2,APT_RT_99,NEC Special Trains,0.0,47036.8,0.0,0.0,route,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2026,2,APT_RT_LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY26 Q2 Financial Metrics.xlsx,Average & Total Ridership,57,ridership
+2026,3,APT_All_APT,System-wide (Total Amtrak),1952827584.0,9923559.23,196.7870134836692,9738712.000000002,aggregate,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,3,ridership
+2026,3,APT_RT_NTS,National Train Service,1952827584.0,9923559.23,196.7870134836692,9738712.000000002,aggregate,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,4,ridership
+2026,3,APT_RT_01,Acela Express,173523724.0,698011.6,248.5971923675767,845033.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,5,ridership
+2026,3,APT_RT_03,Ethan Allen,2200464.0,30676.6,71.73102625453929,9846.77,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,6,ridership
+2026,3,APT_RT_04,Vermonter,2649738.0,42097.5,62.94288259397826,12003.81,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,7,ridership
+2026,3,APT_RT_05,Northeast Regional,578372494.0,1600311.68,361.4124056133865,3634787.95,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,8,ridership
+2026,3,APT_RT_07,Empire West/Maple Leaf,23127202.0,189347.5,122.14157567435535,83362.85,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,9,ridership
+2026,3,APT_RT_09,Downeaster,12691610.0,130543.1,97.22160726993613,144965.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,10,ridership
+2026,3,APT_RT_11,Berkshire Flyer,8789.0,590.4,14.886517615176153,62.04,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,11,ridership
+2026,3,APT_RT_12,New Haven - Springfield,6969471.0,107022.7,65.12142751023849,105559.24,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,12,ridership
+2026,3,APT_RT_14,Keystone,22288144.0,210839.8,105.7112746265174,290100.46,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,13,ridership
+2026,3,APT_RT_15,Empire South,61948736.0,309564.8,200.11556869514882,432291.08,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,14,ridership
+2026,3,APT_RT_16,Silver Star,0.0,0.0,,0.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,15,ridership
+2026,3,APT_RT_17,Borealis,13424266.0,75038.6,178.89814042372856,53666.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,16,ridership
+2026,3,APT_RT_18,Cardinal,8063268.0,80185.7,100.55743106314468,20725.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,17,ridership
+2026,3,APT_RT_19,Silver Meteor,51399115.0,249999.1,205.59720014992052,94302.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,18,ridership
+2026,3,APT_RT_20,Lincoln Service,34812036.0,206279.1,168.7618183325407,166946.54,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,19,ridership
+2026,3,APT_RT_21,Hiawatha,13617902.0,91486.2,148.8519798614436,168050.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,20,ridership
+2026,3,APT_RT_22,Wolverine,28325008.0,153394.26,184.6549408041735,128696.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,21,ridership
+2026,3,APT_RT_23,Illini / Saluki,13472007.0,112321.52,119.94145912555314,83144.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,22,ridership
+2026,3,APT_RT_24,Illinois Zephyr/Carl Sandburg,6440722.0,93265.8,69.05770389574742,40840.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,23,ridership
+2026,3,APT_RT_25,Empire Builder,75416373.0,471245.9,160.0361361234124,96920.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,24,ridership
+2026,3,APT_RT_26,Capitol Limited,0.0,0.0,,0.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,25,ridership
+2026,3,APT_RT_27,California Zephyr,72376723.0,440353.9,164.36035425143277,89154.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,26,ridership
+2026,3,APT_RT_28,Southwest Chief,74498775.0,407547.0,182.79799630472067,83546.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,27,ridership
+2026,3,APT_RT_29,Heartland Flyer,3786555.0,37260.0,101.62520128824477,20738.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,28,ridership
+2026,3,APT_RT_30,City of New Orleans,24691002.0,155934.13,158.34251295723394,59453.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,29,ridership
+2026,3,APT_RT_31,Floridian,67276707.0,370548.72,181.55967992548997,147391.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,30,ridership
+2026,3,APT_RT_32,Texas Eagle,41728571.0,231574.48,180.19503271690385,99777.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,31,ridership
+2026,3,APT_RT_33,Sunset Limited,20202423.0,145585.2,138.76701065767674,28857.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,32,ridership
+2026,3,APT_RT_34,Coast Starlight,54040341.0,251032.6,215.27220368987932,112062.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,33,ridership
+2026,3,APT_RT_35,Pacific Surfliner,78147443.0,460666.3,169.6400257626833,790709.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,34,ridership
+2026,3,APT_RT_36,Cascades,39339218.0,296286.0,132.77447466299455,266579.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,35,ridership
+2026,3,APT_RT_37,Capitol Corridor,25854427.0,287993.4,89.77437330161038,363052.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,36,ridership
+2026,3,APT_RT_39,Gold Runner,36111102.0,362054.15,99.73950581701659,242971.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,37,ridership
+2026,3,APT_RT_40,Adirondack,3527471.0,43492.6,81.10508454311768,12604.26,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,38,ridership
+2026,3,APT_RT_41,Blue Water,8378787.0,56047.3,149.49492660663404,43727.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,39,ridership
+2026,3,APT_RT_45,Lake Shore Ltd,40553155.0,210543.8,192.61148986576666,90747.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,40,ridership
+2026,3,APT_RT_46,Washington-Lynchburg/Roanoke,13673495.0,80892.0,169.0339588587252,79581.96,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,41,ridership
+2026,3,APT_RT_47,Washington-Newport News,14068587.0,68030.6,206.79792622731534,108827.71,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,42,ridership
+2026,3,APT_RT_48,Palmetto,24636988.0,148412.2,166.00379214107733,84953.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,43,ridership
+2026,3,APT_RT_50,Washington-Norfolk,15933049.0,81134.6,196.37798177349737,90000.57,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,44,ridership
+2026,3,APT_RT_51,Washington-Richmond,0.0,19.2,0.0,0.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,45,ridership
+2026,3,APT_RT_52,Crescent,36624761.0,248793.8,147.20929942787964,91334.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,46,ridership
+2026,3,APT_RT_54,Hoosier State,,,,0.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,47,ridership
+2026,3,APT_RT_56,Missouri River Runner,11570432.0,99519.9,116.2624962444697,52499.46,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,48,ridership
+2026,3,APT_RT_57,Pennsylvanian,12892800.0,64209.6,200.79240487403754,52880.61,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,49,ridership
+2026,3,APT_RT_63,Auto Train,63651330.0,152957.6,416.1370863559575,74513.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,50,ridership
+2026,3,APT_RT_64,Mardi Gras Service,5139783.0,51727.4,99.36287151490312,38067.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,51,ridership
+2026,3,APT_RT_65,Pere Marquette,3999410.0,30650.1,130.48603430331386,26410.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,52,ridership
+2026,3,APT_RT_66,Carolinian,19530793.0,86345.7,226.19300092535008,73527.69,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,53,ridership
+2026,3,APT_RT_67,Piedmont,11842387.0,122101.8,96.98781672342258,103448.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,54,ridership
+2026,3,APT_RT_96,Non-NEC Special Trains,0.0,55895.29,0.0,0.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,55,ridership
+2026,3,APT_RT_99,NEC Special Trains,0.0,23728.0,0.0,0.0,route,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,56,ridership
+2026,3,APT_RT_LD_ADJ,Long Distance Adjustments,0.0,0.0,,0.0,aggregate,FY26 Q3 Financial Metrics.xlsx,Average & Total Ridership,57,ridership

@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block title %}Rail Performance Scorecards / Matt Keen{% endblock %}
+{% block content %}
+<section class="project-hero shell compact-hero">
+  <a class="back-link" href="{{ url_for('main.intercity_rail') }}">← Back to Intercity Rail Explorer</a>
+  <p class="eyebrow">PROJECT 01 / ROUTE SCORECARDS</p>
+  <h1>Rail performance <em>scorecards.</em></h1>
+  <p class="lede">Rank routes by demand, reliability, and financial measures. Explore passenger revenue per rider and per passenger-mile using matched FRA financial and ridership records.</p>
+  <div class="tags"><span>Service-group filters</span><span>Quarterly rankings</span><span>Passenger revenue yields</span><span>Source traceability</span></div>
+</section>
+<section class="shell scorecards-shell" id="scorecards-app">
+  <div class="panel scorecards-controls">
+    <div class="scorecards-heading"><div><p class="eyebrow">01 / DEFINE THE RANKING</p><h2>Compare the services.</h2></div><p class="microcopy" id="scorecards-count" role="status">Loading FRA observations…</p></div>
+    <div class="scorecards-grid">
+      <div><label for="sc-period">Fiscal quarter</label><select id="sc-period">{% for p in overview.periods|reverse %}<option value="{{ p }}">{{ p }}</option>{% endfor %}</select></div>
+      <div><label for="sc-category">Service group</label><select id="sc-category"><option value="all">All service groups</option>{% for key,label in overview.categories.items() %}<option value="{{ key }}">{{ label }}</option>{% endfor %}</select></div>
+      <div><label for="sc-sort">Rank by</label><select id="sc-sort"><option value="ridership">Quarterly ridership</option><option value="yoy_pct">Year-over-year ridership growth (%)</option><option value="customer_otp_pct">Customer on-time performance (%)</option><option value="cost_recovery_pct">Operating cost recovery (%)</option><option value="avoidable_coverage_pct">Passenger revenue / avoidable expense (%)</option><option value="revenue_per_rider">Passenger revenue per rider ($)</option><option value="revenue_per_passenger_mile">Passenger revenue per passenger-mile ($)</option></select></div>
+      <div><label for="sc-min-riders">Minimum quarterly riders</label><select id="sc-min-riders"><option value="0">No minimum</option><option value="1000">1,000+</option><option value="10000">10,000+</option><option value="50000">50,000+</option><option value="100000">100,000+</option></select></div>
+      <div><label for="sc-order">Sort order</label><select id="sc-order"><option value="desc">Highest first</option><option value="asc">Lowest first</option></select></div>
+      <div><label for="sc-search">Find route in results</label><input type="search" id="sc-search" placeholder="Search service names…" autocomplete="off"></div>
+    </div>
+  </div>
+  {% if not overview.financials_available %}<div class="notice"><strong>Financial measures not yet published.</strong> Run <code>.\.venv\Scripts\python.exe scripts\publish_financials.py</code> from the project folder, then restart Flask. Ridership and any already-published OTP remain available.</div>{% endif %}
+  {% if not overview.otp_available %}<div class="notice"><strong>Customer OTP not yet available for matched services.</strong> Run <code>.\.venv\Scripts\python.exe scripts\publish_customer_otp.py</code> if needed. Missing rates appear as N/A.</div>{% endif %}
+  <div class="panel scorecards-results" id="sc-group-summary" hidden aria-live="polite">
+    <div class="scorecards-heading"><div><p class="eyebrow">SERVICE GROUP AGGREGATE</p><h2 id="sc-group-heading">Group totals</h2></div></div>
+    <div class="station-stats">
+      <div class="station-stat"><span>Group riders</span><strong id="sc-group-riders">—</strong></div>
+      <div class="station-stat"><span>Passenger revenue / rider</span><strong id="sc-group-revrider">—</strong></div>
+      <div class="station-stat"><span>Passenger revenue / passenger-mile</span><strong id="sc-group-revmile">—</strong></div>
+    </div>
+    <p class="microcopy" id="sc-group-note"></p>
+  </div>
+  <div class="panel scorecards-results">
+    <div class="scorecards-heading"><div><p class="eyebrow">02 / QUARTERLY LEADERBOARD</p><h2 id="sc-title">Route rankings</h2></div><p class="microcopy" id="sc-coverage"></p></div>
+    <p class="microcopy" id="sc-message" aria-live="polite"></p>
+    <div class="scorecards-table-scroll">
+      <table class="scorecards-table" id="sc-table">
+        <thead><tr><th scope="col">Rank</th><th scope="col">Route</th><th scope="col">Group</th><th scope="col" class="sc-num">Riders</th><th scope="col" class="sc-num">YoY growth</th><th scope="col" class="sc-num">Customer OTP</th><th scope="col" class="sc-num">Cost recovery</th><th scope="col" class="sc-num">Rev. / rider</th><th scope="col" class="sc-num">Rev. / pass.-mile</th><th scope="col">Provenance</th></tr></thead>
+        <tbody id="sc-rows"><tr><td colspan="10">Loading observations…</td></tr></tbody>
+      </table>
+    </div>
+    <div class="scorecards-actions"><button class="button" type="button" id="sc-export">Download displayed results (CSV)</button></div>
+    <p class="microcopy">N/A means the source observation or a compatible denominator is unavailable or invalid, not zero. Blank metrics sort to the bottom. Route details link to the historical series.</p>
+  </div>
+</section>
+<section class="shell section-block"><div class="methodology-card"><div><p class="eyebrow">METRIC DEFINITIONS</p><h2>Revenue yield is not a fare.</h2></div><div>
+  <p><strong>Passenger revenue per rider</strong> = FRA-reported passenger revenue ÷ quarterly total ridership (marketing). <strong>Passenger revenue per passenger-mile</strong> = the same passenger revenue ÷ reported passenger-miles. Both are nominal-dollar yield measures, not necessarily the price paid by an individual passenger.</p>
+  <p><strong>Cost recovery</strong> = adjusted operating revenue ÷ allocated operating expense (as reported). <strong>Customer OTP</strong> uses only exact, unambiguous whole-service matches, not averages of train or subservice rates.</p>
+  <p>Revenue is taken from the FRA's financial passenger-revenue field, <em>not</em> its operating-revenue field. Financials are joined to ridership by identical fiscal quarter, APT code, and reported route name. Negative passenger revenue, inconsistent revenue entries, and nonpositive ridership/passenger-mile denominators do not produce yield ratios. Route-level financial rows never include system aggregates.</p>
+  <p class="microcopy">Financial source values and reporting units can contain accounting adjustments. YoY growth compares the same fiscal quarter one year earlier. These rankings describe operations; they do not measure economic welfare or benefit–cost performance.</p>
+</div></div></section>
+<script src="{{ url_for('static', filename='js/rail_scorecards.js') }}" defer></script>
+{% endblock %}

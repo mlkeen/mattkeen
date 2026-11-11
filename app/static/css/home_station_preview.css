@@ -1,0 +1,20 @@
+/* The homepage preview has its own isolated layout and never changes the full station map. */
+.hero > .hero-copy,.hero > .home-station-panel {min-width:0}
+.home-station-panel {overflow:hidden;display:flex;flex-direction:column;min-width:0;align-self:center}
+.home-station-head {gap:12px;flex-wrap:wrap}
+.home-station-intro {display:flex;gap:12px;align-items:center;justify-content:space-between;padding:14px 15px 12px}
+.home-station-intro strong {display:block;font-size:1rem;line-height:1.25}
+.home-station-intro span {display:block;color:var(--muted);font-family:var(--mono);font-size:.65rem;margin-top:4px}
+.home-station-kicker {text-align:right;white-space:nowrap;font-size:.58rem!important;letter-spacing:.04em}
+.home-station-map-frame {position:relative;min-height:335px;height:clamp(335px,31vw,430px);overflow:hidden;background:#dce7e9}
+#home-station-map {width:100%;height:100%;min-height:335px;position:relative;z-index:0}
+.home-station-state {position:absolute;top:12px;left:12px;right:12px;background:rgba(255,255,255,.96);padding:9px 12px;margin:0;font-size:.76rem;line-height:1.45;box-shadow:0 1px 5px #0002;z-index:5}
+.home-station-state[hidden] {display:none}
+.home-station-bottom {padding:12px 14px 14px;display:flex;flex-wrap:wrap;align-items:center;gap:13px;justify-content:space-between}
+.home-station-legend {display:flex;flex-wrap:wrap;gap:6px 11px}
+.home-station-legend span {display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:.63rem;color:var(--muted);white-space:nowrap}
+.home-station-legend i {height:9px;width:9px;border-radius:50%;display:inline-block;border:1px solid #0002}
+.home-map-link {font-size:.75rem;font-weight:600;white-space:nowrap;text-decoration:underline;text-underline-offset:3px}
+#home-station-map .leaflet-control-attribution {font-size:9px}
+@media(max-width:950px){.hero {grid-template-columns:1fr;gap:35px;padding-block:56px;min-height:auto}.home-station-panel{width:100%}.home-station-map-frame{height:380px}}
+@media(max-width:540px){.home-station-intro{align-items:start}.home-station-kicker{display:none!important}.home-station-map-frame{height:325px;min-height:325px}.home-station-bottom{align-items:start;flex-direction:column}}

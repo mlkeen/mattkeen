@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block title %}U.S. Intercity Rail Explorer / Matt Keen{% endblock %}
+{% block content %}
+<section class="project-hero shell">
+  <p class="eyebrow">PROJECT 01 / TRANSPORTATION</p>
+  <div class="project-hero-grid">
+    <div>
+      <h1>U.S. Intercity Rail <em>Explorer</em></h1>
+      <p class="lede">Explore quarterly Amtrak ridership and customer on-time performance. Compare a reported service over time and inspect the original FRA reporting records.</p>
+      <div class="tags"><span>FRA data</span><span>Python ETL</span><span>Flask</span><span>Plotly</span></div>
+    </div>
+    <div class="project-meta">
+      <div><span>DATA COVERAGE</span><strong>FY2021 Q4–{{ summary.period }}</strong></div>
+      <div><span>RIDERSHIP QUARTERS</span><strong>{{ summary.period_count }}</strong></div>
+      <div><span>LATEST SYSTEM RIDERSHIP</span><strong>{{ "{:,.0f}".format(summary.latest_ridership) }} ({{ summary.period }})</strong></div>
+      <div><span>ROUTE-LEVEL CUSTOMER OTP</span><strong>{% if otp.available %}{{ otp.source_quarters }} fiscal quarters represented{% else %}Not yet published{% endif %}</strong></div>
+    </div>
+  </div>
+  <p class="microcopy">Service group filters distinguish Acela, State Supported, Long Distance, other NEC reporting, and special trains. They filter reporting units without combining incompatible measures.</p>
+  <div class="notice"><strong>Sources:</strong> FRA financial metrics for total ridership (marketing); FRA customer on-time performance (C OTP) for reliability. The two series have distinct service definitions and units. Service-level OTP is never computed by averaging train-level percentages.</div>
+</section>
+
+<section class="shell explorer-shell">
+  <div class="explorer-toolbar">
+    <div><p class="eyebrow">HISTORICAL RIDERSHIP</p><h2>Twenty fiscal quarters.</h2></div>
+    <div class="control-group">
+      <div class="service-category-control"><label for="ridership-category">Service group</label><select id="ridership-category" class="service-category-filter" data-target="ridership-route-select" data-search="" data-mode="options"><option value="all">All groups</option><option value="acela">Acela</option><option value="state_supported">State Supported Service</option><option value="long_distance">Long Distance</option><option value="nec_other">Other Northeast Corridor</option><option value="special">Special / Unclassified</option></select></div><label for="ridership-route-select">Reported ridership service</label>
+      <select id="ridership-route-select"><option value="">All routes in selected service group</option>
+        {% for route in routes %}<option data-category="{{ route.category }}" value="{{ route.slug }}" {% if selected.slug == route.slug %}selected{% endif %}>{{ route.name }}</option>{% endfor %}
+      </select>
+    </div>
+  </div>
+  <div class="panel chart-panel">
+    <div class="ridership-summary-row">
+      <div><p class="eyebrow">SELECTED SERVICE</p><h3 id="selected-route-name">{{ selected.name }}</h3><p class="microcopy" id="selected-route-code">FRA code {{ selected.apt_code }}</p></div>
+      <div><span class="kpi-label">{{ summary.period }} RIDERSHIP</span><strong class="kpi-value" id="selected-route-latest">{% if selected.latest_ridership is not none %}{{ "{:,.0f}".format(selected.latest_ridership) }}{% else %}Not reported{% endif %}</strong></div>
+      <div><span class="kpi-label">YEAR-OVER-YEAR</span><strong class="kpi-value" id="selected-route-yoy">{% if selected.yoy_pct is not none %}{{ '%+.1f%%'|format(selected.yoy_pct) }}{% else %}N/A{% endif %}</strong></div>
+    </div>
+    <div id="rail-ridership-trend" class="chart chart-main" data-route='{{ selected|tojson }}' aria-label="Quarterly ridership trend for selected service"></div>
+    <div class="chart-bottom-row"><p class="chart-caption">Each point represents a fiscal quarter. Missing reports and negative adjustments appear as gaps, not zeros. Source counts may contain fractional accounting adjustments; displayed values are rounded.</p><a id="selected-detail-link" class="text-link" href="{{ url_for('main.route_detail', slug=selected.slug) }}">Inspect quarterly records →</a></div>
+    <p id="selected-route-note" class="microcopy" aria-live="polite">{% if selected.other_names_same_code %}FRA reused this service code under another name: {{ selected.other_names_same_code|join(', ') }}. Histories are kept separate.{% endif %}{% if selected.issues %} {{ selected.issues|join(' | ') }}{% endif %}</p>
+  </div>
+</section>
+
+<section class="shell section-block" id="scorecards-link"><div class="section-heading split-heading"><div><p class="eyebrow">RAIL PERFORMANCE SCORECARDS</p><h2>Which routes are leading?</h2></div><div><p>Rank FRA services by ridership, growth, on-time performance, cost recovery, passenger revenue per rider, or passenger revenue per passenger-mile.</p><a class="button" href="{{ url_for('main.scorecards_page') }}">Explore the Scorecards →</a></div></div></section>
+<section class="shell section-block" id="delay-link"><div class="section-heading split-heading"><div><p class="eyebrow">NEW / DELAY EXPLORER</p><h2>Why is my train late?</h2></div><div><p>Explore reported delays by quarter, responsible party, cause code, and host railroad.</p><a class="button" href="{{ url_for('main.delay_explorer') }}">Investigate delays →</a></div></div></section>
+<section class="shell section-block" id="economics-link"><div class="section-heading split-heading"><div><p class="eyebrow">NEW / RAIL ECONOMICS</p><h2>What does passenger rail cost?</h2></div><div><p>Explore operating cost recovery and passenger revenue coverage of avoidable and allocated expenses, with explicit financial data-quality flags.</p><a class="button" href="{{ url_for('main.rail_economics') }}">Explore rail economics →</a></div></div></section>
+<section class="shell section-block" id="reliability-link"><div class="section-heading split-heading"><div><p class="eyebrow">NEW / RELIABILITY VS. RIDERSHIP</p><h2>Do on-time gains track demand?</h2></div><div><p>Explore year-over-year changes in customer OTP and ridership using matched FRA service definitions and a descriptive regression.</p><a class="button" href="{{ url_for('main.reliability_lab') }}">Explore the relationship →</a></div></div></section>
+<section class="shell section-block" id="comparison-link"><div class="section-heading split-heading"><div><p class="eyebrow">NEW / COMPARISON LAB</p><h2>How do routes stack up?</h2></div><div><p>Plot up to four services together: passengers, indexed ridership, year-over-year change, or matched customer on-time performance.</p><a class="button" href="{{ url_for('main.comparison_lab') }}">Open the Comparison Lab →</a></div></div></section>
+
+<section class="shell section-block station-feature" id="station-map-link">
+  <div class="station-feature-inner">
+    <div>
+      <p class="eyebrow">INTERACTIVE STATION PERFORMANCE MAP</p>
+      <h2>Where do passengers arrive late?</h2>
+      <p>Explore FRA station-level passenger reliability on a national map. Filter by service group, route and quarter, then click stations to investigate their arrival performance.</p>
+      <a class="button" href="{{ url_for('main.station_map_page') }}">Open the Station Performance Map →</a>
+      <p class="microcopy">Station coordinates come from the USDOT/BTS dataset. Station data must first be published locally.</p>
+    </div>
+    <a class="station-feature-art" href="{{ url_for('main.station_map_page') }}" aria-label="Open the Station Performance Map">
+      <span class="station-feature-map-title">STATION LEVEL / UNITED STATES</span>
+      <span class="station-feature-pins" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span>
+      <span class="station-feature-map-footer">Passenger-weighted • 20 fiscal quarters</span>
+    </a>
+  </div>
+</section>
+
+<section class="shell section-block otp-section" id="reliability">
+  <div class="explorer-toolbar">
+    <div><p class="eyebrow">CUSTOMER ON-TIME PERFORMANCE</p><h2>Reliability, from a passenger's perspective.</h2></div>
+    <div class="control-group">
+      <div class="service-category-control"><label for="otp-category">Service group</label><select id="otp-category" class="service-category-filter" data-target="otp-route-select" data-search="" data-mode="options"><option value="all">All groups</option><option value="acela">Acela</option><option value="state_supported">State Supported Service</option><option value="long_distance">Long Distance</option><option value="nec_other">Other Northeast Corridor</option><option value="special">Special / Unclassified</option></select></div><label for="otp-route-select">FRA OTP service / subservice</label>
+      <select id="otp-route-select" {% if not otp.available %}disabled{% endif %}>
+        <option value="">Choose a reported subservice (group OTP unavailable)…</option>
+        {% for item in otp.services %}<option data-category="{{ item.category }}" value="{{ item.slug }}" {% if selected_otp and selected_otp.slug == item.slug %}selected{% endif %}>{{ item.label }}</option>{% endfor %}
+      </select>
+    </div>
+  </div>
+  {% if not otp.available %}<div class="notice"><strong>OTP not yet published.</strong> The ridership charts remain live. To activate reliability reporting, run <code>.\.venv\Scripts\python.exe scripts\publish_customer_otp.py</code> in your project, then restart Flask.</div>{% endif %}
+  <div class="panel chart-panel">
+    <div class="ridership-summary-row">
+      <div><p class="eyebrow">REPORTED OTP SERIES</p><h3 id="otp-selected-name">{{ selected_otp.label if selected_otp else 'Choose a reported subservice' }}</h3><p class="microcopy" id="otp-selected-coverage">{% if selected_otp %}{{ selected_otp.quarters_valid }} quarters with reported percentages{% else %}No series selected{% endif %}</p></div>
+      <div><span class="kpi-label" id="otp-latest-label">LATEST CUSTOMER OTP</span><strong class="kpi-value" id="otp-selected-latest">{% if selected_otp and selected_otp.latest_otp is not none %}{{ '%.1f%%'|format(selected_otp.latest_otp * 100) }}{% else %}N/A{% endif %}</strong></div>
+      <div><span class="kpi-label">VS SAME QUARTER LAST YEAR</span><strong class="kpi-value" id="otp-selected-yoy">{% if selected_otp and selected_otp.yoy_pp is not none %}{{ '%+.1f pp'|format(selected_otp.yoy_pp) }}{% else %}N/A{% endif %}</strong></div>
+    </div>
+    <div id="rail-otp-trend" class="chart chart-main" data-otp='{{ selected_otp|tojson }}' aria-label="FRA quarterly customer on-time performance for the selected subservice">
+      <p class="chart-fallback">Choose a subservice after publishing customer OTP.</p>
+    </div>
+    <div class="chart-bottom-row"><p class="chart-caption">Percent of passengers arriving on time, as reported by FRA. Percentages are 0–100%; changes are in <strong>percentage points</strong>, not relative percent. FY2021 Q4 lacks route-level C OTP and appears as a gap. A subservice is not necessarily identical to a financial reporting route.</p></div>
+    <p class="microcopy" id="otp-selection-note" aria-live="polite">{% if selected_otp %}{{ 'Matched exactly to selected ridership service.' }}{% else %}No unambiguous one-to-one OTP match for the ridership service. Select an OTP subservice independently; its series must not be interpreted as the ridership route's overall OTP.{% endif %}</p>
+  </div>
+</section>
+
+<section class="shell section-block">
+  <div class="section-heading split-heading"><div><p class="eyebrow">SERVICE COMPARISON</p><h2>Ridership at a glance.</h2></div><p>Latest quarterly ridership, change against a year earlier, and an OTP figure only where a whole-service name matches exactly.</p></div>
+  <div class="explorer-toolbar route-table-toolbar"><div class="control-group"><div class="service-category-control"><label for="route-table-category">Service group</label><select id="route-table-category" class="service-category-filter" data-target=".route-table tbody tr" data-search="route-search" data-mode="table"><option value="all">All groups</option><option value="acela">Acela</option><option value="state_supported">State Supported Service</option><option value="long_distance">Long Distance</option><option value="nec_other">Other Northeast Corridor</option><option value="special">Special / Unclassified</option></select></div><label for="route-search">Filter services</label><input id="route-search" type="search" placeholder="Search by route name…" autocomplete="off"></div><p class="microcopy">Showing <strong id="shown-route-count">{{ routes|length }}</strong> of {{ routes|length }} service names</p></div>
+  <div class="route-table-wrap">
+    <table class="route-table">
+      <thead><tr><th>Reported service</th><th>{{ summary.period }} riders</th><th>vs. year ago</th><th>Customer OTP*</th><th>Quarters reported</th><th>Details</th></tr></thead>
+      <tbody>
+      {% for route in routes %}
+        {% set match = otp_route_match[route.slug] %}
+        <tr data-category="{{ route.category }}" data-route-name="{{ route.name|lower }}">
+          <td><strong>{{ route.name }}</strong><small>{{ route.apt_code }}{% if route.other_names_same_code %} · shared historical code{% endif %}</small></td>
+          <td>{% if route.latest_ridership is not none %}{{ "{:,.0f}".format(route.latest_ridership) }}{% else %}<span class="muted-value">Not reported</span>{% endif %}</td>
+          <td>{% if route.yoy_pct is not none %}{{ '%+.1f%%'|format(route.yoy_pct) }}{% else %}<span class="muted-value">N/A</span>{% endif %}</td>
+          <td>{% if match and match.latest_otp is not none %}{{ '%.1f%%'|format(match.latest_otp * 100) }}{% else %}<span class="muted-value">—</span>{% endif %}</td>
+          <td>{{ route.quarters_reported }} / {{ summary.period_count }}</td>
+          <td><a href="{{ url_for('main.route_detail', slug=route.slug) }}">View →</a></td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <p class="microcopy">*OTP is shown only for an unambiguous one-to-one match where FRA service and subservice names are the same as the ridership service name. A dash does not mean 0% or that a service had no OTP data.</p>
+</section>
+
+<section class="method-band">
+  <div class="shell">
+    <p class="eyebrow">METHOD</p><h2>Traceable data, not placeholder statistics.</h2>
+    <div class="pipeline">
+      <div><span>01</span><strong>Acquire</strong><p>Preserve the original FRA quarterly workbooks.</p></div>
+      <div><span>02</span><strong>Extract</strong><p>Standardize fiscal periods and service/subservice identifiers with source provenance.</p></div>
+      <div><span>03</span><strong>Validate</strong><p>Check fractions, unique keys, missing periods, and accounting totals. Do not average percentage rates without weights.</p></div>
+      <div><span>04</span><strong>Publish</strong><p>Publish ridership and route-level OTP as separate auditable measures.</p></div>
+    </div>
+  </div>
+</section>
+{% endblock %}

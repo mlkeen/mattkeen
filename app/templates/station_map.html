@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block title %}Station Performance Map / Matt Keen{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzx2d1h4rlPeHlGQG45f7r4P3k=" crossorigin=""/>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/leaflet_fallback.css', v='2') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/station_map_layout.css', v='2') }}">
+{% endblock %}
+{% block content %}
+<section class="project-hero shell compact-hero">
+  <a class="back-link" href="{{ url_for('main.intercity_rail') }}">← Back to Intercity Rail Explorer</a>
+  <p class="eyebrow">PROJECT 01 / STATION PERFORMANCE</p>
+  <h1>Where do passengers <em>arrive late?</em></h1>
+  <p class="lede">Explore passenger-weighted lateness at Amtrak stations, by route and fiscal quarter. Follow the journey from a route to the stations where its passengers experience delays.</p>
+  <div class="tags"><span>FRA station observations</span><span>Passenger-weighted</span><span>USDOT/BTS station locations</span></div>
+</section>
+<section class="shell station-shell" id="station-map-explorer" data-overview='{{ overview|tojson }}'>
+{% if not overview.available %}
+  <div class="notice"><strong>Station data not published yet.</strong> Run <code>.\.venv\Scripts\python.exe scripts\publish_station_map.py</code> from your project directory.</div>
+{% else %}
+  <section class="station-dashboard-section station-filter-section" aria-labelledby="station-filter-title">
+    <div class="station-section-heading">
+      <div><p class="eyebrow">01 / EXPLORE</p><h2 id="station-filter-title">Choose a service and period</h2></div>
+      <p>Choose a group and leave the service blank to sum its station observations. Totals may overlap where operational reporting units overlap.</p>
+    </div>
+    <div class="station-controls">
+      <div class="station-field"><label for="station-category">Service group</label><select id="station-category"><option value="all">All service groups</option><option value="acela">Acela</option><option value="state_supported">State Supported Service</option><option value="long_distance">Long Distance</option><option value="nec_other">Other Northeast Corridor</option><option value="special">Special / Unclassified</option></select></div>
+      <div class="station-field"><label for="station-service">Service / subservice</label><select id="station-service" aria-label="Select service"><option value="">All reporting units in selected group</option>{% for s in overview.services %}<option value="{{ s.id }}" data-category="{{ s.category }}">{{ s.label }}</option>{% endfor %}</select></div>
+      <div class="station-field"><label for="station-period">Fiscal quarter</label><select id="station-period"><option value="all">All available quarters</option>{% for p in overview.periods|reverse %}<option value="{{ p }}">FY{{ p }}</option>{% endfor %}</select></div>
+      <div class="station-field"><label for="station-minimum">Minimum detraining passengers</label><select id="station-minimum"><option value="1">1+</option><option value="100">100+</option><option value="500" selected>500+</option><option value="1000">1,000+</option><option value="5000">5,000+</option></select></div>
+    </div>
+  </section>
+
+  <div class="station-stats" aria-label="Summary statistics">
+    <div class="station-stat"><span>Mapped stations</span><strong id="station-count">—</strong></div>
+    <div class="station-stat"><span>Passengers at visible stations</span><strong id="station-detraining">—</strong></div>
+    <div class="station-stat"><span>Share arriving late</span><strong id="station-late">—</strong></div>
+  </div>
+
+  <section class="station-dashboard-section station-map-section" aria-labelledby="station-map-title">
+    <div class="station-section-heading">
+      <div><p class="eyebrow">02 / MAP</p><h2 id="station-map-title">Where delays are felt</h2></div>
+      <p>Marker size reflects passenger volume; color indicates the share arriving late.</p>
+    </div>
+    <div class="station-map-frame">
+      <div id="station-map" role="region" aria-label="Map of station-level passenger lateness"></div>
+    </div>
+    <div class="station-map-footer">
+      <div class="station-legend" aria-label="Share of detraining passengers arriving late">
+        <span class="station-legend-title">Passengers arriving late</span>
+        <span class="station-legend-item"><i style="--legend-color:#2a9d8f"></i>0–20%</span>
+        <span class="station-legend-item"><i style="--legend-color:#e9c46a"></i>20–40%</span>
+        <span class="station-legend-item"><i style="--legend-color:#e76f51"></i>40–60%</span>
+        <span class="station-legend-item"><i style="--legend-color:#a3303a"></i>60%+</span>
+      </div>
+      <p class="microcopy" id="station-status" aria-live="polite">Loading station observations…</p>
+    </div>
+  </section>
+
+  <section class="station-dashboard-section station-table-section" aria-labelledby="station-table-title">
+    <div class="station-section-heading">
+      <div><p class="eyebrow">03 / DETAILS</p><h2 id="station-table-title">Station-by-station results</h2></div>
+      <p>Select a station name to locate it on the map.</p>
+    </div>
+    <div class="station-table-wrap"><table class="station-table"><thead><tr><th scope="col">Station</th><th scope="col">Detraining</th><th scope="col">Late</th><th scope="col">Late share</th><th scope="col">Average minutes late*</th></tr></thead><tbody id="station-table-body"></tbody></table></div>
+    <p class="microcopy station-table-note">* Weighted by late passengers with valid reported averages; coverage may be incomplete.</p>
+  </section>
+{% endif %}
+</section>
+<section class="shell section-block"><div class="methodology-card"><div><p class="eyebrow">INTERPRETATION</p><h2>Passengers, not trains.</h2></div><div><p>Each station's lateness percentage is <strong>late detraining passengers ÷ all detraining passengers</strong>. Counts are summed before calculating percentages across trains and quarters.</p><p>Stations are matched by the three-letter station code against USDOT/BTS locations. Unmatched or ambiguous coordinates are excluded and counted in the publisher's QA report. The map is not a train on-time-performance metric and does not imply delay causation.</p><p class="microcopy">Sources: FRA quarterly Station Performance Metric tables; USDOT/BTS NTAD Amtrak Stations (2026 snapshot). <a href="https://catalog.data.gov/dataset/amtrak-stations" target="_blank" rel="noopener">Station location dataset</a>.</p></div></div></section>
+{% if overview.available %}<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script><script src="{{ url_for('static',filename='js/station_map.js',v='2') }}" defer></script>{% endif %}
+{% endblock %}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "nhts_2022_person_weighted",
+  "dataset": "2022 NextGen NHTS V2.1, long-distance person file",
+  "source_file_member": "ldtv2pub.csv",
+  "input_sha256": "64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+  "counts": {
+    "rows": 16997,
+    "weight_valid": 16997,
+    "longdistance_valid": 16997,
+    "amtrak_valid": 16997,
+    "mode_valid": 13673
+  },
+  "weight_variable": "WTPERFIN",
+  "long_distance_trips_per_person_30_days": 1.84286,
+  "annualized_long_distance_trips_per_person": 22.114322,
+  "amtrak_uses_per_person_past_year": 0.067222,
+  "fraction_persons_using_amtrak_past_year": 0.028456,
+  "amtrak_share_of_most_recent_long_distance_trip": 0.002654,
+  "qualifications": [
+    "LONGDIST is reported trips of 50+ miles in the past 30 days; multiply by 12 only as a rough annualized benchmark, not a full-year trip census.",
+    "LD_AMT is number of times person used Amtrak in past year; this is distinct from rail trips in an OD matrix.",
+    "MAINMODE describes only the most recent long-distance trip, not all annual trips; its share is descriptive only, not a mode-choice coefficient.",
+    "WTPERFIN is person survey weight; these are weighted point estimates without replicate-weight confidence intervals.",
+    "The survey cannot establish origin-destination county rail demand, distance-decay or generalized-cost elasticities."
+  ]
+}

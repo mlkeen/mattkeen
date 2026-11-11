@@ -1,0 +1,180 @@
+﻿file,fiscal_year,fiscal_quarter,family,sheets,import_status
+FY21 Q4 C OTP Metrics.xlsx,2021,4,otp,Train Level C OTP-for report,supported
+FY21 Q4 CSI Metrics_0.xlsx,2021,4,csi,Top3 Non-Adjusted | Top3 Non-Adjusted RAW | Top4 Non-Adjusted | Top4 Non-Adjusted RAW | Top3 OTP Adjusted | Top3 OTP Adjusted RAW | Top4 OTP Adjusted | QUERY | Top4 OTP Adjusted RAW,supported
+FY21 Q4 Delay Metrics.xlsx,2021,4,delay_detail,DelayandMileage,supported
+FY21 Q4 Delay per 10k TM.xlsx,2021,4,delay_rate,DelayandMileage,supported
+FY21 Q4 Disputed Delay Minutes Metrics.xlsx,2021,4,disputed,Summary,supported
+FY21 Q4 Financial REVISED.xlsx,2021,4,financial,Revision Note | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY21 Q4 Station Performance Metrics.xlsx,2021,4,station,Station Performance,supported
+FY22 Q1 CSI Metrics.xlsx,2022,1,csi,Top3 Non-Adjusted | Top3 Non-Adjusted RAW | Top4 Non-Adjusted | Top4 Non-Adjusted RAW | Top3 OTP Adjusted | Top3 OTP Adjusted RAW | Top4 OTP Adjusted | QUERY | Top4 OTP Adjusted RAW,supported
+FY22 Q1 Customer OTP.xlsx,2022,1,otp,Route Level C OTP | Train Level C OTP,supported
+FY22 Q1 Delay Metrics.xlsx,2022,1,delay_detail,DelayandMileage,supported
+FY22 Q1 Delay per 10K TM Metric.xlsx,2022,1,delay_rate,DelayandMileage,supported
+FY22 Q1 Disputed Delay Minutes Metric.xlsx,2022,1,disputed,Summary,supported
+FY22 Q1 Financial.xlsx,2022,1,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY22 Q1 Host Run Time Metric.xlsx,2022,1,host_runtime,Host Summary,supported
+FY22 Q1 Public Benefits FY21 - Community Access Metric.xlsx,2022,1,public_benefits,Metric Report,inventory only
+FY22 Q1 Public Benefits FY21 - Connectivity Metric.xlsx,2022,1,public_benefits,FinalMatrix,inventory only
+FY22 Q1 Public Benefits FY21 - Missed Connections Metric.xlsx,2022,1,public_benefits,Notes | RAW,inventory only
+FY22 Q1 Public Benefits FY21 -Service Availability.xlsx,2022,1,public_benefits,Sheet1,inventory only
+FY22 Q1 Station Performance Metric.xlsx,2022,1,station,Station Performance,supported
+FY22 Q2 CSI Metrics.xlsx,2022,2,csi,Top3 Non-Adjusted | Top3 Non-Adjusted RAW | Top4 Non-Adjusted | Top4 Non-Adjusted RAW | Top3 OTP Adjusted | Top3 OTP Adjusted RAW | Top4 OTP Adjusted | QUERY | Top4 OTP Adjusted RAW,supported
+FY22 Q2 Customer OTP metric.xlsx,2022,2,otp,Route Level C OTP | Train Level C OTP,supported
+FY22 Q2 Delay Metrics.xlsx,2022,2,delay_detail,DelayandMileage,supported
+FY22 Q2 Delay per 10k TM Metric.xlsx,2022,2,delay_rate,DelayandMileage,supported
+FY22 Q2 Disputed Delays Metric.xlsx,2022,2,disputed,Summary,supported
+FY22 Q2 Financial Metrics.xlsx,2022,2,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY22 Q2 Host Run Time Metric.xlsx,2022,2,host_runtime,Host Summary,supported
+FY22 Q2 Station Performance Metric.xlsx,2022,2,station,Station Performance,supported
+FY22 Q3 CSI Metrics.xlsx,2022,3,csi,Top3 Non-Adjusted | Top3 Non-Adjusted RAW | Top4 Non-Adjusted | Top4 Non-Adjusted RAW | Top3 OTP Adjusted RAW | Top4 OTP Adjusted | Top4 OTP Adjusted RAW | Top3 OTP Adjusted | QUERY TOP 4 Adj | QUERY TOP 4 UNAdj | QUERY TOP 3 Adj | QUERY TOP 3 UNAdj | QUERY TOP 3,supported
+FY22 Q3 Customer OTP Metric.xlsx,2022,3,otp,Route Level C OTP | Train Level C OTP,supported
+FY22 Q3 Delay Metrics.xlsx,2022,3,delay_detail,DelayandMileage,supported
+FY22 Q3 Delays Per 10K TM Metric.xlsx,2022,3,delay_rate,DelayandMileage,supported
+FY22 Q3 Disputed Delay Minutes Metric.xlsx,2022,3,disputed,Summary,supported
+FY22 Q3 Financial Metrics.xlsx,2022,3,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY22 Q3 Host Run Time Metric.xlsx,2022,3,host_runtime,Host Summary,supported
+FY22 Q3 Station Performance Metric.xlsx,2022,3,station,Station Performance,supported
+FY22 Q4 CSI Metrics.xlsx,2022,4,csi,Top3 Non-Adjusted | Top3 Non-Adjusted RAW | Top4 Non-Adjusted | Top4 OTP Adjusted | Top3 OTP Adjusted | Top4 Non-Adjusted RAW | Top4 OTP Adjusted RAW | Top3 OTP Adjusted RAW | QUERY TOP 4 Adj | QUERY TOP 4 UNAdj | QUERY TOP 3 Adj | QUERY TOP 3 UNAdj | QUERY TOP 3,supported
+FY22 Q4 Customer OTP Metric.xlsx,2022,4,otp,Route Level C OTP | Train Level C OTP,supported
+FY22 Q4 Delay Metrics.xlsx,2022,4,delay_detail,DelayandMileage,supported
+FY22 Q4 Delays per 10k TM Metric.xlsx,2022,4,delay_rate,DelayandMileage,supported
+FY22 Q4 Disputed Delay Minutes Metric.xlsx,2022,4,disputed,Summary,supported
+FY22 Q4 Financial Metrics.xlsx,2022,4,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY22 Q4 Host Run Time Metric.xlsx,2022,4,host_runtime,Host Summary,supported
+FY22 Q4 Station Performance Metric.xlsx,2022,4,station,Station Performance,supported
+FY23 Q1 CSI Metrics.xlsx,2023,1,csi,Top3 Non-Adjusted | Top3 OTP Adjusted | Top4 Non-Adjusted | Top4 OTP Adjusted,supported
+FY23 Q1 Customer OTP Metric.xlsx,2023,1,otp,Route Level C OTP | Train Level C OTP,supported
+FY23 Q1 Delay Metrics.xlsx,2023,1,delay_detail,DelayandMileage,supported
+FY23 Q1 Delays per 10K TM Metric.xlsx,2023,1,delay_rate,DelayandMileage,supported
+FY23 Q1 Disputed Delay Minutes Metric.xlsx,2023,1,disputed,Summary,supported
+FY23 Q1 Financial Metrics.xlsx,2023,1,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | Sheet1 | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY23 Q1 Host Run Time Metric.xlsx,2023,1,host_runtime,Host Summary,supported
+FY23 Q1 Public Benefits FY22 - Community Access Metric.xlsx,2023,1,public_benefits,Metric Report,inventory only
+FY23 Q1 Public Benefits FY22 - Connectivity Metric.xlsx,2023,1,public_benefits,Summary3 | Summary2,inventory only
+FY23 Q1 Public Benefits FY22 - Missed Connections Metric.xlsx,2023,1,public_benefits,Missed Connections,inventory only
+FY23 Q1 Public Benefits FY22 - Service Availability Metric.xlsx,2023,1,public_benefits,Sheet1,inventory only
+FY23 Q1 Station Performance Metric.xlsx,2023,1,station,Station Performance,supported
+FY23 Q2 CSI Metrics.xlsx,2023,2,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY23 Q2 Customer OTP Metrics.xlsx,2023,2,otp,Route Level C OTP | Train Level C OTP,supported
+FY23 Q2 Delay Metrics.xlsx,2023,2,delay_detail,DelayandMileage,supported
+FY23 Q2 Delays per 10K TM Metrics.xlsx,2023,2,delay_rate,DelayandMileage,supported
+FY23 Q2 Disputed Delay Minutes Metrics.xlsx,2023,2,disputed,"Disp Min by Host,Serv,Train | Summary",supported
+FY23 Q2 Financial Metrics.xlsx,2023,2,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY23 Q2 Host Run Time Metric.xlsx,2023,2,host_runtime,Host Summary,supported
+FY23 Q2 Station Performance Metrics.xlsx,2023,2,station,Station Performance,supported
+FY23 Q3 CSI Metrics.xlsx,2023,3,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY23 Q3 Customer OTP Metrics.xlsx,2023,3,otp,Route Level C OTP | Train Level C OTP,supported
+FY23 Q3 Delay Metrics.xlsx,2023,3,delay_detail,DelayandMileage,supported
+FY23 Q3 Delays per 10K TM Metrics.xlsx,2023,3,delay_rate,DelayandMileage,supported
+FY23 Q3 Disputed Delay Minutes Metric.xlsx,2023,3,disputed,"Disp Min by Host,Serv,Train | Summary",supported
+FY23 Q3 Financial Metrics.xlsx,2023,3,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY23 Q3 Host Run Time Metric.xlsx,2023,3,host_runtime,Host Summary,supported
+FY23 Q3 Station Performance Metric.xlsx,2023,3,station,Station Performance,supported
+FY23 Q4 CSI Metrics.xlsx,2023,4,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY23 Q4 Customer OTP Metrics.xlsx,2023,4,otp,Route Level C OTP | Train Level C OTP,supported
+FY23 Q4 Delay Metrics.xlsx,2023,4,delay_detail,DelayandMileage,supported
+FY23 Q4 Delays per 10K TM Metric.xlsx,2023,4,delay_rate,DelayandMileage,supported
+FY23 Q4 Disputed Delay Minutes Metric.xlsx,2023,4,disputed,"Disp Min by Host,Serv,Train | Summary",supported
+FY23 Q4 Financial Metrics.xlsx,2023,4,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY23 Q4 Host Run Time Metric.xlsx,2023,4,host_runtime,Host Summary,supported
+FY23 Q4 Schedule Certification Tables.xlsx,2023,4,schedule_certification,Certification Status by Host | Certification Status by Train,inventory only
+FY23 Q4 Station Performance Metric.xlsx,2023,4,station,Station Performance,supported
+FY24 Q1 CSI Metrics (Revised)_0.xlsx,2024,1,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY24 Q1 Customer OTP Metrics.xlsx,2024,1,otp,Route Level C OTP | Train Level C OTP,supported
+FY24 Q1 Delay Metrics.xlsx,2024,1,delay_detail,DelayandMileage,supported
+FY24 Q1 Delays per 10K TM Metric.xlsx,2024,1,delay_rate,DelayandMileage,supported
+FY24 Q1 Disputed Delay Minutes Metric.xlsx,2024,1,disputed,"Disp Min by Host,Serv,Train | Summary",supported
+FY24 Q1 Financial Metrics.xlsx,2024,1,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY24 Q1 Host Run Time Metric.xlsx,2024,1,host_runtime,Host Summary,supported
+FY24 Q1 Station Performance Metric.xlsx,2024,1,station,Station Performance,supported
+FY24 Q2 CSI Metrics (Revised).xlsx,2024,2,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY24 Q2 Customer OTP Metrics.xlsx,2024,2,otp,Route Level C OTP | Train Level C OTP,supported
+FY24 Q2 Delay Metrics.xlsx,2024,2,delay_detail,DelayandMileage,supported
+FY24 Q2 Delays per 10K TM Metric.xlsx,2024,2,delay_rate,DelayandMileage,supported
+FY24 Q2 Disputed Delays Metric.xlsx,2024,2,disputed,"Disp Min by Host,Serv,Train | Summary",supported
+FY24 Q2 Financial Metrics.xlsx,2024,2,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY24 Q2 Host Run Time Metric.xlsx,2024,2,host_runtime,Host Summary,supported
+FY24 Q2 Station Performance Metric.xlsx,2024,2,station,Station Performance,supported
+FY24 Q3 CSI Metrics (Revised).xlsx,2024,3,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY24 Q3 Customer OTP Metrics.xlsx,2024,3,otp,Route Level C OTP | Train Level C OTP,supported
+FY24 Q3 Delay Metrics.xlsx,2024,3,delay_detail,DelayandMileage,supported
+FY24 Q3 Delays per 10K TM Metrics.xlsx,2024,3,delay_rate,DelayandMileage,supported
+FY24 Q3 Disputed Delays Metric.xlsx,2024,3,disputed,"Disp Min by Host, Serv, Train | Summary",supported
+FY24 Q3 Financial Metrics.xlsx,2024,3,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY24 Q3 Host Run Time Metric.xlsx,2024,3,host_runtime,Host Summary,supported
+FY24 Q3 Station Performance Metric.xlsx,2024,3,station,Station Performance,supported
+FY24 Q4 CSI Metrics (Revised).xlsx,2024,4,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY24 Q4 Customer OTP Metrics.xlsx,2024,4,otp,Route Level C OTP | Train Level C OTP,supported
+FY24 Q4 Delay Metrics.xlsx,2024,4,delay_detail,DelayandMileage,supported
+FY24 Q4 Delays per 10k TM Metric.xlsx,2024,4,delay_rate,DelayandMileage,supported
+FY24 Q4 Disputed Delay Minutes Metric.xlsx,2024,4,disputed,"Disp Min by Host, Serv, Train | Summary",supported
+FY24 Q4 Financial Metrics.xlsx,2024,4,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY24 Q4 Host Runtime Metric.xlsx,2024,4,host_runtime,Host Summary,supported
+FY24 Q4 Schedule Certification Tables.xlsx,2024,4,schedule_certification,Certification Status by Host | Certification Status by Train,inventory only
+FY24 Q4 Station Performance Metric.xlsx,2024,4,station,Station Performance,supported
+FY25 Q1 CSI Metrics.xlsx,2025,1,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY25 Q1 Customer OTP Metrics.xlsx,2025,1,otp,Route Level C OTP | Train Level C OTP,supported
+FY25 Q1 Delay Metrics.xlsx,2025,1,delay_detail,DelayandMileage,supported
+FY25 Q1 Delays per 10K TM Metric.xlsx,2025,1,delay_rate,DelayandMileage,supported
+FY25 Q1 Disputed Delay Minutes Metric.xlsx,2025,1,disputed,"Disp Min by Host, Serv, Train | Summary",supported
+FY25 Q1 Financial Metrics.xlsx,2025,1,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY25 Q1 Host Run Time Metric.xlsx,2025,1,host_runtime,Host Summary,supported
+FY25 Q1 Public Benefits FY23 – Missed Connections Metric.xlsx,2025,1,public_benefits,Missed Connections,inventory only
+FY25 Q1 Public Benefits FY24 – Community Access.xlsx,2025,1,public_benefits,Metric Report,inventory only
+FY25 Q1 Public Benefits FY24 – Connectivity Metric.xlsx,2025,1,public_benefits,Summary3 | Summary2,inventory only
+FY25 Q1 Public Benefits FY24 – Missed Connections Metric.xlsx,2025,1,public_benefits,Missed Connections,inventory only
+FY25 Q1 Public Benefits FY24 – Service Availability Metric.xlsx,2025,1,public_benefits,service_availability_unformatte,inventory only
+FY25 Q1 Station Performance Metric.xlsx,2025,1,station,Station Performance,supported
+FY25 Q2 CSI Metrics.xlsx,2025,2,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY25 Q2 Customer OTP Metrics.xlsx,2025,2,otp,Route Level C OTP | Train Level C OTP,supported
+FY25 Q2 Delay Metrics.xlsx,2025,2,delay_detail,DelayandMileage,supported
+FY25 Q2 Delays per 10k TM Metric.xlsx,2025,2,delay_rate,DelayandMileage,supported
+FY25 Q2 Disputed Delay Minutes Metric.xlsx,2025,2,disputed,"Disp Min by Host, Serv, Train | Summary",supported
+FY25 Q2 Financial Metrics.xlsx,2025,2,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY25 Q2 Host RunTime Metric.xlsx,2025,2,host_runtime,Host Summary,supported
+FY25 Q2 Station Performance Metric.xlsx,2025,2,station,Station Performance,supported
+FY25 Q3 CSI Metrics.xlsx,2025,3,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY25 Q3 Customer OTP Metrics.xlsx,2025,3,otp,Route Level C OTP | Train Level C OTP,supported
+FY25 Q3 Delay Metrics.xlsx,2025,3,delay_detail,DelayandMileage,supported
+FY25 Q3 Delays per 10K TM Metric.xlsx,2025,3,delay_rate,DelayandMileage,supported
+FY25 Q3 Disputed Delay Minutes Metric.xlsx,2025,3,disputed,"Disp Min by Host, Serv, Train | Summary",supported
+FY25 Q3 Financial Metrics.xlsx,2025,3,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY25 Q3 Host Run Time Metric.xlsx,2025,3,host_runtime,Host Summary,supported
+FY25 Q3 Station Performance Metric.xlsx,2025,3,station,Station Performance,supported
+FY25 Q4 CSI Metrics.xlsx,2025,4,csi,Adjusted Top 3 | Unadjusted Top 3 | Adjusted Top 4 | Unadjusted Top 4,supported
+FY25 Q4 Customer OTP Metrics.xlsx,2025,4,otp,Route Level C OTP | Train Level C OTP,supported
+FY25 Q4 Delay Metrics.xlsx,2025,4,delay_detail,DelayandMileage,supported
+FY25 Q4 Delays per 10K TM Metric.xlsx,2025,4,delay_rate,DelayandMileage,supported
+FY25 Q4 Disputed Delay Minutes Metric.xlsx,2025,4,disputed,"Disp Min by Host, Serv, Train | Summary",supported
+FY25 Q4 Financial Metrics.xlsx,2025,4,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY25 Q4 Host Run Time Metric.xlsx,2025,4,host_runtime,Host Summary,supported
+FY25 Q4 Schedule Certification Tables.xlsx,2025,4,schedule_certification,Certification Status by Host | Certification Status by Train,inventory only
+FY25 Q4 Station Performance Metric.xlsx,2025,4,station,Station Performance,supported
+FY26 Q1 CSI Metrics.xlsx,2026,1,csi,On-Time Top 3 | All Responses Top 3 | On-Time Top 4 | All Responses Top 4,supported
+FY26 Q1 Customer OTP Metrics.xlsx,2026,1,otp,Route Level C OTP | Train Level C OTP,supported
+FY26 Q1 Delay Metrics.xlsx,2026,1,delay_detail,DelayandMileage,supported
+FY26 Q1 Delays per 10K TM Metric.xlsx,2026,1,delay_rate,DelayandMileage,supported
+FY26 Q1 Disputed Delay Minutes Metric.xlsx,2026,1,disputed,"Disp Min by Host, Serv, Train | Summary",supported
+FY26 Q1 Financial Metrics.xlsx,2026,1,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY26 Q1 Host Run Time Metric.xlsx,2026,1,host_runtime,Host Summary,supported
+FY26 Q1 Public Benefits FY19-FY25 – Community Access.xlsx,2026,1,public_benefits,Metric Report,inventory only
+FY26 Q1 Public Benefits FY25 – Connectivity Metric.xlsx,2026,1,public_benefits,Summary3 | Summary2,inventory only
+FY26 Q1 Public Benefits FY25 – Missed Connections Metric.xlsx,2026,1,public_benefits,Missed Connections,inventory only
+FY26 Q1 Public Benefits FY25 – Service Availability Metric.xlsx,2026,1,public_benefits,service_availability_unformatte,inventory only
+FY26 Q1 Station Performance Metric.xlsx,2026,1,station,Station Performance,supported
+FY26 Q2 CSI Metrics.xlsx,2026,2,csi,Blue Sky Top 3 | All Responses Top 3 | Blue Sky Top 4 | All Responses Top 4,supported
+FY26 Q2 Customer OTP Metrics.xlsx,2026,2,otp,Route Level C OTP | Train Level C OTP,supported
+FY26 Q2 Delay Metrics.xlsx,2026,2,delay_detail,DelayandMileage,supported
+FY26 Q2 Delays per 10K TM Metric.xlsx,2026,2,delay_rate,DelayandMileage,supported
+FY26 Q2 Disputed Delay Minutes Metric.xlsx,2026,2,disputed,"Disp Min by Host, Serv, Train | Summary",supported
+FY26 Q2 Financial Metrics.xlsx,2026,2,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY26 Q2 Host Run Time Metric.xlsx,2026,2,host_runtime,Host Summary,supported
+FY26 Q2 Station Performance Metric.xlsx,2026,2,station,Station Performance,supported
+FY26 Q3 CSI Metrics.xlsx,2026,3,csi,Blue Sky Top 3 | All Responses Top 3 | Blue Sky Top 4 | All Responses Top 4,supported
+FY26 Q3 Customer OTP Metrics.xlsx,2026,3,otp,Route Level C OTP | Train Level C OTP,supported
+FY26 Q3 Delay Metrics.xlsx,2026,3,delay_detail,DelayandMileage,supported
+FY26 Q3 Delay per 10K TM Metric.xlsx,2026,3,delay_rate,DelayandMileage,supported
+FY26 Q3 Disputed Delay Minutes Metric.xlsx,2026,3,disputed,"Disp Min by Host, Serv, Train | Summary",supported
+FY26 Q3 Financial Metrics.xlsx,2026,3,financial,Notes | Cost Recovery | Avoidable Op Exp by Psgr Rev | FullyAllocated Exp by PsgrRev | Average & Total Ridership,supported
+FY26 Q3 Host Run Time Metric.xlsx,2026,3,host_runtime,Host Summary,supported
+FY26 Q3 Station Performance Metric.xlsx,2026,3,station,Station Performance,supported

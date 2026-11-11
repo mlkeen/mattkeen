@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block title %}Intercity Rail Ridership Sketch Lab / Data Lab{% endblock %}
+{% block head %}<link rel="stylesheet" href="{{ url_for('static',filename='css/rail_forecast.css') }}">{% endblock %}
+{% block content %}
+<section class="shell section-block rf-page">
+  <p class="eyebrow">DATA LAB / SKETCH-LEVEL FORECASTING</p>
+  <h1>Design a rail corridor.<br><em>Explore potential ridership.</em></h1>
+  <p class="lede">Add station counties in travel order, set the service assumptions, and inspect a transparent county-pair demand scenario. This is a screening scenario. 2022 NHTS survey-weighted trip frequency can anchor the national market size, while FY2025 Amtrak totals calibrate a separate corridor-wide scale; neither supplies county-pair OD counts.</p>
+  <div class="rf-alert" role="note"><strong>Calibration disclosure:</strong> With the nationwide county catalog and local FY2025 calibration published, the total demand level is fitted to actual Amtrak route ridership. The 2022 NHTS provides a national person-weighted long-distance trip-rate benchmark <em>only after its source file is published locally</em>. OD splits, travel-choice parameters, station geography, and service assumptions are <em>not</em> calibrated. No passenger-level ticket OD or NHTS county-pair flows have been used. Otherwise the model remains entirely illustrative.</div>
+  <div class="rf-columns">
+    <aside class="rf-side">
+      <section class="rf-panel">
+        <h2>1 / Build your line</h2>
+        <label for="rf-search">Find a U.S. county or county equivalent</label>
+        <input id="rf-search" class="rf-input" placeholder="Search county or state…" autocomplete="off">
+        <div id="rf-results" class="rf-results" aria-label="County search results"></div>
+        <div class="rf-list-header"><strong>Stops, in order</strong><span id="rf-stopcount">0 / 12</span></div>
+        <ol id="rf-stops" class="rf-stop-list"></ol>
+        <p class="rf-help">Use ↑ / ↓ to change stop order. A county is used as a rough station location, not its exact train station.</p>
+      </section>
+      <section class="rf-panel">
+        <h2>2 / Service design</h2>
+        <div id="rf-nhts-status" class="rf-alert rf-muted" role="status">NHTS survey benchmark not yet published. Download 2022 NHTS V2.1 and run the local publisher to activate survey-weighted trip production.</div>
+        <div class="rf-field-grid">
+          <label>Daily round trips <input id="rf-freq" type="number" min="0.25" max="30" step="0.25" value="2"></label>
+          <label>Rail speed, avg. mph <input id="rf-speed" type="number" min="20" max="180" value="65"></label>
+          <label>Fare per mile, $ <input id="rf-fare" type="number" min="0" max="1" step="0.01" value="0.20"></label>
+          <label>Rail detour factor <input id="rf-detour" type="number" min="1" max="2.5" step="0.05" value="1.25"></label>
+        </div>
+        <details><summary>Advanced demand assumptions</summary>
+          <p class="rf-help">These are modeling assumptions, not nationally calibrated elasticities. Changing them can materially change the result.</p>
+          <div class="rf-field-grid">
+            <label>Annualized long-distance trips / person (NHTS benchmark when published) <input id="rf-rate" type="number" min="0.0001" max="300" step="0.01" value="0.15"></label>
+            <label>Distance decay exponent <input id="rf-exponent" type="number" min="0" max="3" step="0.1" value="1.1"></label>
+            <label>Rail mode utility intercept <input id="rf-intercept" type="number" min="-8" max="4" step="0.1" value="-1.5"></label>
+            <label>Mode cost sensitivity <input id="rf-sensitivity" type="number" min="0" max="5" step="0.1" value="0.8"></label>
+            <label>Frequency utility elasticity <input id="rf-elasticity" type="number" min="0" max="2" step="0.05" value="0.35"></label>
+            <label>Access/egress hours <input id="rf-access" type="number" min="0" max="4" step="0.25" value="1"></label>
+            <label>Time value, $/hour <input id="rf-vot" type="number" min="1" max="100" value="20"></label>
+            <label>Road speed, mph <input id="rf-road-speed" type="number" min="20" max="85" value="55"></label>
+            <label>Road detour factor <input id="rf-road-detour" type="number" min="1" max="2.5" step="0.05" value="1.17"></label>
+            <label>Auto cost per mile <input id="rf-auto-cost" type="number" min="0" max="1" step="0.01" value="0.22"></label>
+            <label>Market scaling factor <input id="rf-market" type="number" min="0.05" max="10" step="0.05" value="1"></label>
+          </div>
+        </details>
+        <button id="rf-estimate" class="button rf-button">Estimate corridor ridership →</button>
+        <p id="rf-error" class="rf-error" role="alert"></p>
+      </section>
+    </aside>
+    <div class="rf-main">
+      <section class="rf-panel">
+        <div class="rf-panel-head"><div><p class="eyebrow">CORRIDOR OUTLINE</p><h2>Proposed route</h2></div><span id="rf-source-badge" class="rf-badge">Loading counties</span></div>
+        <div id="rf-map" class="rf-map" aria-label="Map showing selected counties in travel order"></div>
+        <p class="rf-help">Schematic county representative points; no rail track geometry or station siting implied.</p>
+      </section>
+      <section class="rf-panel">
+        <div class="rf-panel-head"><div><p class="eyebrow">MODELED OUTPUT</p><h2>Annual ridership scenario</h2></div><button id="rf-download" class="rf-secondary" disabled>Export OD CSV</button></div>
+        <div class="rf-kpis"><div><span>Passenger trips / year</span><strong id="rf-rides">—</strong></div><div><span>Passenger-miles / year</span><strong id="rf-pm">—</strong></div><div><span>Route length (approx.)</span><strong id="rf-miles">—</strong></div></div>
+        <div id="rf-outcome-note" class="rf-alert rf-muted">Choose two or more station counties to calculate a scenario.</div>
+        <details id="rf-calibration-panel"><summary>View calibration and validation results</summary><div id="rf-calibration-details" class="rf-help">Publish county inputs and calibrate against Amtrak totals to see the holdout error report.</div></details>
+        <h3>Segment passenger volumes</h3><div id="rf-load-chart" class="rf-chart"></div>
+        <h3>County-to-county travel pairs</h3><div class="rf-table-wrap"><table class="rf-table"><thead><tr><th>Origin</th><th>Destination</th><th>Rail miles</th><th>Rail share*</th><th>Annual rail trips</th></tr></thead><tbody id="rf-od-body"><tr><td colspan="5">Run an estimate to see modeled OD pairs.</td></tr></tbody></table></div>
+        <p class="rf-help">*Estimated rail share is the scenario model's output, not a measured NHTS or Amtrak mode share. Pair trips are annual one-way journeys in both directions combined.</p>
+      </section>
+    </div>
+  </div>
+  <section class="rf-panel rf-method"><h2>Method and limitations</h2>
+    <p>County population measures market size, county-centroid distances proxy for alignment, and a gravity-style distance decay estimates total potential trips. An assumed logit relates mode choice to generalized travel costs. With calibration published, one shared multiplicative factor is fitted using complete FY2025 route totals from normalized FRA Amtrak performance tables. When published locally, 2022 NHTS V2.1 long-distance person microdata provide a weighted annualized 50+ mile trip frequency (`LONGDIST`, `WTPERFIN`), and descriptive annual Amtrak usage (`LD_AMT`). Re-run Amtrak calibration whenever this profile changes. The NHTS most-recent-trip mode is not a rail mode-share elasticity. No coefficients for mode choice, frequency, station access or distance decay have been estimated from behavioral microdata.</p>
+    <p>For defensible investment analysis, the next stages are station-level on/off data or ticket OD matrices, observed route frequencies/fare and speed, NHTS and other trip-distance distributions, actual rail-network geography, access catchments, and explicit competition/transfer modeling. A corridor-wide adjustment is not a substitute for these. The 2022 NHTS household survey does <strong>not</strong> furnish a county-level OD demand matrix; FHWA's passive OD products use larger analysis zones.</p>
+    <p><strong>Source references:</strong> <a href="https://www.census.gov/data/developers/data-sets/acs-5year.html" target="_blank" rel="noopener">ACS 2024 5-year</a> · <a href="https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.2025.html" target="_blank" rel="noopener">Census county Gazetteer 2025</a> · <a href="https://www.amtrak.com/reports-documents" target="_blank" rel="noopener">Amtrak reference reports</a> · <a href="https://nhts.ornl.gov/downloads" target="_blank" rel="noopener">2022 NHTS V2.1 downloaded microdata</a> · <a href="https://nhts.ornl.gov/documentation" target="_blank" rel="noopener">2022 NHTS Codebook</a>. The seed demo county numbers are fictional demonstration inputs until you run the Census publisher.</p>
+  </section>
+</section>
+<script src="{{ url_for('static',filename='js/rail_forecast.js') }}" defer></script>
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Transit Benefit–Cost Lab | Matt Keen{% endblock %}
+{% block head %}<link rel="stylesheet" href="{{ url_for('static',filename='css/transit_bca.css') }}">{% endblock %}
+{% block content %}
+<section class="shell bca-heading"><p class="eyebrow">DATA LAB / PUBLIC TRANSPORTATION</p><h1>Transit Benefit–Cost Lab</h1><p class="lede">Compare an investment to a no-build alternative. Inspect the annual cash flows, present values, and the assumptions that drive the result.</p><p class="bca-caution"><strong>Screening tool:</strong> values are illustrative, not official USDOT parameter recommendations. Use documented local data and the applicable grant guidance for a formal BCA.</p></section>
+<div class="shell bca-layout">
+ <form id="bca-form" class="panel bca-inputs" novalidate>
+  <div class="bca-side-head"><h2>Project assumptions</h2><button type="button" id="bca-reset" class="bca-quiet">Restore example</button></div>
+  <label class="bca-field bca-full"><span>Project name</span><input type="text" name="name" value="{{defaults.name}}" maxlength="150"></label>
+  <details open><summary>Timeline and financing</summary><div class="bca-grid">
+    <label class="bca-field"><span>Base year</span><input type="number" name="base_year" value="{{defaults.base_year}}" step="1"></label>
+    <label class="bca-field"><span>Construction years</span><input type="number" name="construction_years" value="{{defaults.construction_years}}" min="1" max="20" step="1"></label>
+    <label class="bca-field"><span>Operating years</span><input type="number" name="operating_years" value="{{defaults.operating_years}}" min="1" max="60" step="1"></label>
+    <label class="bca-field"><span>Real discount rate (%)</span><input type="number" name="discount_rate" value="{{defaults.discount_rate}}" min="0" max="30" step=".1"></label>
+    <label class="bca-field"><span>Capital cost ($, total)</span><input type="number" name="capital_cost" value="{{defaults.capital_cost}}" min="0" step="100000"></label>
+    <label class="bca-field"><span>Annual incremental O&M ($)</span><input type="number" name="annual_incremental_om" value="{{defaults.annual_incremental_om}}" min="0" step="10000"></label>
+    <label class="bca-field"><span>Annual O&M growth (%)</span><input type="number" name="om_growth_pct" value="{{defaults.om_growth_pct}}" min="-99" max="30" step=".1"></label>
+    <label class="bca-field"><span>Ramp-up years</span><input type="number" name="benefit_ramp_years" value="{{defaults.benefit_ramp_years}}" min="1" max="60" step="1"></label>
+  </div></details>
+  <details open><summary>Passenger time and auto diversion</summary><div class="bca-grid">
+    <label class="bca-field"><span>Existing annual trips benefiting</span><input type="number" name="affected_existing_trips" value="{{defaults.affected_existing_trips}}" min="0" step="1000"></label>
+    <label class="bca-field"><span>New trips diverted from auto / yr</span><input type="number" name="diverted_trips" value="{{defaults.diverted_trips}}" min="0" step="1000"></label>
+    <label class="bca-field"><span>Other new trips / yr</span><input type="number" name="generated_trips" value="{{defaults.generated_trips}}" min="0" step="1000"></label>
+    <label class="bca-field"><span>Minutes saved per passenger trip</span><input type="number" name="time_saved_minutes" value="{{defaults.time_saved_minutes}}" min="0" step=".5"></label>
+    <label class="bca-field"><span>Value of travel time ($/hour)</span><input type="number" name="value_of_time" value="{{defaults.value_of_time}}" min="0" step=".5"></label>
+    <label class="bca-field"><span>Avoided auto miles / diverted trip</span><input type="number" name="avoided_auto_miles_per_diverted_trip" value="{{defaults.avoided_auto_miles_per_diverted_trip}}" min="0" step=".5"></label>
+    <label class="bca-field"><span>Auto resource cost ($/vehicle-mile)</span><input type="number" name="vehicle_operating_cost_per_mile" value="{{defaults.vehicle_operating_cost_per_mile}}" min="0" step=".01"></label>
+    <label class="bca-field"><span>Annual trip growth (%)</span><input type="number" name="ridership_growth_pct" value="{{defaults.ridership_growth_pct}}" min="-99" max="30" step=".1"></label>
+  </div></details>
+  <details><summary>Additional monetized benefits</summary><div class="bca-grid">
+    <label class="bca-field"><span>Annual safety benefits ($)</span><input type="number" name="annual_safety_benefit" value="{{defaults.annual_safety_benefit}}" min="0" step="1000"></label>
+    <label class="bca-field"><span>Annual air-quality benefits ($)</span><input type="number" name="annual_air_quality_benefit" value="{{defaults.annual_air_quality_benefit}}" min="0" step="1000"></label>
+    <label class="bca-field"><span>Other annual benefits ($)</span><input type="number" name="annual_other_benefit" value="{{defaults.annual_other_benefit}}" min="0" step="1000"></label>
+    <label class="bca-field"><span>Residual value at project end ($)</span><input type="number" name="annual_residual_value" value="{{defaults.annual_residual_value}}" min="0" step="10000"></label>
+  </div><p class="bca-note">Enter incremental, independently justified benefits only. Avoid double-counting benefits already represented by time savings or avoided auto costs.</p></details>
+  <button class="button bca-submit" type="submit">Calculate BCA →</button><div id="bca-error" role="alert" class="bca-error" hidden></div>
+ </form>
+ <section class="bca-results" aria-label="Benefit-cost analysis results">
+  <div class="panel bca-result-box"><p class="eyebrow">ANALYSIS RESULT</p><h2 id="bca-project-name">Transit benefit–cost screening</h2><div class="bca-kpis"><div><small>Net present value</small><strong id="bca-npv">—</strong></div><div><small>Benefit–cost ratio</small><strong id="bca-bcr">—</strong></div><div><small>PV benefits</small><strong id="bca-pvb">—</strong></div><div><small>PV costs</small><strong id="bca-pvc">—</strong></div></div><p class="bca-note" id="bca-window"></p></div>
+  <div class="panel bca-result-box"><h2>Annual benefits and costs</h2><div id="bca-annual-chart" class="bca-chart" aria-label="Annual benefits and costs chart"></div><p class="bca-note">Real dollars. Capital spending is spread equally across construction years; first construction year is undiscounted (t = 0).</p></div>
+  <div class="panel bca-result-box"><h2>Present value by benefit type</h2><div id="bca-breakdown" class="bca-breakdown"></div></div>
+  <div class="panel bca-result-box"><h2>Sensitivity checks</h2><div class="bca-scroll"><table class="bca-table"><thead><tr><th>Scenario</th><th>NPV</th><th>B/C ratio</th></tr></thead><tbody id="bca-scenarios"></tbody></table></div><p class="bca-note">One-at-a-time checks; not a probability distribution or confidence interval.</p></div>
+  <div class="panel bca-result-box"><div class="bca-side-head"><h2>Annual accounting table</h2><button type="button" class="bca-quiet" id="bca-csv">Export CSV</button></div><div class="bca-scroll bca-year-scroll"><table class="bca-table"><thead><tr><th>Year</th><th>Phase</th><th>Benefits</th><th>Costs</th><th>Net</th><th>PV net</th></tr></thead><tbody id="bca-years"></tbody></table></div></div>
+  <div class="panel bca-result-box"><div class="bca-side-head"><h2>Assumptions and limitations</h2><button type="button" class="bca-quiet" id="bca-json">Export assumptions JSON</button></div><ul id="bca-assumptions" class="bca-method"></ul><p class="bca-note">Read the <a href="https://www.transportation.gov/mission/office-secretary/office-policy/transportation-policy/benefit-cost-analysis-guidance" target="_blank" rel="noopener noreferrer">current USDOT BCA guidance</a> before using any calculation in a grant submission.</p></div>
+ </section>
+</div>
+<script id="bca-defaults" type="application/json">{{defaults|tojson}}</script>
+<script src="{{url_for('static',filename='js/transit_bca.js')}}" defer></script>
+{% endblock %}

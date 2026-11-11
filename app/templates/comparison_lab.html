@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}Rail Comparison Lab / Matt Keen{% endblock %}
+{% block content %}
+<section class="project-hero shell compact-hero">
+  <a class="back-link" href="{{ url_for('main.intercity_rail') }}">← Back to Intercity Rail Explorer</a>
+  <p class="eyebrow">PROJECT 01 / INTERACTIVE ANALYSIS</p>
+  <h1>Route <em>Comparison Lab</em></h1>
+  <p class="lede">Put up to four services on the same timeline. Compare passenger volumes, relative growth, and reliability without confusing the measures.</p>
+  <div class="tags"><span>FRA quarterly data</span><span>20 quarters</span><span>Ridership</span><span>Customer OTP</span></div>
+</section>
+
+<section class="shell comparison-shell" id="comparison-lab"
+  data-initial='{{ comparison|tojson }}'>
+  <div class="compare-controls panel">
+    <div class="compare-intro">
+      <div><p class="eyebrow">01 / SELECT SERVICES</p><h2>Pick up to four.</h2></div>
+      <p class="microcopy" id="compare-count" aria-live="polite">{{ defaults|length }} of 4 selected</p>
+    </div>
+    <div class="service-category-control"><label for="compare-category">Service group</label><select id="compare-category" class="service-category-filter" data-target="compare-checklist" data-search="compare-search" data-mode="checklist"><option value="all">All groups</option><option value="acela">Acela</option><option value="state_supported">State Supported Service</option><option value="long_distance">Long Distance</option><option value="nec_other">Other Northeast Corridor</option><option value="special">Special / Unclassified</option></select></div><label class="compare-search-label" for="compare-search">Find a reported service</label>
+    <input id="compare-search" type="search" placeholder="Filter by name or APT code…" autocomplete="off">
+    <button type="button" class="button" id="compare-pick-visible">Compare first four visible services</button>
+    <div class="compare-checklist" id="compare-checklist" role="group" aria-label="Services to compare">
+      {% for route in routes %}
+      <label class="compare-choice" data-category="{{ route.category }}" data-search="{{ (route.name ~ ' ' ~ route.apt_code)|lower }}">
+        <input type="checkbox" value="{{ route.slug }}" {% if route.slug in defaults %}checked{% endif %}>
+        <span class="compare-choice-label"><strong>{{ route.name }}</strong><small>{{ route.apt_code }} · {{ route.quarters_valid }} valid quarters</small></span>
+      </label>
+      {% endfor %}
+    </div>
+    <p class="microcopy">Routes with renamed reporting labels remain separate; historical APT codes are not automatically spliced together.</p>
+  </div>
+  <div class="compare-results">
+    <div class="explorer-toolbar compare-toolbar">
+      <div><p class="eyebrow">02 / COMPARE</p><h2>One timeline. Different questions.</h2></div>
+      <div class="control-group">
+        <label for="compare-metric">Chart metric</label>
+        <select id="compare-metric">
+          <option value="ridership">Quarterly ridership</option>
+          <option value="indexed">Indexed ridership (base = 100)</option>
+          <option value="growth">Year-over-year ridership growth</option>
+          <option value="otp">Customer on-time performance</option>
+        </select>
+      </div>
+    </div>
+    <div class="panel chart-panel">
+      <div id="compare-chart" class="chart chart-main" aria-label="Comparison of selected rail services"><p class="chart-fallback">Loading selected services…</p></div>
+      <p id="compare-chart-note" class="chart-caption" aria-live="polite"></p>
+      <p id="compare-error" class="microcopy compare-error" role="status"></p>
+    </div>
+    <div class="compare-table-wrap route-table-wrap">
+      <table class="route-table compare-summary-table">
+        <thead><tr><th>Service</th><th>Latest quarter ridership</th><th>Year-over-year</th><th>Latest customer OTP*</th><th>Coverage</th><th>History</th></tr></thead>
+        <tbody id="compare-summary"></tbody>
+      </table>
+    </div>
+    <p class="microcopy">*Customer OTP appears only when the FRA OTP service and subservice both match the ridership service name exactly. A missing value does not mean 0% OTP. The indexed view uses the first shared quarter with positive ridership for all selected routes.</p>
+  </div>
+</section>
+<section class="shell section-block">
+  <div class="methodology-card">
+    <div><p class="eyebrow">READING THE DATA</p><h2>How to compare.</h2></div>
+    <div>
+      <p><strong>Absolute ridership</strong> shows scale. <strong>Indexed ridership</strong> shows proportional change from a shared baseline. <strong>Year-over-year growth</strong> compares each quarter with the same quarter a year earlier, not the previous quarter.</p>
+      <p>Customer OTP is a fraction of passengers arriving on time, not a percentage of trains. The chart preserves reported subservice boundaries and does not average percentages without weights. Observations missing from the FRA record appear as gaps rather than zeros.</p>
+      <p class="microcopy">Source: FRA quarterly financial metrics and route-level customer on-time performance workbooks. Service names are kept as reported in their respective workbooks.</p>
+    </div>
+  </div>
+</section>
+<script src="{{ url_for('static', filename='js/comparison_lab.js') }}" defer></script>
+{% endblock %}

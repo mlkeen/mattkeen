@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}{{ route.name }} / Intercity Rail Explorer{% endblock %}
+{% block content %}
+<section class="project-hero shell compact-hero">
+  <a class="back-link" href="{{ url_for('main.intercity_rail') }}">← Intercity Rail Explorer</a>
+  <p class="eyebrow">FRA REPORTED SERVICE / {{ route.apt_code }}</p>
+  <h1>{{ route.name }}</h1>
+  <p class="lede">Quarterly ridership and, where directly comparable, passenger on-time performance for FY2021 Q4–{{ route.latest_period }}.</p>
+  {% if route.other_names_same_code %}<div class="notice">This FRA reporting code also appears as <strong>{{ route.other_names_same_code|join(', ') }}</strong>. Named series are kept separate; continuity is not assumed.</div>{% endif %}
+</section>
+<section class="shell metric-strip">
+  <div><strong>{% if route.latest_ridership is not none %}{{ "{:,.0f}".format(route.latest_ridership) }}{% else %}N/A{% endif %}</strong><span>{{ route.latest_period }} RIDERS</span></div>
+  <div><strong>{% if route.yoy_pct is not none %}{{ '%+.1f%%'|format(route.yoy_pct) }}{% else %}N/A{% endif %}</strong><span>RIDERSHIP YOY</span></div>
+  <div><strong>{% if otp and otp.latest_otp is not none %}{{ '%.1f%%'|format(otp.latest_otp * 100) }}{% else %}N/A{% endif %}</strong><span>CUSTOMER OTP{% if otp %} / {{ otp.latest_period }}{% endif %}</span></div>
+  <div><strong>{% if otp and otp.yoy_pp is not none %}{{ '%+.1f pp'|format(otp.yoy_pp) }}{% else %}N/A{% endif %}</strong><span>OTP YOY CHANGE</span></div>
+</section>
+<section class="shell section-block">
+  <article class="panel chart-panel">
+    <p class="eyebrow">RIDERSHIP TREND</p><h2>Quarter by quarter.</h2>
+    <div id="route-ridership-trend" class="chart chart-main" data-route='{{ route|tojson }}' aria-label="Quarterly ridership trend for {{ route.name }}"></div>
+    <p class="chart-caption">Quarterly ridership totals, not passenger-miles or annual ridership. Missing records and negative adjustments are shown as gaps; reported zero is zero.</p>
+  </article>
+</section>
+<section class="shell section-block otp-detail-block">
+  <article class="panel chart-panel">
+    <p class="eyebrow">CUSTOMER ON-TIME PERFORMANCE</p><h2>How often passengers arrived on time.</h2>
+    {% if otp %}
+      <div id="route-otp-trend" class="chart chart-main" data-otp='{{ otp|tojson }}' aria-label="Customer on-time performance for {{ route.name }}"></div>
+      <p class="chart-caption">Source: FRA route-level C OTP; no train-level or subservice averaging. The metric is a passenger percentage. FY2021 Q4 has no route-level series and remains missing.</p>
+    {% else %}
+      <div class="otp-unmatched"><p>No unambiguous one-to-one OTP series is available for this named ridership route{% if not otp_available %} because the OTP CSV has not yet been published{% endif %}. This does <strong>not</strong> imply that punctuality was zero or unreported by FRA.</p><p>Some reported services are divided into separate operational subservices. <a href="{{ url_for('main.intercity_rail') }}#reliability">Explore customer OTP by reported service/subservice →</a></p></div>
+    {% endif %}
+  </article>
+</section>
+<section class="shell section-block data-table-section">
+  <div class="section-heading"><p class="eyebrow">SOURCE AUDIT</p><h2>Ridership observations.</h2></div>
+  {% if route.issues %}<div class="notice"><strong>Flagged observations:</strong> {{ route.issues|join(' | ') }}</div>{% endif %}
+  <div class="route-table-wrap">
+    <table class="route-table">
+      <thead><tr><th>Fiscal quarter</th><th>Ridership</th><th>YoY</th><th>Source workbook</th><th>Excel row</th></tr></thead>
+      <tbody>
+      {% for obs in route.series|reverse %}
+      <tr>
+        <td>{{ obs.period }}</td>
+        <td>{% if obs.status == 'negative_adjustment' %}<span class="flagged-value">Flagged adjustment: {{ "{:,.0f}".format(obs.source_value) }}</span>{% elif obs.ridership is not none %}{{ "{:,.0f}".format(obs.ridership) }}{% else %}<span class="muted-value">Not reported</span>{% endif %}</td>
+        <td>{% if obs.yoy_pct is not none %}{{ '%+.1f%%'|format(obs.yoy_pct) }}{% else %}<span class="muted-value">N/A</span>{% endif %}</td>
+        <td>{{ obs.source_workbook or '—' }}</td><td>{{ obs.source_excel_row or '—' }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% if otp %}
+<section class="shell section-block data-table-section">
+  <div class="section-heading"><p class="eyebrow">SOURCE AUDIT</p><h2>Customer OTP observations.</h2></div>
+  <div class="route-table-wrap">
+    <table class="route-table">
+      <thead><tr><th>Fiscal quarter</th><th>Customer OTP</th><th>YoY change (pp)</th><th>Source workbook</th><th>Excel row</th></tr></thead>
+      <tbody>
+      {% for obs in otp.series|reverse %}
+      <tr>
+        <td>{{ obs.period }}</td>
+        <td>{% if obs.otp is not none %}{{ '%.1f%%'|format(obs.otp * 100) }}{% else %}<span class="muted-value">{{ 'Not reported' if obs.status == 'not_reported' else 'Value missing' }}</span>{% endif %}</td>
+        <td>{% if obs.yoy_pp is not none %}{{ '%+.1f pp'|format(obs.yoy_pp) }}{% else %}<span class="muted-value">N/A</span>{% endif %}</td>
+        <td>{{ obs.source_workbook or '—' }}</td><td>{{ obs.source_excel_row or '—' }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endif %}
+<section class="shell methodology-card"><div><p class="eyebrow">INTERPRETATION</p><h2>About the measures.</h2></div><p>Ridership uses FRA <strong>Total Ridership (Mktg)</strong> values, excluding system aggregates from individual route listings. Customer OTP uses the route-level <strong>C OTP</strong> proportion and is displayed only when FRA's complete service and subservice labels agree with the named ridership route. Year-over-year ridership changes are percentages; OTP differences are percentage points. Original workbooks and Excel row numbers remain available for review.</p></section>
+{% endblock %}

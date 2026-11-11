@@ -1,0 +1,216 @@
+{
+  "source_title": "FRA Quarterly Report FY2024 Q4, Appendix D, Table 5 (pp. 70–71)",
+  "source_url": "https://railroads.fra.dot.gov/sites/fra.dot.gov/files/2024-12/FY24%20Q4%20Performance%20and%20Service%20Quality%20Report_PDFa.pdf",
+  "definitions": {
+    "ADA": {
+      "label": "Passenger accessibility assistance",
+      "explanation": "Delays involving wheelchair lifts, service animals, or other passenger accessibility needs",
+      "official_responsibility": "Amtrak"
+    },
+    "CAR": {
+      "label": "Passenger car mechanical failure",
+      "explanation": "Mechanical failure involving passenger cars",
+      "official_responsibility": "Amtrak"
+    },
+    "CCR": {
+      "label": "Cab car mechanical failure",
+      "explanation": "Mechanical problems involving cab cars",
+      "official_responsibility": "Amtrak"
+    },
+    "CON": {
+      "label": "Hold for guaranteed connection",
+      "explanation": "Waiting for connecting trains or buses",
+      "official_responsibility": "Amtrak"
+    },
+    "CTC": {
+      "label": "Train-control system failure",
+      "explanation": "Failure of Centralized Electrification and Traffic Control (CETC)",
+      "official_responsibility": "Amtrak"
+    },
+    "ENG": {
+      "label": "Locomotive mechanical failure",
+      "explanation": "Mechanical problems affecting locomotives",
+      "official_responsibility": "Amtrak"
+    },
+    "HLD": {
+      "label": "Passenger or baggage delay",
+      "explanation": "Delays associated with passengers, checked baggage, or large groups",
+      "official_responsibility": "Amtrak"
+    },
+    "INJ": {
+      "label": "Injured or ill person",
+      "explanation": "Passenger or employee injury or illness",
+      "official_responsibility": "Amtrak"
+    },
+    "ITI": {
+      "label": "Initial terminal delay",
+      "explanation": "A late incoming train delays equipment release at the originating terminal",
+      "official_responsibility": "Amtrak"
+    },
+    "MTI": {
+      "label": "Disabled train ahead",
+      "explanation": "A mechanically disabled train blocks or delays another train",
+      "official_responsibility": "Amtrak"
+    },
+    "OTH": {
+      "label": "Other Amtrak operating delay",
+      "explanation": "Miscellaneous operating causes, including loss of time while running",
+      "official_responsibility": "Amtrak"
+    },
+    "SVS": {
+      "label": "Switching or servicing",
+      "explanation": "Train switching or servicing activities",
+      "official_responsibility": "Amtrak"
+    },
+    "SYS": {
+      "label": "Crew and operating-system delay",
+      "explanation": "Crew availability or other crew-related problems",
+      "official_responsibility": "Amtrak"
+    },
+    "UND": {
+      "label": "Undefined delay",
+      "explanation": "Automatically entered two-minute delay with no further specified cause",
+      "official_responsibility": "Amtrak"
+    },
+    "CTI": {
+      "label": "Commuter train interference",
+      "explanation": "Waiting for or following commuter trains",
+      "official_responsibility": "Host railroad"
+    },
+    "CTP": {
+      "label": "Commuter train problem",
+      "explanation": "Unusual operating problems involving commuter trains",
+      "official_responsibility": "Host railroad"
+    },
+    "DBB": {
+      "label": "Defective bridge/building work",
+      "explanation": "Unscheduled bridge or building maintenance due to a defect",
+      "official_responsibility": "Host railroad"
+    },
+    "DCS": {
+      "label": "Communications and signal defect",
+      "explanation": "Signal or crossing-protection faults and related communications/signal disruptions",
+      "official_responsibility": "Host railroad"
+    },
+    "DCT": {
+      "label": "Defective concrete ties",
+      "explanation": "Replacement of defective concrete railroad ties",
+      "official_responsibility": "Host railroad"
+    },
+    "DDA": {
+      "label": "Defect-detector activation",
+      "explanation": "Train inspection following a defect-detector activation",
+      "official_responsibility": "Host railroad"
+    },
+    "DET": {
+      "label": "Electrical system defect",
+      "explanation": "Unscheduled catenary or other electrical-system maintenance",
+      "official_responsibility": "Host railroad"
+    },
+    "DMW": {
+      "label": "Unscheduled track maintenance",
+      "explanation": "Track repairs or maintenance-of-way activity following a defect",
+      "official_responsibility": "Host railroad"
+    },
+    "DSR": {
+      "label": "Temporary slow order",
+      "explanation": "A temporary speed restriction, excluding heat and cold orders",
+      "official_responsibility": "Host railroad"
+    },
+    "DTR": {
+      "label": "Detour",
+      "explanation": "A train is delayed by operating on a detour route",
+      "official_responsibility": "Host railroad"
+    },
+    "FTI": {
+      "label": "Freight train interference",
+      "explanation": "Delays caused by freight train movements",
+      "official_responsibility": "Host railroad"
+    },
+    "PBB": {
+      "label": "Planned bridge/building maintenance",
+      "explanation": "Scheduled work on bridges or buildings",
+      "official_responsibility": "Host railroad"
+    },
+    "PET": {
+      "label": "Planned electrical maintenance",
+      "explanation": "Scheduled catenary or other electrical-system work",
+      "official_responsibility": "Host railroad"
+    },
+    "PSC": {
+      "label": "Planned communications/signal work",
+      "explanation": "Scheduled communications and signal maintenance",
+      "official_responsibility": "Host railroad"
+    },
+    "PSR": {
+      "label": "Planned speed restriction",
+      "explanation": "Scheduled speed restrictions",
+      "official_responsibility": "Host railroad"
+    },
+    "PTI": {
+      "label": "Other passenger train interference",
+      "explanation": "Waiting for or following passenger trains other than commuter trains",
+      "official_responsibility": "Host railroad"
+    },
+    "RTE": {
+      "label": "Routing or dispatching",
+      "explanation": "Dispatching, diversions, late track bulletins, and other routing issues",
+      "official_responsibility": "Host railroad"
+    },
+    "SMW": {
+      "label": "Scheduled track maintenance",
+      "explanation": "Planned maintenance-of-way work",
+      "official_responsibility": "Host railroad"
+    },
+    "TCD": {
+      "label": "Third-party contractor activity",
+      "explanation": "Unplanned contractor activity affecting train service",
+      "official_responsibility": "Host railroad"
+    },
+    "BSP": {
+      "label": "Bridge strike",
+      "explanation": "A train striking an overhead bridge",
+      "official_responsibility": "Third party"
+    },
+    "CUI": {
+      "label": "Customs and immigration",
+      "explanation": "Customs or immigration processing in the United States or Canada",
+      "official_responsibility": "Third party"
+    },
+    "DBS": {
+      "label": "Debris strike",
+      "explanation": "Train delays resulting from debris strikes or related damage",
+      "official_responsibility": "Third party"
+    },
+    "MBO": {
+      "label": "Movable bridge opening",
+      "explanation": "Marine traffic opening a movable bridge without a bridge failure",
+      "official_responsibility": "Third party"
+    },
+    "NOD": {
+      "label": "Unused schedule recovery time",
+      "explanation": "Waiting until a scheduled departure time after arriving early",
+      "official_responsibility": "Third party"
+    },
+    "POL": {
+      "label": "Police or fire activity",
+      "explanation": "Police or fire department holds on or near the right-of-way or aboard a train",
+      "official_responsibility": "Third party"
+    },
+    "TRS": {
+      "label": "Trespasser or grade-crossing incident",
+      "explanation": "Trespassers, animals, crossing collisions, vehicles on tracks, and related incidents",
+      "official_responsibility": "Third party"
+    },
+    "UTL": {
+      "label": "Utility company failure",
+      "explanation": "Problems caused by utility company systems or operations",
+      "official_responsibility": "Third party"
+    },
+    "WTR": {
+      "label": "Weather and environmental conditions",
+      "explanation": "Severe weather, floods, landslides, earthquakes, and heat or cold orders",
+      "official_responsibility": "Third party"
+    }
+  }
+}

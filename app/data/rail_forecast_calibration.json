@@ -1,0 +1,256 @@
+{
+  "schema_version": 1,
+  "status": "amtrak_route_total_calibrated",
+  "fiscal_year": 2025,
+  "method": "Geometric-mean scaling of route totals; leave-one-corridor-out validation",
+  "demand_multiplier": 0.0229717,
+  "reference_routes": 14,
+  "county_catalog_sha256": "34462ab2841e2dd2b91bc8991f61218b5c0ad19468d3c2b4b61d7d384911a4c9",
+  "nhts_input_sha256": "64530c396d5f164d2259a22f7042f27bee5147babcd367568ddbfafe6c8bf34c",
+  "nhts_annualized_long_distance_trips_per_person": 22.114322,
+  "median_absolute_percentage_error_loo": 58.3,
+  "multiplicative_error_10_90_loo": [
+    0.407,
+    2.717
+  ],
+  "training_routes": [
+    {
+      "route": "Downeaster",
+      "observed": 549201.0,
+      "baseline": 25321724,
+      "ratio": 0.021688926077861048,
+      "stops": [
+        "25025",
+        "25009",
+        "23031",
+        "23005"
+      ],
+      "leave_one_out_prediction": 584259,
+      "leave_one_out_ratio": 0.94,
+      "full_fit_prediction": 581682,
+      "absolute_percentage_error_loo": 6.4
+    },
+    {
+      "route": "Hiawatha",
+      "observed": 631992.0,
+      "baseline": 11008594,
+      "ratio": 0.057408966122285916,
+      "stops": [
+        "17031",
+        "55079"
+      ],
+      "leave_one_out_prediction": 235681,
+      "leave_one_out_ratio": 2.682,
+      "full_fit_prediction": 252886,
+      "absolute_percentage_error_loo": 62.7
+    },
+    {
+      "route": "Lincoln Service",
+      "observed": 592678.0,
+      "baseline": 4576356,
+      "ratio": 0.12950871829027288,
+      "stops": [
+        "17031",
+        "17167",
+        "29510"
+      ],
+      "leave_one_out_prediction": 92031,
+      "leave_one_out_ratio": 6.44,
+      "full_fit_prediction": 105126,
+      "absolute_percentage_error_loo": 84.5
+    },
+    {
+      "route": "Piedmont",
+      "observed": 408072.0,
+      "baseline": 10431338,
+      "ratio": 0.03911981377652608,
+      "stops": [
+        "37183",
+        "37081",
+        "37119"
+      ],
+      "leave_one_out_prediction": 230010,
+      "leave_one_out_ratio": 1.774,
+      "full_fit_prediction": 239625,
+      "absolute_percentage_error_loo": 43.6
+    },
+    {
+      "route": "Wolverine",
+      "observed": 438427.0,
+      "baseline": 24476541,
+      "ratio": 0.017912130639701093,
+      "stops": [
+        "17031",
+        "26077",
+        "26161",
+        "26163"
+      ],
+      "leave_one_out_prediction": 573130,
+      "leave_one_out_ratio": 0.765,
+      "full_fit_prediction": 562267,
+      "absolute_percentage_error_loo": 30.7
+    },
+    {
+      "route": "Pacific Surfliner",
+      "observed": 2043236.0,
+      "baseline": 132765551,
+      "ratio": 0.01538980544734831,
+      "stops": [
+        "06073",
+        "06059",
+        "06037",
+        "06111",
+        "06083",
+        "06079"
+      ],
+      "leave_one_out_prediction": 3145278,
+      "leave_one_out_ratio": 0.65,
+      "full_fit_prediction": 3049844,
+      "absolute_percentage_error_loo": 53.9
+    },
+    {
+      "route": "Capitol Corridor",
+      "observed": 1138753.0,
+      "baseline": 85981573,
+      "ratio": 0.013244151744002172,
+      "stops": [
+        "06067",
+        "06013",
+        "06001",
+        "06085"
+      ],
+      "leave_one_out_prediction": 2060607,
+      "leave_one_out_ratio": 0.553,
+      "full_fit_prediction": 1975139,
+      "absolute_percentage_error_loo": 81.0
+    },
+    {
+      "route": "Cascades",
+      "observed": 951397.0,
+      "baseline": 61698566,
+      "ratio": 0.01542008285897601,
+      "stops": [
+        "53033",
+        "53053",
+        "53067",
+        "53011",
+        "41051",
+        "41039"
+      ],
+      "leave_one_out_prediction": 1461447,
+      "leave_one_out_ratio": 0.651,
+      "full_fit_prediction": 1417318,
+      "absolute_percentage_error_loo": 53.6
+    },
+    {
+      "route": "Keystone",
+      "observed": 1330689.0,
+      "baseline": 22774479,
+      "ratio": 0.058428954620652354,
+      "stops": [
+        "36061",
+        "42101",
+        "42071",
+        "42043"
+      ],
+      "leave_one_out_prediction": 486915,
+      "leave_one_out_ratio": 2.733,
+      "full_fit_prediction": 523167,
+      "absolute_percentage_error_loo": 63.4
+    },
+    {
+      "route": "Heartland Flyer",
+      "observed": 80767.0,
+      "baseline": 14361864,
+      "ratio": 0.005623712910803221,
+      "stops": [
+        "40109",
+        "40027",
+        "40019",
+        "48439"
+      ],
+      "leave_one_out_prediction": 367634,
+      "leave_one_out_ratio": 0.22,
+      "full_fit_prediction": 329916,
+      "absolute_percentage_error_loo": 355.2
+    },
+    {
+      "route": "Missouri River Runner",
+      "observed": 197046.0,
+      "baseline": 4445046,
+      "ratio": 0.044329350022474456,
+      "stops": [
+        "29095",
+        "29051",
+        "29019",
+        "29510"
+      ],
+      "leave_one_out_prediction": 97075,
+      "leave_one_out_ratio": 2.03,
+      "full_fit_prediction": 102110,
+      "absolute_percentage_error_loo": 50.7
+    },
+    {
+      "route": "Blue Water",
+      "observed": 177739.0,
+      "baseline": 17899096,
+      "ratio": 0.009930054568118971,
+      "stops": [
+        "17031",
+        "26077",
+        "26065",
+        "26049",
+        "26147"
+      ],
+      "leave_one_out_prediction": 438573,
+      "leave_one_out_ratio": 0.405,
+      "full_fit_prediction": 411172,
+      "absolute_percentage_error_loo": 146.8
+    },
+    {
+      "route": "San Joaquin",
+      "observed": 899765.0,
+      "baseline": 40802944,
+      "ratio": 0.022051472560411328,
+      "stops": [
+        "06067",
+        "06077",
+        "06099",
+        "06019",
+        "06029"
+      ],
+      "leave_one_out_prediction": 940263,
+      "leave_one_out_ratio": 0.957,
+      "full_fit_prediction": 937311,
+      "absolute_percentage_error_loo": 4.5
+    },
+    {
+      "route": "Borealis",
+      "observed": 212909.0,
+      "baseline": 21166035,
+      "ratio": 0.010058993099085398,
+      "stops": [
+        "17031",
+        "55079",
+        "55025",
+        "27123"
+      ],
+      "leave_one_out_prediction": 518107,
+      "leave_one_out_ratio": 0.411,
+      "full_fit_prediction": 486219,
+      "absolute_percentage_error_loo": 143.3
+    }
+  ],
+  "skipped_routes": [],
+  "data_source": "FRA quarterly Amtrak performance route ridership, FY2025 Q1\u2013Q4, summed; locally supplied normalized ridership.csv",
+  "geography_source": "ACS county population + Census County Gazetteer; manually curated representative route county sequences",
+  "limitations": [
+    "Calibrates total demand scale only, not individual OD markets, rail mode share or behavioral elasticities.",
+    "2022 NHTS, when published, anchors the total long-distance-trip frequency only. Long-distance 30-day counts multiplied by 12 do not identify local OD demand.",
+    "Reference-route county lists omit some stations and may omit served markets; route totals can include riders outside the represented segment.",
+    "Reference service frequency, fare, speed, access time and competing modes are assumed defaults, not observed route-specific values.",
+    "Leave-one-out errors describe this reference set; not validated accuracy for new-build corridors.",
+    "Rail segment mileage uses detoured county centroid separation, not observed track mileage.",
+    "Route totals for connecting and overlapping Amtrak services can complicate interpretation."
+  ]
+}

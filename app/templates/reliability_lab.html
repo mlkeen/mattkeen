@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}Reliability vs. Ridership / Matt Keen{% endblock %}
+{% block content %}
+<section class="project-hero shell compact-hero">
+  <a class="back-link" href="{{ url_for('main.intercity_rail') }}">← Back to Intercity Rail Explorer</a>
+  <p class="eyebrow">PROJECT 01 / EXPLORATORY ECONOMETRICS</p>
+  <h1>Reliability vs. <em>Ridership</em></h1>
+  <p class="lede">Do changes in customer on-time performance move with ridership growth? Explore the association across services and fiscal quarters.</p>
+  <div class="tags"><span>Customer OTP</span><span>Ridership growth</span><span>Scatterplot</span><span>Descriptive regression</span></div>
+</section>
+<section class="shell" id="reliability-lab">
+  {% if not catalog.available %}<div class="notice"><strong>OTP data has not been published.</strong> Run <code>.\.venv\Scripts\python.exe scripts\publish_customer_otp.py</code> and restart Flask. No sample values are substituted.</div>{% endif %}
+  <div class="compare-controls panel">
+    <div class="compare-intro"><div><p class="eyebrow">01 / FILTER OBSERVATIONS</p><h2>Choose the comparison.</h2></div><p class="microcopy" id="reliability-count" aria-live="polite"></p></div>
+    <div class="reliability-controls">
+      <div class="control-group"><label for="reliability-quarter">Fiscal quarter</label>
+      <select id="reliability-quarter"><option value="all">All available quarters</option>{% for p in catalog.periods %}<option value="{{ p }}">{{ p }}</option>{% endfor %}</select></div>
+      <div class="control-group"><label for="reliability-highlight">Highlight a service</label><select id="reliability-highlight"><option value="all">All services</option>{% for r in catalog.routes %}<option data-category="{{ r.category }}" value="{{ r.slug }}">{{ r.name }}</option>{% endfor %}</select></div>
+      <label class="reliability-toggle"><input type="checkbox" id="reliability-regression" checked> Show pooled linear fit</label>
+    </div>
+    <div class="service-category-control"><label for="reliability-category">Service group</label><select id="reliability-category" class="service-category-filter" data-target="reliability-checklist" data-search="reliability-search" data-mode="checklist"><option value="all">All groups</option><option value="acela">Acela</option><option value="state_supported">State Supported Service</option><option value="long_distance">Long Distance</option><option value="nec_other">Other Northeast Corridor</option><option value="special">Special / Unclassified</option></select></div><label class="compare-search-label" for="reliability-search">Filter included service names</label>
+    <input id="reliability-search" type="search" placeholder="Search services…" autocomplete="off">
+    <div class="compare-checklist" id="reliability-checklist" role="group" aria-label="Included reporting services">
+      {% for r in catalog.routes %}<label class="compare-choice" data-category="{{ r.category }}" data-search="{{ r.name|lower }} {{ r.apt_code|lower }}"><input type="checkbox" value="{{ r.slug }}" checked><span class="compare-choice-label"><strong>{{ r.name }}</strong><small>{{ r.apt_code }} · exact one-to-one OTP match</small></span></label>{% endfor %}
+    </div>
+    <div class="reliability-actions"><button class="button" type="button" id="reliability-select-all">Select visible</button><button class="button" type="button" id="reliability-clear">Clear selection</button></div>
+  </div>
+  <div class="panel chart-panel">
+    <div class="explorer-toolbar"><div><p class="eyebrow">02 / RELATIONSHIP</p><h2>Does punctuality track passenger growth?</h2></div><p id="reliability-status" class="microcopy" role="status"></p></div>
+    <div class="reliability-kpis"><div><span class="kpi-label">VALID ROUTE–QUARTER PAIRS</span><strong id="reliability-n" class="kpi-value">—</strong></div><div><span class="kpi-label">MATCHED SERVICES</span><strong id="reliability-routes" class="kpi-value">—</strong></div><div><span class="kpi-label">PEARSON CORRELATION</span><strong id="reliability-corr" class="kpi-value">—</strong></div><div><span class="kpi-label">POOLED R²</span><strong id="reliability-r2" class="kpi-value">—</strong></div></div>
+    <div class="chart chart-main" id="reliability-chart" aria-label="Scatterplot of year-over-year OTP percentage point change and ridership percentage growth"><p class="chart-fallback">Loading reported observations…</p></div>
+    <p id="reliability-note" class="chart-caption" aria-live="polite">Each dot is a route–quarter with both current and prior-year ridership and customer OTP.</p>
+    <p><button class="button" type="button" id="reliability-export">Download filtered observations (CSV)</button></p>
+  </div>
+</section>
+<section class="shell section-block"><div class="methodology-card"><div><p class="eyebrow">READING THE RELATIONSHIP</p><h2>Association is not causation.</h2></div><div>
+<p><strong>Horizontal:</strong> customer OTP change from the same quarter a year earlier, in percentage points. <strong>Vertical:</strong> ridership change from the same quarter a year earlier, in percent. A positive slope means that higher OTP changes tend to coincide with greater ridership growth in the selected observations.</p>
+<p>The optional line is pooled ordinary least squares and is <strong>descriptive only</strong>. Route–quarter observations from the same service are not statistically independent; seasonality, service changes, fares, capacity, and other factors can confound the relationship. The tool does not estimate causal effects or claim statistical significance.</p>
+<p>Only exact, unambiguous whole-service OTP matches are included. Subservice OTP figures are never averaged or attached to a route without a verified crosswalk. Missing values and negative ridership adjustments are excluded, never treated as zero.</p>
+<p class="microcopy">Source: FRA quarterly financial and customer OTP workbooks, FY2021 Q4 onward. Earliest usable YoY pairs require a corresponding quarter in the previous fiscal year.</p>
+</div></div></section>
+<script src="{{ url_for('static',filename='js/reliability_lab.js') }}" defer></script>
+{% endblock %}

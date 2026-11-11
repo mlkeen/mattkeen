@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Data Workbench / Matt Keen{% endblock %}
+{% block content %}
+<section class="project-hero shell compact-hero"><p class="eyebrow">DATA WORKBENCH</p><h1>Small demonstrations of <em>how the work gets done.</em></h1><p class="lede">Focused examples of analytical techniques used across the larger projects.</p></section>
+<section class="shell workbench-grid section-block">
+  <article class="work-card"><span>SQL</span><h2>Window functions</h2><p>Rank observations within route and reporting-period groups without collapsing the underlying records.</p><code>ROW_NUMBER() OVER (...)</code></article>
+  <article class="work-card"><span>PYTHON</span><h2>ETL validation</h2><p>Check schemas, normalize labels, and flag unexpected changes before data reaches the analysis layer.</p><code>assert expected <= set(df.columns)</code></article>
+  <article class="work-card"><span>STATISTICS</span><h2>Backtesting</h2><p>Evaluate forecasts against data deliberately withheld from model fitting.</p><code>train → forecast → compare</code></article>
+  <article class="work-card"><span>VISUALIZATION</span><h2>Metric design</h2><p>Choose denominators and comparisons that make routes of very different scales analytically comparable.</p><code>passenger_miles / train_miles</code></article>
+</section>
+{% endblock %}

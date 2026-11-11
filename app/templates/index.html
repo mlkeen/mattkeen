@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}Matt Keen / Data Lab{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzx2d1h4rlPeHlGQG45f7r4P3k=" crossorigin="">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home_station_leaflet.css', v='1') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home_station_preview.css', v='1') }}">
+{% endblock %}
+{% block content %}
+<section class="hero shell">
+  <div class="hero-copy">
+    <p class="eyebrow">ECONOMICS · DATA ANALYSIS · INTERACTIVE TOOLS</p>
+    <h1>Data analysis for <em>real-world decisions.</em></h1>
+    <p class="lede">I’m an economist and data analyst who builds tools for understanding transportation, public policy, forecasting, and complex datasets.</p>
+    <a class="text-link" href="#projects">Explore the projects ↓</a>
+  </div>
+  <div class="hero-viz panel home-station-panel" aria-label="Preview of the FRA station performance map">
+    <div class="panel-head home-station-head"><span>INTERCITY RAIL / STATION PERFORMANCE</span><span class="status-dot">FRA DATA</span></div>
+    <div class="home-station-intro">
+      <div><strong id="home-station-title">Downeaster station reliability</strong><span id="home-station-period">Latest reported quarter</span></div>
+      <span class="home-station-kicker">PASSENGERS ARRIVING LATE</span>
+    </div>
+    <div class="home-station-map-frame">
+      <div id="home-station-map" role="img" aria-label="Map preview showing stations and their reported late-arriving passenger share"></div>
+      <p id="home-station-state" class="home-station-state" role="status" aria-live="polite">{% if station_preview.available %}Loading FRA station locations…{% else %}Publish station data to display the live map preview.{% endif %}</p>
+    </div>
+    <div class="home-station-bottom">
+      <div class="home-station-legend" aria-label="Late passenger share"><span><i style="background:#2a9d8f"></i>0–20%</span><span><i style="background:#e9c46a"></i>20–40%</span><span><i style="background:#e76f51"></i>40–60%</span><span><i style="background:#a3303a"></i>60%+</span></div>
+      <a class="home-map-link" href="{{ url_for('main.station_map_page') }}">Explore full map →</a>
+    </div>
+  </div>
+</section>
+<section id="projects" class="shell section-block">
+  <div class="section-heading"><p class="eyebrow">SELECTED PROJECTS</p><h2>Analysis you can inspect.</h2></div>
+  <article class="project-card featured-card">
+    <div class="project-number">01</div>
+    <div class="project-copy">
+      <p class="eyebrow">TRANSPORTATION</p>
+      <h3>How is America's intercity rail network performing?</h3>
+      <p>Explore twenty quarters of reported ridership and route-level customer on-time performance. Inspect individual service and subservice source records. Delay and financial comparisons are in development.</p>
+      <div class="tags"><span>Python</span><span>ETL</span><span>Data Validation</span><span>Interactive Visualization</span></div>
+      <a class="button" href="{{ url_for('main.intercity_rail') }}">Explore the rail project →</a>
+    </div>
+    <div class="project-stat-grid">
+      <div><strong>{{ "{:,.1f}".format(summary.latest_ridership / 1_000_000) }}M</strong><span>system riders · {{ summary.period }}</span></div>
+      <div><strong>{{ summary.period_count }}</strong><span>fiscal quarters</span></div>
+      <div><strong>{{ summary.active_services }}</strong><span>service names with positive latest-quarter ridership</span></div>
+      <div><strong>{% if summary.latest_yoy is not none %}{{ '%+.1f%%'|format(summary.latest_yoy) }}{% else %}N/A{% endif %}</strong><span>system ridership year-over-year</span></div>
+      <p class="data-warning">Source: FRA quarterly financial metrics. These statistics use published system and route records.</p>
+    </div>
+  </article>
+  <article class="project-card featured-card rail-forecast-feature" aria-labelledby="rail-forecast-title">
+    <div class="project-number">02</div>
+    <div class="project-copy">
+      <p class="eyebrow">PUBLIC POLICY / INFRASTRUCTURE PLANNING</p>
+      <h3 id="rail-forecast-title">Benefit-Cost Analysis Tool</h3>
+      <p>Explore how construction costs, ridership, travel time, and discounting shape a transit investment’s net social value.</p>
+
+      <p class="forecast-disclaimer"><strong>High level BCA tool:</strong> for demonstration purposes only.</p>
+      <div class="tags"><span>County Demographics</span><span>Benefit-Cost Analysis</span><span>Planning Tool</span><span>Interactive</span></div>
+      <a class="button" href="{{ url_for('transit_bca.calculator') }}">Open benefit–cost calculator →</a>
+    </div>
+    <div class="project-stat-grid" aria-label="Forecast tool features and data status">
+      <div><strong>XX</strong><span>...</span></div>
+      <div><strong>XX</strong><span>....</span></div>
+      <div><strong>{{ "{:,.0f}".format(county_count) if county_is_nationwide else "Demo" }}</strong><span>{{ 'county equivalents published' if county_is_nationwide else 'county catalog; real data not yet published' }}</span></div>
+      <div><strong>CSV</strong><span>export origin–destination estimates</span></div>
+      <p class="data-warning">{% if county_is_nationwide %}Published county demographics support the inputs, but estimates remain uncalibrated.{% else %}Run the offline Census county publisher to replace demonstration data. The tool itself is available now.{% endif %}</p>
+    </div>
+  </article>
+  <div class="project-grid">
+    <article class="project-card"><div class="project-number">03</div><p class="eyebrow">FORECASTING / INTERACTIVE MODEL</p><h3>Where could a new intercity rail line attract riders?</h3><p>Build a proposed corridor using county-level stops, set schedules and fares, and inspect illustrative origin–destination demand, segment loads, and passenger-miles.</p><a class="text-link" href="{{ url_for('rail_forecast.page') }}">Open rail forecasting tool →</a></article>
+    <article class="project-card"><div class="project-number">04</div><p class="eyebrow">PUBLIC FINANCE</p><h3>Massachusetts Municipal Data Explorer</h3><p>Compare fiscal capacity, spending, tax base, debt, and demographics across municipalities.</p><span class="coming">PLANNED</span></article>
+    <article class="project-card"><div class="project-number">05</div><p class="eyebrow">FORECASTING</p><h3>Forecast Lab</h3><p>Backtest competing forecasting models against observations they have not seen.</p><span class="coming">PLANNED</span></article>
+  </div>
+</section>
+<section class="statement-band"><div class="shell statement-inner"><p class="eyebrow">THE POINT</p><p class="statement">The charts are the visible part. The work underneath is the point: data acquisition, validation, modeling, interpretation, and communication.</p></div></section>
+{% if station_preview.available %}
+<script id="home-station-config" type="application/json">{{ station_preview|tojson }}</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+<script src="{{ url_for('static', filename='js/home_station_preview.js', v='1') }}" defer></script>
+{% endif %}
+{% endblock %}

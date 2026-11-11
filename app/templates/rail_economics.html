@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}The Economics of Passenger Rail / Matt Keen{% endblock %}
+{% block content %}
+<section class="project-hero shell compact-hero">
+ <a class="back-link" href="{{ url_for('main.intercity_rail') }}">← Back to Intercity Rail Explorer</a>
+ <p class="eyebrow">PROJECT 01 / FRA ECONOMICS</p>
+ <h1>The economics of <em>passenger rail.</em></h1>
+ <p class="lede">Which routes recover their operating expenses through revenue? Explore quarterly cost recovery and coverage of avoidable or fully allocated expenses—with accounting exceptions plainly identified.</p>
+ <div class="tags"><span>FRA quarterly financial metrics</span><span>Revenue / expense</span><span>State operating payments</span><span>Source provenance</span></div>
+</section>
+<section class="shell" id="economics-lab" data-overview='{{ overview|tojson }}'>
+{% if not overview.available %}
+<div class="notice"><strong>Financial data not published yet.</strong> Run <code>.\.venv\Scripts\python.exe scripts\publish_financials.py</code>, then restart Flask. Your historical records will be read from the local <code>data/processed</code> CSV files.</div>
+{% else %}
+<div class="panel econ-controls">
+ <div><div class="service-category-control"><label for="econ-category">Service group</label><select id="econ-category" class="service-category-filter" data-target="econ-service" data-search="" data-mode="options"><option value="all">All groups</option><option value="acela">Acela</option><option value="state_supported">State Supported Service</option><option value="long_distance">Long Distance</option><option value="nec_other">Other Northeast Corridor</option><option value="special">Special / Unclassified</option></select></div><label for="econ-service">Reporting unit</label><select id="econ-service"><option value="">All routes in selected group</option><option value="system">Amtrak system total</option>{% for s in overview.services %}<option data-category="{{ s.category }}" value="{{ s.id }}">{{ s.name }} ({{ s.code }})</option>{% endfor %}</select></div>
+ <div><label for="econ-measure">Financial measure</label><select id="econ-measure"><option value="cost_recovery">Cost recovery (operating revenue / allocated expense)</option><option value="avoidable_expense">Passenger revenue / avoidable operating expense</option><option value="fully_allocated_expense">Passenger revenue / fully allocated expense</option></select></div>
+ <div><label for="econ-payments">State operating payments</label><select id="econ-payments"><option value="false">Excluded</option><option value="true">Included</option></select></div>
+ <div><label for="econ-quarter">Inspect quarter</label><select id="econ-quarter"><option value="latest">Latest reported quarter</option>{% for p in overview.periods %}<option value="{{ p }}">{{ p }}</option>{% endfor %}</select></div>
+</div>
+<div class="panel chart-panel econ-panel">
+ <p class="eyebrow">01 / QUARTERLY PERFORMANCE</p><h2 id="econ-title">Financial ratio trend</h2><div id="econ-chart" class="chart">Loading financial observations…</div>
+ <p class="chart-caption">Percent of expenses covered by the defined revenue measure. Values above 100% are possible and are not automatically errors. Missing or flagged observations are shown as gaps, not zeros.</p>
+</div>
+<div class="econ-two">
+ <div class="panel"><p class="eyebrow">02 / SELECTED QUARTER</p><h2>Underlying values</h2><div id="econ-values" class="econ-values">Select a service to inspect values.</div></div>
+ <div class="panel"><p class="eyebrow">03 / DATA QUALITY</p><h2>Exceptions and source</h2><div id="econ-quality" class="econ-values">Exceptions will be shown here.</div></div>
+</div><p class="microcopy" id="econ-message" aria-live="polite"></p>
+{% endif %}
+</section>
+<section class="shell section-block"><div class="methodology-card"><div><p class="eyebrow">INTERPRETATION</p><h2>Cost recovery isn't profitability.</h2></div><div><p>Cost recovery divides operating revenue by allocated operating expense. The avoidable and fully allocated expense measures use passenger revenue and have separate treatments of state operating payments. These series should not be conflated.</p><p>These ratios are not benefit–cost ratios, economic profits, or measures of social value. Financial accounting adjustments can generate zero or negative expense denominators; those observations are retained with source references but excluded from the chart rather than silently transformed.</p><p class="microcopy">Source: FRA quarterly Financial Metrics. The import distinguishes route-level rows from Amtrak system aggregates and preserves original reporting labels.</p></div></div></section>
+{% if overview.available %}<script src="{{ url_for('static', filename='js/rail_economics.js') }}" defer></script>{% endif %}
+{% endblock %}
