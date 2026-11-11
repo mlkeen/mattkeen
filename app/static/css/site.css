@@ -261,3 +261,11 @@
 }
 
 
+#papers,
+#resume {
+    scroll-margin-top: 90px;
+}
+
+.publication {
+    margin-bottom: 1.75rem;
+}
