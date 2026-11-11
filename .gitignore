@@ -1,0 +1,28 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+*.pyc
+.DS_Store
+
+# Raw/derived datasets remain local (often large); keep placeholder folders
+data/raw/fra/*
+!data/raw/fra/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/reports/*
+!data/reports/.gitkeep
+
+
+# Raw downloaded datasets
+data/raw/
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environment variables
+.env
