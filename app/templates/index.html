@@ -59,13 +59,57 @@
       <div class="tags"><span>County Demographics</span><span>Benefit-Cost Analysis</span><span>Planning Tool</span><span>Interactive</span></div>
       <a class="button" href="{{ url_for('transit_bca.calculator') }}">Open benefit–cost calculator →</a>
     </div>
-    <div class="project-stat-grid" aria-label="Forecast tool features and data status">
-      <div><strong>XX</strong><span>...</span></div>
-      <div><strong>XX</strong><span>....</span></div>
-      <div><strong>{{ "{:,.0f}".format(county_count) if county_is_nationwide else "Demo" }}</strong><span>{{ 'county equivalents published' if county_is_nationwide else 'county catalog; real data not yet published' }}</span></div>
-      <div><strong>CSV</strong><span>export origin–destination estimates</span></div>
-      <p class="data-warning">{% if county_is_nationwide %}Published county demographics support the inputs, but estimates remain uncalibrated.{% else %}Run the offline Census county publisher to replace demonstration data. The tool itself is available now.{% endif %}</p>
+  
+    <div class="bca-preview">
+      <div class="bca-preview-header">
+        <span>Sample Transit Investment Analysis</span>
+        <span class="bca-preview-tag">Illustrative</span>
+      </div>
+
+      <div class="bca-preview-metrics">
+        <div class="bca-metric">
+          <span>Benefit-Cost Ratio</span>
+          <strong>1.84</strong>
+        </div>
+        <div class="bca-metric">
+          <span>Net Present Value</span>
+          <strong>$126M</strong>
+        </div>
+        <div class="bca-metric">
+          <span>Analysis Period</span>
+          <strong>30 yr</strong>
+        </div>
+      </div>
+
+      <div class="bca-preview-subtitle">
+        Present Value of Costs and Benefits
+      </div>
+
+      <div class="bca-bar-row">
+        <div class="bca-bar-label">
+          <span>Benefits</span>
+          <strong>$276M</strong>
+        </div>
+        <div class="bca-bar-track">
+          <div class="bca-bar bca-bar-benefits"></div>
+        </div>
+      </div>
+
+      <div class="bca-bar-row">
+        <div class="bca-bar-label">
+          <span>Costs</span>
+          <strong>$150M</strong>
+        </div>
+        <div class="bca-bar-track">
+          <div class="bca-bar bca-bar-costs"></div>
+        </div>
+      </div>
+
+      <div class="bca-preview-footer">
+        Illustrative bus rapid transit project
+      </div>
     </div>
+
   </article>
   <div class="project-grid">
     <article class="project-card"><div class="project-number">03</div><p class="eyebrow">FORECASTING / INTERACTIVE MODEL</p><h3>Where could a new intercity rail line attract riders?</h3><p>Build a proposed corridor using county-level stops, set schedules and fares, and inspect illustrative origin–destination demand, segment loads, and passenger-miles.</p><a class="text-link" href="{{ url_for('rail_forecast.page') }}">Open rail forecasting tool →</a></article>

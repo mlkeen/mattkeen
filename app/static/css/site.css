@@ -124,3 +124,138 @@
 .rail-forecast-feature .forecast-disclaimer{max-width:660px;color:var(--muted);font-size:.86rem;border-left:3px solid var(--accent);padding-left:13px;margin-top:18px}
 .rail-forecast-feature .project-stat-grid strong{overflow-wrap:anywhere}
 @media(max-width:800px){.rail-forecast-feature{margin-top:8px}}
+
+
+
+/* Transit Benefit-Cost Lab homepage preview */
+
+.bca-preview {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 22px;
+  border: 1px solid #dce3e9;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #243447;
+  font-family: inherit;
+  box-shadow: 0 5px 20px rgba(25, 45, 65, 0.05);
+}
+
+.bca-preview-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 22px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bca-preview-tag {
+  padding: 4px 9px;
+  border-radius: 20px;
+  background: #eef1f4;
+  color: #667587;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.bca-preview-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+  margin-bottom: 26px;
+}
+
+.bca-metric {
+  min-width: 0;
+  padding: 12px 10px;
+  border-radius: 8px;
+  background: #f2f5f8;
+}
+
+.bca-metric span {
+  display: block;
+  min-height: 30px;
+  margin-bottom: 6px;
+  color: #627286;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.bca-metric strong {
+  display: block;
+  color: #243447;
+  font-size: clamp(17px, 2vw, 25px);
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+.bca-preview-subtitle {
+  margin-bottom: 19px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.bca-bar-row {
+  margin-bottom: 18px;
+}
+
+.bca-bar-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+
+.bca-bar-label strong {
+  font-weight: 700;
+}
+
+.bca-bar-track {
+  height: 15px;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #edf1f5;
+}
+
+.bca-bar {
+  height: 100%;
+  border-radius: 4px;
+}
+
+.bca-bar-benefits {
+  width: 92%;
+  background: #477f9c;
+}
+
+.bca-bar-costs {
+  width: 50%;
+  background: #bb9460;
+}
+
+.bca-preview-footer {
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid #e5eaf0;
+  color: #748295;
+  font-size: 11px;
+}
+
+@media (max-width: 480px) {
+  .bca-preview {
+    padding: 15px;
+  }
+
+  .bca-preview-metrics {
+    gap: 6px;
+  }
+
+  .bca-metric {
+    padding: 10px 7px;
+  }
+
+  .bca-metric strong {
+    font-size: 17px;
+  }
+}
